@@ -126,7 +126,7 @@ export default {
       ],
       drawer: null,
       group: null,
-      bg: 'transparent'
+      bg: 'secondary'
     }
   },
   watch: {
@@ -134,23 +134,23 @@ export default {
       this.drawer = false
     }
   },
-  mounted() {
-    window.onscroll = () => {
-      this.changeColor();
-    };
-  },
-  methods: {
-    changeColor() {
-      if (
-        document.body.scrollTop > 50 ||
-        document.documentElement.scrollTop > 50
-      ) {
-        this.bg = 'secondary';
-      } else {
-        this.bg = 'transparent';
-      }
-    },
-  },
+  // mounted() {
+  //   window.onscroll = () => {
+  //     this.changeColor();
+  //   };
+  // },
+  // methods: {
+  //   changeColor() {
+  //     if (
+  //       document.body.scrollTop > 50 ||
+  //       document.documentElement.scrollTop > 50
+  //     ) {
+  //       this.bg = 'secondary';
+  //     } else {
+  //       this.bg = 'transparent';
+  //     }
+  //   },
+  // },
 }
 </script>
 

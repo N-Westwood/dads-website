@@ -2,7 +2,7 @@
     <v-card class='cardContainer' elevation='0'>
       <v-row>
         <v-col sm='3'>
-          <v-img :src='require(`@/assets/${logo}`)' width='200px' class='mx-auto'/>
+          <!-- <v-img :src='require(`@/assets/${logo}`)' width='200px' class='mx-auto'/> -->
           <v-card-text class='mt-n5 year' align='center'>{{year}}</v-card-text>
         </v-col>
         <v-col cols='12' sm='8'>

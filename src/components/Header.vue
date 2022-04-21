@@ -18,7 +18,7 @@
       </v-col>
     </v-row>
     
-    <v-row justify="center" class="d-none d-md-flex">
+    <!-- <v-row justify="center" class="d-none d-md-flex">
       <v-col
         cols='auto'
         v-for="directory in directories" 
@@ -34,7 +34,7 @@
             {{directory[0]}}
         </v-btn>
       </v-col>
-    </v-row>
+    </v-row> -->
     <v-row no-gutters justify="end" class='d-none d-md-flex'>
       <v-col cols='2'>
         <v-btn
@@ -119,11 +119,11 @@
 export default {
   data: ()=>{
     return {
-      directories: [
-        ["Resume", "/resume"],
-        ["Portfolio", "/portfolio"],
-        ["Contact", "/contact"]
-      ],
+      // directories: [
+      //   ["Resume", "/resume"],
+      //   ["Portfolio", "/portfolio"],
+      //   ["Contact", "/contact"]
+      // ],
       drawer: null,
       group: null,
       bg: 'secondary'

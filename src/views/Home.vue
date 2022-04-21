@@ -1,21 +1,18 @@
 <template>
 <v-main>
-  <!-- <PictureQuote 
-    src="dev-photo.jpeg" 
-    :leftImg='true' 
-    description='Previously worked as a Full-Stack Developer, Backend Developer, and more.' 
-    title="David's 3+ Years of Experience"
-    btnText="Learn More"
-    destination='/resume'/> -->
-  <!-- <PictureQuote 
-    src="Top Desk.jpg" 
-    :leftImg='false' 
-    description='With a variety of projects using tools ranging from Kubernetes on Google Cloud to a Google App Script project, view the projects that have refined my skills.' 
-    title='My Projects'
-    btnText='View Portfolio'
-    destination='/portfolio'
-    /> -->
-    <svg id='spiderChart'></svg>
+  <v-container fill-height>
+    <v-row justify="center" align="center">
+      <v-col cols='auto'>
+        <svg id='spiderChart'></svg>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col v-for="label in arcLabels" :key="label[0]" sm='6' lg='3'>
+        <PreparednessItem :type="label[0]" :mdiName="label[1]"/>
+      </v-col>
+    </v-row>
+    
+  </v-container>
 </v-main>
 </template>
 
@@ -23,22 +20,23 @@
 // import PictureQuote from '../components/PictureQuote.vue'
 import * as d3 from "d3";
 import nodeData from '../assets/nodeData.json';
+import PreparednessItem from '../components/PreparednessItem.vue'
 
 export default {
   name: 'App',
   components: {
-    // PictureQuote
+    PreparednessItem
   },
   data: () => ({
     arcLabels: [
-      'Shelter/Clothing', 
-      'Heat/Light/Power/Fuel', 
-      'Transportation/etc',
-      'Spiritual/Mental',
-      'Health/Safety/Security',
-      'Finance',
-      'Knowledge/Tools',
-      'Food/Water'],
+      ['Shelter/Clothing', 'mdi-home'], 
+      ['Heat/Light/Power/Fuel', 'mdi-gas-station'], 
+      ['Transportation/etc', 'mdi-car'],
+      ['Spiritual/Mental', 'mdi-book-cross'],
+      ['Health/Safety/Security', 'mdi-shield-lock'],
+      ['Finance', 'mdi-cash'],
+      ['Knowledge/Tools', 'mdi-tools'],
+      ['Food/Water', 'mdi-food']],
     graphData: nodeData,
     graphWidth: 500,
     graphHeight: 500,
@@ -141,7 +139,7 @@ export default {
         })
         .append('textPath')
           .attr("xlink:href", d=>`#arcPath${d.data.arc}`)
-          .text(d=>this.arcLabels[d.data.arc])
+          .text(d=>this.arcLabels[d.data.arc][0])
           .style("text-anchor","middle") //place the text halfway on the arc
           .attr("startOffset", "50%")
     },
@@ -185,7 +183,6 @@ export default {
 #spiderChart {
   width: 75vw;
   height: 75vw;
-  margin: 12.5vw;
   max-width: 500px;
   max-height: 500px;
 }

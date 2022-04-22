@@ -79,6 +79,8 @@ export default {
     saveResponses(){
       this.surveyList[this.surveyId][this.timeFrame] = this.surveyQuestions
       localStorage.setItem('SurveyAnswers', JSON.stringify(this.surveyList))
+
+      this.$router.push('/')
     }
   },
   watch:{

@@ -30,6 +30,7 @@ export default {
 
 html {
   overflow: overlay;
+  overflow-x: hidden;
   overscroll-behavior: none;
 }
 

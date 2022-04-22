@@ -1,25 +1,21 @@
 <template>
-<v-main>
-  <v-container fill-height>
+<v-main class='mt-16'>
     <v-row justify="center" align="center">
       <v-col cols='auto'>
         <svg id='spiderChart'></svg>
       </v-col>
     </v-row>
-    <v-row>
+    <v-row class='mx-4'>
       <v-col v-for="label in arcLabels" :key="label[0]" sm='6' lg='3'>
-        <PreparednessItem :type="label[0]" :mdiName="label[1]"/>
+        <PreparednessItem :type="label[0]" :mdiName="label[1]" :surveyId="label[2]"/>
       </v-col>
     </v-row>
-    
-  </v-container>
 </v-main>
 </template>
 
 <script>
-// import PictureQuote from '../components/PictureQuote.vue'
 import * as d3 from "d3";
-import nodeData from '../assets/nodeData.json';
+import defaultData from '../assets/defaultData.json';
 import PreparednessItem from '../components/PreparednessItem.vue'
 
 export default {
@@ -29,15 +25,15 @@ export default {
   },
   data: () => ({
     arcLabels: [
-      ['Shelter/Clothing', 'mdi-home'], 
-      ['Heat/Light/Power/Fuel', 'mdi-gas-station'], 
-      ['Transportation/etc', 'mdi-car'],
-      ['Spiritual/Mental', 'mdi-book-cross'],
-      ['Health/Safety/Security', 'mdi-shield-lock'],
-      ['Finance', 'mdi-cash'],
-      ['Knowledge/Tools', 'mdi-tools'],
-      ['Food/Water', 'mdi-food']],
-    graphData: nodeData,
+      ['Shelter/Clothing', 'mdi-home', 'shelter'], 
+      ['Heat/Light/Power/Fuel', 'mdi-gas-station', 'heat'], 
+      ['Transportation/etc', 'mdi-car', 'transportation'],
+      ['Spiritual/Mental', 'mdi-book-cross', 'spiritual'],
+      ['Health/Safety/Security', 'mdi-shield-lock', 'health'],
+      ['Finance', 'mdi-cash', 'finance'],
+      ['Knowledge/Tools', 'mdi-tools', 'tools'],
+      ['Food/Water', 'mdi-food', 'food']],
+    graphData: {},
     graphWidth: 500,
     graphHeight: 500,
     svg: null,
@@ -47,6 +43,14 @@ export default {
     radius: null
   }),
   methods: {
+    getGraphData(){
+      if (localStorage.getItem('PreparednessData'))
+        this.graphData = JSON.parse(localStorage.getItem('PreparednessData'))
+      else {
+        this.graphData = defaultData
+        localStorage.setItem('PreparednessData', JSON.stringify(defaultData))
+      }
+    },
     color(value) {
       return d3.scaleLinear()
                     .domain([1, 2, 3])
@@ -148,6 +152,7 @@ export default {
     }
   },
   mounted(){
+    this.getGraphData()
     this.GraphSetup()
   }
 };

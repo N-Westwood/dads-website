@@ -7,9 +7,9 @@
           </v-icon>
           <h2>{{type}}</h2>
           <ul>
-            <li>Short-Term</li>
-            <li>Itermediate-Term</li>
-            <li>Long-Term</li>
+            <li><a :href='`/survey?time=short&id=${surveyId}`'>Short-Term</a></li>
+            <li><a :href='`/survey?time=intermediate&id=${surveyId}`'>Itermediate-Term</a></li>
+            <li><a :href='`/survey?time=long&id=${surveyId}`'>Long-Term</a></li>
           </ul>
         </v-col>
       </v-row>
@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  props: ['mdiName', 'type'],
+  props: ['mdiName', 'type', 'surveyId'],
   data: ()=> {
     return {}
   }
@@ -32,5 +32,10 @@ export default {
 
 li{
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 </style>

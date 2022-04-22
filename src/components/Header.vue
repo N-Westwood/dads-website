@@ -13,7 +13,7 @@
           :ripple="false"
           to="/"
           class="name">
-          David Westwood
+          Emergency Preparedness
         </v-btn>
       </v-col>
     </v-row>
@@ -35,7 +35,7 @@
         </v-btn>
       </v-col>
     </v-row> -->
-    <v-row no-gutters justify="end" class='d-none d-md-flex'>
+    <!-- <v-row no-gutters justify="end" class='d-none d-md-flex'>
       <v-col cols='2'>
         <v-btn
           class="white--text"
@@ -55,63 +55,7 @@
           Get in touch
         </v-btn>
       </v-col>
-    </v-row>
-    <v-app-bar-nav-icon class='d-md-none' @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-    <v-navigation-drawer
-      absolute
-      temporary
-      right
-      color='secondary'
-      v-model='drawer'
-      height='100vh'>
-      <v-list
-        nav
-        dense
-      >
-        <v-list-item-group
-          v-model="group"
-        >
-          <v-list-item
-            to='/'>
-            <v-list-item-avatar>
-                <!-- <v-img src="../assets/Sitting By Rocks.jpeg"></v-img> -->
-              </v-list-item-avatar>
-              <v-list-item-title>
-                David Westwood
-              </v-list-item-title>
-          </v-list-item>
-
-          <v-divider class='my-5'/>
-
-          <v-list-item 
-            v-for='directory in directories'
-            :key='directory[0]'
-            :to='directory[1]'
-            >
-            <v-list-item-title>{{directory[0]}}</v-list-item-title>
-          </v-list-item>
-        </v-list-item-group>
-      </v-list>
-      <v-row class='mt-2'>
-        <v-spacer />
-        <v-btn
-          class="white--text mt-n1"
-          href="https://www.linkedin.com/in/david-westwood-01354b225"
-          target="_blank"
-          icon
-        >
-          <v-icon size="24px">
-            mdi-linkedin
-          </v-icon>
-        </v-btn>
-        <v-btn 
-          to='/contact'
-          color='success'>
-          Get in touch
-        </v-btn>
-        <v-spacer />
-      </v-row>
-    </v-navigation-drawer>
+    </v-row> -->
   </v-app-bar>
 </template>
 
@@ -119,11 +63,6 @@
 export default {
   data: ()=>{
     return {
-      // directories: [
-      //   ["Resume", "/resume"],
-      //   ["Portfolio", "/portfolio"],
-      //   ["Contact", "/contact"]
-      // ],
       drawer: null,
       group: null,
       bg: 'secondary'
@@ -134,23 +73,6 @@ export default {
       this.drawer = false
     }
   },
-  // mounted() {
-  //   window.onscroll = () => {
-  //     this.changeColor();
-  //   };
-  // },
-  // methods: {
-  //   changeColor() {
-  //     if (
-  //       document.body.scrollTop > 50 ||
-  //       document.documentElement.scrollTop > 50
-  //     ) {
-  //       this.bg = 'secondary';
-  //     } else {
-  //       this.bg = 'transparent';
-  //     }
-  //   },
-  // },
 }
 </script>
 

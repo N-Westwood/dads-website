@@ -1,0 +1,114 @@
+{
+  "shelter": {
+    "short": [
+      ["Do you have somewhere to stay for 3 days?", 0],
+      ["Do you have clothing in case of bad weather?", 0]
+    ],
+    "intermediate": [
+      ["Do you have somewhere to stay, and savings to pay for it, for 3 months?", 0],
+      ["Do you have clothes for 3 months, including clothes for the different weather types where you live?", 0]
+    ],
+    "long": [
+      ["Do you have somewhere to stay, and savings to pay for it, for over a year?", 0],
+      ["Do you have clothes for all seasons of where you're living?", 0]
+    ]
+  },
+  "heat": {
+    "short": [
+      ["Do you have heat and power for 3 days?", 0],
+      ["Do you have fuel for 3 days?", 0]
+    ],
+    "intermediate": [
+      ["Do you have electricity for 3 months?", 0],
+      ["Do you have fuel for 3 months?", 0]
+    ],
+    "long": [
+      ["Do you have your own source of sustainable power?", 0],
+      ["Do you have some mode of transportation that isn't dependent on gasoline?", 0]
+    ]
+  },
+  "transportation": {
+    "short": [
+      ["Do you have a car?", 0],
+      ["Do you have a phone?", 0]
+    ],
+    "intermediate": [
+      ["Is your car paid off?", 0],
+      ["Is your phone paid off?", 0]
+    ],
+    "long": [
+      ["Do you have an alternate mode of transportation? (Horses, etc)", 0],
+      ["Do you have a Ham radio and know how to use it?", 0]
+    ]
+  },
+  "spiritual": {
+    "short": [
+      ["Do you feel healthy mentally?", 0],
+      ["Do you feel confident in your faith?", 0]
+    ],
+    "intermediate": [
+      ["Do you feel you have tools to mentally recover from a difficult experience?", 0],
+      ["Do you have all necessary religious texts, etc, to continue to build your faith?", 0]
+    ],
+    "long": [
+      ["Do you feel that your mental health is stable in any circumstance?", 0],
+      ["Do you feel you can rely on your faith no matter what?", 0]
+    ]
+  },
+  "health": {
+    "short": [
+      ["Are you currently in good health?", 0],
+      ["Do you your doors and windows lock?", 0]
+    ],
+    "intermediate": [
+      ["Do you have health insurance?", 0],
+      ["Do you have an at home security system?", 0]
+    ],
+    "long": [
+      ["Do you know remedies for the most common colds, and what plants can help the healing process?", 0],
+      ["Do you have guns and ammunition to supply them long-term?", 0]
+    ]
+  },
+  "finance": {
+    "short": [
+      ["Do you have savings for 3 days?", 0],
+      ["Are you free of debt besides a car payment and/or a home mortgage?", 0]
+    ],
+    "intermediate": [
+      ["Could you survive off of your savings for 3 months?", 0],
+      ["Are you free of debt besides a home mortgage?", 0]
+    ],
+    "long": [
+      ["Do you have savings to last for a year or long if you were unable to earn an income?", 0],
+      ["Are you free of debt?", 0]
+    ]
+  },
+  "tools": {
+    "short": [
+      ["Do you have a tool kit? (Screwdrivers, power drills, etc)", 0],
+      ["Do you know how to do basic repairs around the house and to clothes?", 0]
+    ],
+    "intermediate": [
+      ["Do you have power tools for larger repairs? (Table Saw, Band saw, etc)", 0],
+      ["Do you know how to fix most things in your house, and car, besides major appliances?", 0]
+    ],
+    "long": [
+      ["Do you have tools for repairs in almost any situation?", 0],
+      ["Do you know how to repair everything in your house?", 0]
+    ]
+  },
+  "food": {
+    "short": [
+      ["Could you survive off of your food storage for 3 days?", 0],
+      ["Do you have a water supply that would last 3 days?", 0]
+    ],
+    "intermediate": [
+      ["Do you have a food supply that would last 3 months?", 0],
+      ["Do you have a water supply that would last 3 months?", 0]
+    ],
+    "long": [
+      ["Do you have food storage for a year?", 0],
+      ["Do you have your own source of water?", 0]
+    ]
+  }
+}

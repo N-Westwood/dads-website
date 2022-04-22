@@ -9,24 +9,11 @@
       color="secondary"
       class="lighten-1 white--text text-center"
       width='100%'
+      height='5em'
     >
-      <v-card-text>
-        <v-btn
-          v-for="icon in icons"
-          :key="icon[0]"
-          class="mx-4 white--text"
-          :href="icon[1]"
-          target="_blank"
-          icon
-        >
-          <v-icon size="24px">
-            {{ icon[0] }}
-          </v-icon>
-        </v-btn>
-      </v-card-text>
 
-      <v-card-text class="white--text pt-0">
-        Salt Lake City Area | David Westwood
+      <v-card-text class="white--text pt-8">
+        Salt Lake City Area | Neal Westwood
       </v-card-text>
     </v-card>
   </v-footer>

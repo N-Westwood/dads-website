@@ -8,7 +8,7 @@
           <h2>{{type}}</h2>
           <ul>
             <li><a :href='`/survey?time=short&id=${surveyId}`'>Short-Term</a></li>
-            <li><a :href='`/survey?time=intermediate&id=${surveyId}`'>Itermediate-Term</a></li>
+            <li><a :href='`/survey?time=intermediate&id=${surveyId}`'>Intermediate-Term</a></li>
             <li><a :href='`/survey?time=long&id=${surveyId}`'>Long-Term</a></li>
           </ul>
         </v-col>

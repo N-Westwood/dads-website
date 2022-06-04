@@ -1,15 +1,22 @@
 <template>
 <v-main class='mt-16'>
+    <!-- Insert values above graph-->
+    <v-row>
+      <v-col>
+      </v-col>
+    </v-row>
     <v-row justify="center" align="center">
       <v-col cols='auto'>
         <svg id='spiderChart'></svg>
       </v-col>
     </v-row>
+    <!-- Insert values between graph links-->
     <v-row class='mx-4'>
       <v-col v-for="label in arcLabels" :key="label[0]" sm='6' lg='3'>
         <PreparednessItem :type="label[0]" :mdiName="label[1]" :surveyId="label[2]"/>
       </v-col>
     </v-row>
+    <!-- Insert Values after links-->
 </v-main>
 </template>
 

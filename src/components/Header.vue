@@ -13,7 +13,7 @@
           :ripple="false"
           to="/"
           class="name">
-          Emergency Preparedness
+          {{titleText}}
         </v-btn>
       </v-col>
     </v-row>
@@ -60,18 +60,35 @@
 </template>
 
 <script>
+
 export default {
   data: ()=>{
     return {
       drawer: null,
       group: null,
-      bg: 'secondary'
+      bg: 'secondary',
+      titleText: 'Emergency Preparedness'
     }
+  },
+  created(){
+    let routeName = this.$router.history.current.path
+    if (routeName == '/')
+        this.titleText = 'Emergency Preparedness'
+      else if (routeName == '/survey'){
+        this.titleText = `Emergency Preparedness - ${this.$route.query.id} ${this.$route.query.time}`
+      }
   },
   watch: {
     group() {
       this.drawer = false
-    }
+    },
+    $route(to){
+      if (to.name == 'Home')
+        this.titleText = 'Emergency Preparedness'
+      else if (to.name == 'Survey'){
+        this.titleText = `Emergency Preparedness - ${to.query.id} ${to.query.time}`
+      }
+    },
   },
 }
 </script>

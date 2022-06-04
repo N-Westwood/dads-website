@@ -7,9 +7,9 @@
           </v-icon>
           <h2>{{type}}</h2>
           <ul>
-            <li><a :href='`/survey?time=short&id=${surveyId}`'>Short-Term</a></li>
-            <li><a :href='`/survey?time=intermediate&id=${surveyId}`'>Intermediate-Term</a></li>
-            <li><a :href='`/survey?time=long&id=${surveyId}`'>Long-Term</a></li>
+            <li><router-link :to="{ name: 'Survey', query: {id: surveyId, time: 'short'} }">Short-term</router-link></li>
+            <li><router-link :to="{ name: 'Survey', query: {id: surveyId, time: 'intermediate'} }">Intermediate-Term</router-link></li>
+            <li><router-link :to="{ name: 'Survey', query: {id: surveyId, time: 'long'} }">Long-Term</router-link></li>
           </ul>
         </v-col>
       </v-row>

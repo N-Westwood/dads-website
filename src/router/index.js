@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Survey from '../views/Survey.vue'
+import Reference from '../views/Reference.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/survey',
     name: 'Survey',
     component: Survey
+  },
+  {
+    path: '/references',
+    name: 'References',
+    component: Reference
   }
 ]
 

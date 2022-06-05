@@ -11,17 +11,25 @@
       <v-radio label="no" :value='0'>
       </v-radio>
     </v-radio-group>
+    <!--Insert a line here to seperate the tickle questions from the master question  -->
     <v-radio-group v-model='prepared'>
-      Do you feel you are prepared in a {{timeFrame}}-term time frame in this area?
-      <v-radio label="yes" :value='1'>
+ <!--     Do you feel you are prepared in a {{timeFrame}}-term time frame in this area? -->
+        <br/>
+        --------------------------------------------------------------------------------------
+        <br/>
+        How do you rate your overall preparedness in this section? <!--category for the {{timeFrame}}-term? -->
+      <v-radio label="Reasonably Prepared" :value='1'>
       </v-radio>
-      <v-radio label="somewhat" :value='2'>
+      <v-radio label="Somewhat Prepared" :value='2'>
       </v-radio>
-      <v-radio label="no" :value='3'>
+      <v-radio label="Not Prepared" :value='3'>
       </v-radio>
     </v-radio-group>
+     <v-btn @click="openPrev">
+      Previous
+    </v-btn>
     <v-btn type="submit">
-      Submit
+      Home
     </v-btn>
     <v-btn @click="openNext">
       Next
@@ -107,6 +115,29 @@ export default {
         this.$router.push(`/survey?time=long&id=${this.surveyId}`)
       }
       else if (this.timeFrame == "short"){
+        this.$router.push(`/survey?time=intermediate&id=${this.surveyId}`)
+      }
+    },
+    openPrev(){
+      this.saveResponses();
+      
+      // Check if it's short
+      if(this.timeFrame == "short"){
+        //Do a lot more stuff
+        var currentIndex = this.graphData.children.findIndex(level=>level.name == this.surveyId);
+        currentIndex--;
+ //       if (currentIndex == this.graphData.children.length){
+        if (currentIndex == 0){
+         // currentIndex == 0
+          this.$router.push(`/`)
+        }
+        this.$router.push(`/survey?time=long&id=${this.graphData.children[currentIndex].name}`)
+
+      }
+      else if (this.timeFrame == "intermediate"){
+        this.$router.push(`/survey?time=short&id=${this.surveyId}`)
+      }
+      else if (this.timeFrame == "long"){
         this.$router.push(`/survey?time=intermediate&id=${this.surveyId}`)
       }
     }

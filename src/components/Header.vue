@@ -67,15 +67,15 @@ export default {
       drawer: null,
       group: null,
       bg: 'secondary',
-      titleText: 'Emergency Preparedness'
+      titleText: 'Emergency Preparedness Assestment'
     }
   },
   created(){
     let routeName = this.$router.history.current.path
     if (routeName == '/')
-        this.titleText = 'Emergency Preparedness'
+        this.titleText = 'Emergency Preparedness Assessment'
       else if (routeName == '/survey'){
-        this.titleText = `Emergency Preparedness - ${this.$route.query.id} ${this.$route.query.time}`
+        this.titleText = `Emergency Preparedness Assessment - ${this.$route.query.id} ${this.$route.query.time}`
       }
   },
   watch: {
@@ -84,9 +84,9 @@ export default {
     },
     $route(to){
       if (to.name == 'Home')
-        this.titleText = 'Emergency Preparedness'
+        this.titleText = 'Emergency Preparedness Assessment'
       else if (to.name == 'Survey'){
-        this.titleText = `Emergency Preparedness - ${to.query.id} ${to.query.time}`
+        this.titleText = `Emergency Preparedness Assessment - ${to.query.id} ${to.query.time}`
       }
     },
   },

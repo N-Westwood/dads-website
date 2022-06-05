@@ -1,6 +1,12 @@
 <template>
 <v-main class='mt-16'>
     <!-- Insert values above graph-->
+    <p style="text-align:center"><br/>Am I Prepared?<br><br>Assess your preperadness in 8 categories for short term (72hrs) Intermediate term (3 days to 3 months) and long term (3 months to 1+ years)
+    <br> Questions in each category below will prompt you to think about different aspects of preparedness in that category.
+    <br> Then the final question will ask you to self assess yourself as Reasonably Prepared, Somewhat Prepared, or Not Prepared.
+    <br> The Graph will update each area showing Orange, Yellow, or Green based on your answers.
+    <br> Then the reference section can point you to other websites and resources to help you better prepared in those areas that you are deficient.
+    <br/></p>
     <v-row>
       <v-col>
       </v-col>
@@ -11,6 +17,9 @@
       </v-col>
     </v-row>
     <!-- Insert values between graph links-->
+  <p style="text-align:center"><br/>
+    <br> Select any category below to assess that category, or click <router-link :to="{ name: 'Survey', query: {id: 'shelter', time: 'short'} }">here</router-link> to start at the beginning.
+    <br/></p>    
     <v-row class='mx-4'>
       <v-col v-for="label in arcLabels" :key="label[0]" sm='6' lg='3'>
         <PreparednessItem :type="label[0]" :mdiName="label[1]" :surveyId="label[2]"/>
@@ -34,12 +43,12 @@ export default {
     arcLabels: [
       ['Shelter/Clothing', 'mdi-home', 'shelter'], 
       ['Heat/Light/Power/Fuel', 'mdi-gas-station', 'heat'], 
-      ['Transportation/etc', 'mdi-car', 'transportation'],
+      ['Transportation/Comm/Evac', 'mdi-car', 'transportation'],
       ['Spiritual/Mental', 'mdi-book-cross', 'spiritual'],
       ['Health/Safety/Security', 'mdi-shield-lock', 'health'],
-      ['Finance', 'mdi-cash', 'finance'],
+      ['Finance/Legal', 'mdi-cash', 'finance'],
       ['Knowledge/Tools', 'mdi-tools', 'tools'],
-      ['Food/Water', 'mdi-food', 'food']],
+      ['Food/Water/Special Needs', 'mdi-food', 'food']],
     graphData: {},
     graphWidth: 500,
     graphHeight: 500,

@@ -1,6 +1,6 @@
 {
   "name": "Preparedness Levels","children": [{
-      "name": "Shelter/Clothing",
+      "name": "shelter",
       "arc": 0,
       "prepared": 3,
       "children": [

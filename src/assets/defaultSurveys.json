@@ -25,6 +25,8 @@
     "long": [
       ["Do you have a way to wash and dry clothing without power and city water?", 0],
       ["Do you have tents and equipment for long term camping?", 0]
+      ["Do you have an alternate safe-remote location to live?", 0]
+      ["Do you have a preparedness group-community to connect with?", 0]
     ]
   },
   "heat": {
@@ -97,6 +99,11 @@
       ["Do you have ham radios and equipment for short and long distance communication?", 0],
       ["Do you have an alternate mode of transportation? (Horses, etc)", 0],
       ["Do you have at least a General class ham radio license?", 0]
+      ["Do you practice bugging out to test your plans?", 0]
+      ["Do you have replacement parts for your vehicle?", 0]
+      ["Do you have spare belts, hoses, filters, oil and fluids for your vehicles?", 0]
+      ["Do you have a operating and repair manuals for all you equipment?", 0]
+      ["Do you have a short wave receiver and a way to power it?", 0]
     ]
   },
   "spiritual": {
@@ -159,6 +166,7 @@
       ["Have you taken advanced first aid/EMT/paramedic/Wilderness Medicine classes?", 0],
       ["Do you know remedies for the most common colds, and what plants can help the healing process?", 0],
       ["Do you have guns and ammunition to supply them long-term?", 0]
+      ["Do you have dental tools and supplies and knowledge to use them?", 0]
     ]
   },
   "finance": {
@@ -211,9 +219,11 @@
       ["Do you have spare paper, toner and other supplies to be able to use your computers in a national grid down disaster?", 0],
       ["Do have an electronic library of videos, youtube downloads, how to manuals, repair and operating ", 0],
       ["Does your survival library include books on a wide range of subjects for knowledge you do not have?", 0],
-      ["Do you have a way to build and long term shelter?", 0],
+      ["Do you have a way to build and maintain a long term shelter?", 0],
       ["Do you have extensive tools and equipment to build/rebuild should civilization break down?", 0],
       ["Do you know how to repair everything in your house?", 0]
+      ["Do you have tools to fell, cut, and shape trees into usable lumber?", 0]
+      ["Do you have tools to weld, machine, fabricate tools and parts?", 0]
     ]
   },
   "food": {
@@ -261,6 +271,8 @@
       ["Do you have a garden and the knowledge and skills to grow, harvest and store fruits and vegatables?", 0],
       ["Do you have a protein source (chickens, rabbits, goats) and the knowledge and skills to raise, harvest and preserve them?", 0],
       ["Do you have a way to collect, store and distribute water at a perminant or temporary camp?", 0]
+      ["Do you know how to preserve meets, vegetables and fruits?", 0]
+      ["Do you have a way to feed your animals long term?", 0]
     ]
   }
 }

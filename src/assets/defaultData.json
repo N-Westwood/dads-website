@@ -16,7 +16,7 @@
         }
       ]
   }, {
-      "name": "heat",
+      "name": "heat/light",
       "arc": 1,
       "prepared": 3,
       "children": [

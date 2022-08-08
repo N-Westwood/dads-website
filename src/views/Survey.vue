@@ -1,9 +1,10 @@
 <template>
-<v-main>
+<v-main class="mt-16 ml-5">
   <!-- Text outside form, use v-row and v-col-->
-  <v-form ref="form" class="mt-16 ml-5" v-on:submit.prevent="saveResponses">
-    <!-- Text inside form, use <p>-->
 
+  <v-form ref="form" class="mt-12" v-on:submit.prevent="saveResponses">
+    <!-- Text inside form, use <p>-->
+    
     <v-radio-group v-for="question in surveyQuestions" :key="question[0]" v-model="question[1]">
       {{question[0]}}
       <v-radio label="yes" :value='1'>
@@ -25,15 +26,6 @@
       <v-radio label="Not Prepared" :value='3'>
       </v-radio>
     </v-radio-group>
-     <v-btn @click="openPrev">
-      Previous
-    </v-btn>
-    <v-btn type="submit">
-      Home
-    </v-btn>
-    <v-btn @click="openNext">
-      Next
-    </v-btn>
   </v-form>
 </v-main>
 </template>
@@ -164,10 +156,20 @@ export default {
   created(){
     this.getSurveyData()
     this.getGraphData()
+  },
+  mounted(){
+    this.$root.$on('NextSurvey', this.openNext)
+    this.$root.$on('PreviousSurvey', this.openPrev)
+    this.$root.$on('SubmitSurvey', this.saveResponses)
   }
 };
 </script>
 
 <style scoped>
-
+#ButtonRow{
+  position:fixed;
+}
+.v-btn {
+  opacity: 1;
+}
 </style>

@@ -4,7 +4,9 @@
     :color="bg"
     dark
     class="align-center"
+    v-bind:id="headerId"
   >
+  <v-col>
     <v-row>
       <v-col>
         <v-btn
@@ -17,45 +19,24 @@
         </v-btn>
       </v-col>
     </v-row>
-    
-    <!-- <v-row justify="center" class="d-none d-md-flex">
-      <v-col
-        cols='auto'
-        v-for="directory in directories" 
-        :key="directory[0]"
-        class='mx-n3 mt-n5'
-        >
-        <v-btn 
-          plain dark 
-          :to="directory[1]"
-          :ripple="false"
-          class='directoryText'
-          >
-            {{directory[0]}}
+    <v-row class="mt-n6 ml-2" v-if="isSurvey">
+      <v-col cols="auto">
+        <v-btn @click="openPrev" id="Previous" color="primary">
+          Previous
+        </v-btn>
+      </v-col >
+      <v-col cols="auto" class="ml-n4">
+        <v-btn @click="saveResponses" id="Submit" color="primary">
+          Home
         </v-btn>
       </v-col>
-    </v-row> -->
-    <!-- <v-row no-gutters justify="end" class='d-none d-md-flex'>
-      <v-col cols='2'>
-        <v-btn
-          class="white--text"
-          href="https://www.linkedin.com/in/david-westwood-01354b225"
-          target="_blank"
-          icon
-        >
-          <v-icon size="24px">
-            mdi-linkedin
-          </v-icon>
+      <v-col cols="auto" class="ml-n4">
+        <v-btn @click="openNext" id="Next" color="primary">
+          Next
         </v-btn>
       </v-col>
-      <v-col cols='auto' class='mt-1'>
-        <v-btn 
-          to='/contact'
-          color='success'>
-          Get in touch
-        </v-btn>
-      </v-col>
-    </v-row> -->
+    </v-row>
+  </v-col>
   </v-app-bar>
 </template>
 
@@ -70,6 +51,17 @@ export default {
       titleText: 'Emergency Preparedness Assestment'
     }
   },
+  methods:{
+    openNext(){
+      this.$root.$emit('NextSurvey')
+    },
+    openPrevn(){
+      this.$root.$emit('PrevSurvey')
+    },
+    saveResponses(){
+      this.$root.$emit('SubmitSurvey')
+    }
+  },
   created(){
     let routeName = this.$router.history.current.path
     if (routeName == '/')
@@ -77,6 +69,17 @@ export default {
       else if (routeName == '/survey'){
         this.titleText = `Emergency Preparedness Assessment - ${this.$route.query.id} ${this.$route.query.time}`
       }
+  },
+  computed: {
+    headerId(){
+      return this.isSurvey ? "Survey" : "";
+    },
+    surveyMargin(){
+      return this.isSurvey ? "mt-8" : "";
+    },
+    isSurvey(){
+      return this.$route.name == "Survey";
+    }
   },
   watch: {
     group() {
@@ -98,5 +101,12 @@ export default {
   font-size: 20px;
   font-weight: bold;
   font-family: sans-serif;
+}
+#Survey {
+  height: 100px !important;
+}
+.v-toolbar__content {
+  height: auto !important;
+  padding: 0 !important;
 }
 </style>

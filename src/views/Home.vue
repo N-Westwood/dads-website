@@ -1,9 +1,9 @@
 <template>
 <v-main class='mt-16'>
     <!-- Insert values above graph-->
-    <p style="text-align:center"><br/>Am I Prepared?<br><br>Assess your preperadness in 8 categories for short term (72hrs) Intermediate term (3 days to 3 months) and long term (3 months to 1+ years)
-    <br> Questions in each category below will prompt you to think about different aspects of preparedness in that category.
-    <br> Then the final question will ask you to self assess yourself as Reasonably Prepared, Somewhat Prepared, or Not Prepared.
+    <p style="text-align:center"><br/>Am I Prepared?<br><br>Assess your preperadness in 8 categories for: 1) short term (72hrs), 2) Intermediate term (up to 3 months) and, 3) long term (more than 3 months)
+    <br> Questions in each category below will prompt you to think about different aspects of preparedness.
+    <br> Then you will self assess yourself as Reasonably Prepared, Somewhat Prepared, or Not Prepared.
     <br> The Graph will update each area showing Orange, Yellow, or Green based on your answers.
     <br> Then the reference section can point you to other websites and resources to help you better prepared in those areas that you are deficient.
     <br/></p>

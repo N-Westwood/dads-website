@@ -1,7 +1,8 @@
 <template>
 <v-main class="mt-16 ml-5">
   <!-- Text outside form, use v-row and v-col-->
-
+    <p style="text-align:center"><br/>This text is outside the header
+    <br/></p>
   <v-form ref="form" class="mt-12" v-on:submit.prevent="saveResponses">
     <!-- Text inside form, use <p>-->
     

@@ -1,10 +1,9 @@
 <template>
 <v-main class="mt-16 ml-5">
-surveyText: 'Assessment'
-    this.surveyText = `Assessment- ${this.$route.query.id} ${this.$route.query.time}` 
-
+   
   <!-- Text outside form, use v-row and v-col-->
-    <p style="text-align:center"><br/> {{surveyText}}
+    <p style="text-align:center"><br/>
+    this.$router.push(`${this.surveyText}`)
     <br/></p>
   <v-form ref="form" class="mt-12" v-on:submit.prevent="saveResponses">
     <!-- Text inside form, use <p>-->

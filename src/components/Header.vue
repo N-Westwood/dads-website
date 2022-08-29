@@ -48,7 +48,8 @@ export default {
       drawer: null,
       group: null,
       bg: 'secondary',
-      titleText: 'Assestments'
+      titleText: 'Assessments',
+      surveyText: 'Assessments'
     }
   },
   methods:{
@@ -67,7 +68,8 @@ export default {
     if (routeName == '/')
         this.titleText = 'Emergency Preparedness Assessment'
       else if (routeName == '/survey'){
-        this.titleText = `Assessment' // - ${this.$route.query.id} ${this.$route.query.time}` //Emergency Preparedness
+        this.titleText = 'Assessment', 
+        this.surveyText = '${this.$route.query.id} ${this.$route.query.time} Assessment' 
       }
   },
   computed: {
@@ -89,7 +91,8 @@ export default {
       if (to.name == 'Home')
         this.titleText = 'Emergency Preparedness Assessment'
       else if (to.name == 'Survey'){
-        this.titleText = 'Assessment' //Emergency Preparedness Assessment - ${to.query.id} ${to.query.time}`
+        this.titleText = 'Assessment', 
+        this.surveyText = '${this.$route.query.id} ${this.$route.query.time} Assessment' 
       }
     },
   },

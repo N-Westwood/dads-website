@@ -65,7 +65,7 @@ export default {
   created(){
     let routeName = this.$router.history.current.path
     if (routeName == '/')
-        this.titleText = 'Assessment' //'Emergency Preparedness Assessment'
+        this.titleText = 'Emergency Preparedness Assessment'
       else if (routeName == '/survey'){
         this.titleText = `Assessment' // - ${this.$route.query.id} ${this.$route.query.time}` //Emergency Preparedness
       }
@@ -87,7 +87,7 @@ export default {
     },
     $route(to){
       if (to.name == 'Home')
-        this.titleText = 'Assessment' //'Emergency Preparedness Assessment'
+        this.titleText = 'Emergency Preparedness Assessment'
       else if (to.name == 'Survey'){
         this.titleText = 'Assessment' //Emergency Preparedness Assessment - ${to.query.id} ${to.query.time}`
       }

@@ -68,7 +68,7 @@ export default {
     if (routeName == '/')
         this.titleText = 'Emergency Preparedness Assessment'
       else if (routeName == '/survey'){
-        this.titleText = 'Assessment', 
+        this.titleText = 'Category Assessment', 
         this.surveyText = '${this.$route.query.id} ${this.$route.query.time} Assessment' 
       }
   },

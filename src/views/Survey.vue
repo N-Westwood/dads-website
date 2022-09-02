@@ -2,9 +2,12 @@
 <v-main class="mt-16 ml-5">
    
   <!-- Text outside form, use v-row and v-col-->
-    <p style="text-align:center"><br/>
-    this.$router.push(`${this.surveyText}`)
-    <br/></p>
+    <p><br>
+  <!-- `${this.surveyText}`-->
+  <br>
+    Insert Survey Header Here.
+   <!-- '{this.$route.query.id} ${this.$route.query.time} Assessment' -->
+    </p>
   <v-form ref="form" class="mt-12" v-on:submit.prevent="saveResponses">
     <!-- Text inside form, use <p>-->
     

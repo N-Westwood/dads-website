@@ -1,12 +1,12 @@
 <template>
 <v-main class='mt-16'>
     <!-- Insert values above graph-->
-    <p style="text-align:center"><br/>Am I Prepared?<br><br>Assess your preperadness in 8 categories for: 1) short term (72hrs), 2) Intermediate term (up to 3 months) and, 3) long term (more than 3 months)
-    <br> Questions in each category below will prompt you to think about different aspects of preparedness.
-    <br> Then you will self assess yourself as Reasonably Prepared, Somewhat Prepared, or Not Prepared.
-    <br> The Graph will update each area showing Orange, Yellow, or Green based on your answers.
-    <br> Then the reference section can point you to other websites and resources to help you better prepared in those areas that you are deficient.
-    <br/></p>
+    <p style="text-align:center"><br/>Am I Prepared?<br>
+    <br>Assess your preperadness in 8 categories below for: 
+    <br>1) immediate-short term preparedness (1 - 3 days)
+    <br>2) Intermediate term preparedness(up to 3 months) 
+    <br>3) long term Preparedness (3 months to 3 years+ )<br>
+    </p>
     <v-row>
       <v-col>
       </v-col>
@@ -18,6 +18,9 @@
     </v-row>
     <!-- Insert values between graph links-->
   <p style="text-align:center"><br/>
+    <br> Questions in each category below will prompt you to think about different aspects of preparedness.
+    <br> Then you will self assess as Reasonably Prepared, Somewhat Prepared, or Not Prepared.
+    <br> The Graph will update each area showing Orange, Yellow, or Green based on your answers.
     <br> Select any category below to assess that category, or click <router-link :to="{ name: 'Survey', query: {id: 'shelter', time: 'short'} }">here</router-link> to start at the beginning.
     <br/></p>    
     <v-row class='mx-4'>
@@ -26,6 +29,7 @@
       </v-col>
     </v-row>
     <!-- Insert Values after links-->
+    <br> the reference section linked below can point you to other resources to help you better prepare in each area.<br>
 </v-main>
 </template>
 

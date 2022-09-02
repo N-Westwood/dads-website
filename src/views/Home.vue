@@ -3,7 +3,7 @@
     <!-- Insert values above graph-->
     <p style="text-align:center"><br/>Am I Prepared?<br>
     <br>Assess your preperadness in 8 categories below for: 
-    <br>1) immediate-short term preparedness (1 - 3 days)
+    <br>1) short-immediate term preparedness (1 - 3 days)
     <br>2) Intermediate term preparedness(up to 3 months) 
     <br>3) long term Preparedness (3 months to 3 years+ )<br>
     </p>
@@ -18,7 +18,7 @@
     </v-row>
     <!-- Insert values between graph links-->
   <p style="text-align:center"><br/>
-    <br> Questions in each category below will prompt you to think about different aspects of preparedness.
+    <br> Questions in each category will prompt you to think about different aspects of preparedness.
     <br> Then you will self assess as Reasonably Prepared, Somewhat Prepared, or Not Prepared.
     <br> The Graph will update each area showing Orange, Yellow, or Green based on your answers.
     <br> Select any category below to assess that category, or click <router-link :to="{ name: 'Survey', query: {id: 'shelter', time: 'short'} }">here</router-link> to start at the beginning.

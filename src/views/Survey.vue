@@ -2,13 +2,8 @@
 <v-main class="mt-16 ml-5">
    
   <!-- Text outside form, use v-row and v-col-->
-    <p><br>
-  <!-- `${this.surveyText}`-->
-  <br>
-    Insert Survey Header Here.
-   <!-- '{this.$route.query.id} ${this.$route.query.time} Assessment' -->
-    </p>
-  <v-form ref="form" class="mt-12" v-on:submit.prevent="saveResponses">
+ <h2 class="mt-12">{{surveyText}}</h2>
+  <v-form ref="form" class="mt-4" v-on:submit.prevent="saveResponses">
     <!-- Text inside form, use <p>-->
     
     <v-radio-group v-for="question in surveyQuestions" :key="question[0]" v-model="question[1]">
@@ -102,6 +97,7 @@ export default {
         //Do a lot more stuff
         var currentIndex = this.graphData.children.findIndex(level=>level.name == this.surveyId);
         currentIndex++;
+        this.surveyText = `${this.$route.query.id} ${this.$route.query.time} Assessment`;
         if (currentIndex == this.graphData.children.length){
           // currentIndex == 0
           this.$router.push(`/`)
@@ -159,9 +155,10 @@ export default {
         }
       }
   },
-  created(){
+ created(){
     this.getSurveyData()
     this.getGraphData()
+    this.surveyText = `${this.$route.query.id} ${this.$route.query.time} Assessment`
   },
   mounted(){
     this.$root.$on('NextSurvey', this.openNext)

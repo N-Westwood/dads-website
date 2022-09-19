@@ -2,7 +2,7 @@
 <v-main class="mt-16 ml-5">
    
   <!-- Text outside form, use v-row and v-col-->
- <h2 class="mt-12">{{surveyText}}</h2>
+  <h2 class="mt-12">{{surveyText}}</h2> 
   <v-form ref="form" class="mt-4" v-on:submit.prevent="saveResponses">
     <!-- Text inside form, use <p>-->
     
@@ -91,13 +91,13 @@ export default {
     },
     openNext(){
       this.saveResponses();
-      
+    
       // Check if it's long
       if(this.timeFrame == "long"){
         //Do a lot more stuff
         var currentIndex = this.graphData.children.findIndex(level=>level.name == this.surveyId);
         currentIndex++;
-        this.surveyText = `${this.$route.query.id} ${this.$route.query.time} Assessment`;
+   //     this.surveyText = `${this.$route.query.id} ${this.$route.query.time} Assessment`;
         if (currentIndex == this.graphData.children.length){
           // currentIndex == 0
           this.$router.push(`/`)

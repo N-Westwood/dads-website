@@ -56,7 +56,7 @@ export default {
     openNext(){
       this.$root.$emit('NextSurvey')
     },
-    openPrevn(){
+    openPrev(){
       this.$root.$emit('PreviousSurvey')
     },
     saveResponses(){

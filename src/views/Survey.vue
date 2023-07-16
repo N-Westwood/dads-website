@@ -33,7 +33,15 @@
 
 <script>
 import defaultData from '../assets/defaultData.json';
-import defaultSurveys from '../assets/defaultSurveys.json'
+import defaultSurveys from '../assets/defaultSurveys.json';
+import labelData from '../assets/labelData.json';
+
+const categoryLabelsById = Object.fromEntries(
+  labelData.categories.map(category => [category.id, category.label])
+)
+const timeLabelsById = Object.fromEntries(
+  labelData.times.map(time => [time.id, time.label])
+)
 
 export default {
   name: 'App',
@@ -152,13 +160,14 @@ export default {
         handler(){
           this.getSurveyData()
           this.getGraphData()
+          this.surveyText = `${categoryLabelsById[this.$route.query.id]} ${timeLabelsById[this.$route.query.time]} Assessment`
         }
       }
   },
  created(){
     this.getSurveyData()
     this.getGraphData()
-    this.surveyText = `${this.$route.query.id} ${this.$route.query.time} Assessment`
+    this.surveyText = `${categoryLabelsById[this.$route.query.id]} ${timeLabelsById[this.$route.query.time]} Assessment`
   },
   mounted(){
     this.$root.$on('NextSurvey', this.openNext)

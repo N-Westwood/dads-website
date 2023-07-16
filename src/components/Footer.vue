@@ -11,7 +11,7 @@
       width='100%'
       height='5em'
     >
-      <router-link :to="{ name: 'References'}">References</router-link>
+      <router-link class="white--text" :to="{ name: 'References'}">References</router-link>
       <v-card-text class="white--text pt-8">
         Salt Lake City Area | Neal Westwood
       </v-card-text>

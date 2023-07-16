@@ -29,7 +29,7 @@
       </v-col>
     </v-row>
     <!-- Insert Values after links-->
-    <br> the reference section linked below can point you to other resources to help you better prepare in each area.<br>
+    <br> The reference section linked below can point you to other resources to help you better prepare in each area.<br>
 </v-main>
 </template>
 

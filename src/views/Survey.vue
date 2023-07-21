@@ -5,7 +5,6 @@
   <h2 class="mt-12">{{surveyText}}</h2> 
   <v-form ref="form" class="mt-4" v-on:submit.prevent="saveResponses">
     <!-- Text inside form, use <p>-->
-    
     <v-radio-group v-for="question in surveyQuestions" :key="question[0]" v-model="question[1]">
       {{question[0]}}
       <v-radio label="yes" :value='1'>
@@ -16,7 +15,7 @@
     <!--Insert a line here to seperate the tickle questions from the master question  -->
     <v-radio-group v-model='prepared'>
  <!--     Do you feel you are prepared in a {{timeFrame}}-term time frame in this area? -->
-        <br/>
+  <!--      <br/> -->
         --------------------------------------------------------------------------------------
         <br/>
         How do you rate your overall preparedness in this section? <!--category for the {{timeFrame}}-term? -->

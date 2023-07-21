@@ -1,8 +1,8 @@
 {
   "shelter": {
     "short": [
-      ["Have you prepared your home for specific hazards? (earthquake, hurricane, tornado, fire)", 0],
-      ["Does your home have fire-resistant building and/or roof materials?", 0],
+      ["Have you prepared your home for specific hazards? (earthquake, hurricane, tornado, fire, etc)", 0],
+      ["Does your home have fire-resistant building and/or roof materials? (brick, stucco, stone)", 0],
       ["Is your home securely fastened to your foundation?", 0],
       ["Is your home protected from flooding?", 0],
       ["Does your 72hr kit contain a full change of clothing?", 0],
@@ -10,22 +10,28 @@
       ["Do you rotate the clothing in your familes 72hr kits at least every year?", 0],
       ["Have you reduced the burnable fuels around your home? (bushes, trees, weeds)", 0],
       ["Are your active chimneys periodically cleaned?", 0],
+      ["Do you have a place prepared in case of nuclear fallout?", 0],
+      ["Are your water heaters anchored to the wall?", 0],
       ["Do you have a pair of shoes and flashlight next to your bed?", 0],
       ["Do you have clothing in case of bad weather?", 0]
     ],
     "intermediate": [
       ["Do you have somewhere to stay, and savings to pay for it, for 3 months?", 0],
       ["Do you have warm weather clothing? (pants, shirts, shoes, socks, hat, gloves, coat)", 0],
+      ["Are your water heater, cabinets, bookcases, pictures, etc secured to the wall?", 0],
       ["Do you have at least one good sleeping bag or several warm blankets per person?", 0],
       ["Do you have spare bedding?", 0],
       ["Do you have extra wool blankets for every family member?", 0],
       ["Do you have spare clothing stored?", 0],
+      ["Do you have a whole house EMP protection?", 0],
+      ["Do you have plans to cool your house in extreeme heat and a power outage?", 0],
       ["Do you have clothes for 3 months, including clothes for the different weather types where you live?", 0]
     ],
     "long": [
       ["Do you have a way to wash and dry clothing without power and city water?", 0],
       ["Do you have tents and equipment for long term camping?", 0],
       ["Do you have an alternate safe-remote location to live?", 0],
+      ["Do you have a way to recreate fences, pens and shelters for your animals at a new location?", 0],
       ["Do you have a preparedness group-community to connect with?", 0]
     ]
   },
@@ -35,22 +41,19 @@
       ["Do your gas appliances have flexible connections?", 0],
       ["Do you have a working flashlight or headlight next to your bed?", 0],
       ["Do you have a way to generate power for a few days?", 0],
-      ["Are your water heaters anchored to the wall?", 0],
       ["Do you have tools to shut off your utilities? (natural gas, propane, electric, water)", 0],
       ["Do you know how and where to shut off your utilities?", 0],
-      ["Do you have alternate light source that doesn't depend on batteries such as 100hr candles?", 0],
-      ["In the event of an evacuation to you have planned place to go?", 0]
+      ["Do you have alternate light sources that do not depend on batteries such as 100hr candles?", 0]
     ],
     "intermediate": [
-      ["Do you have a way to start a fire? (matches, lighter, flint and steel)", 0],
+      ["Do you have a way(s) to start a fire? (matches, lighter, flint and steel)", 0],
       ["Do you have a way to generate power for weeks or months?", 0],
       ["Do you have an alternate way to heat your home and fuel to go with it?", 0],
-      ["Do you have an alternate light source that is renewable such as a kerosine lantern?", 0],
-      ["Do you have an alternate way to cook your food?", 0]
+      ["Do you have an alternate light source that is renewable such as a kerosine lantern and fuel?", 0],
+      ["Do you have an alternate way to cook?", 0]
     ],
     "long": [
       ["Do you have a way to generate power indefinetly?", 0],
-      ["Do you have a whole house EMP protection?", 0],
       ["Could you heat your home indefinately if the power and natural gas were cut off?", 0],
       ["Do you have a way to heat your tents?", 0],
       ["Do you have a solar generator and panels to recharge it?", 0]
@@ -59,13 +62,12 @@
   "transportation": {
     "short": [
       ["Do you have an up-to-date 72 hour kit?", 0],
+      ["Do you have a 72 hour kit for your pets?", 0],
       ["Is your 72 hr kit in a readily accessible location?", 0],
-      ["Does your 72 hr kit have a whistle?", 0],
       ["Do you have a spare set of car and house keys stored outside your home?", 0],
       ["Do you have designated out of town contact?", 0],
       ["Have you signed up for your city, county and/or state emergency alerts?", 0],
       ["Do you have an emergency contact telephone list?", 0],
-      ["Do you have pencil and paper in your 72hr kit?", 0],
       ["Do you have at least 2 fire escape routes from your house and has your family rehearsed them?", 0],
       ["Do you have a specific plan for your school age children in an emergency?", 0],
       ["Do you have network of neighbors, friends, family to aid you in an emergency?", 0],
@@ -74,53 +76,53 @@
       ["Do you have paper maps of your area, state and planned evacuation routes?", 0],
       ["Do you have planned place to go in the event of an evacuation?", 0],
       ["Do you have designated places to gather in an emergency?", 0],
-      ["Do you have a family emergency plan?", 0]
+      ["Do you have a written and practiced family emergency plan?", 0]
     ],
     "intermediate": [
-      ["Do you have more than one method (alternatives) of transportation?", 0],
+      ["Do you have more than one method of transportation?", 0],
       ["Are your vehicle spare tires and tire change equipment in good order?", 0],
       ["Are your vehicles in good working order?", 0],
-      ["Do you keep your gas tanks above 1/2 Full?", 0],
-      ["Do you have travel crates for your animals?", 0],
+      ["Do you keep your gas tanks filled above 1/2 tank?", 0],
+      ["Do you have travel crates for your pets and animals?", 0],
       ["Do you have a way to communicate with remote family members if the internet, phones, and power are out?", 0],
       ["Do you have a vehicle emergency kit in every vehicle?", 0],
       ["Do you have a Get-Home bag in every vehicle?", 0],
       ["Do you have an alternate method of transportation that doesn't depend on fuel or electricity?", 0],
-      ["Do you have extra vehicle/generator fuel stored up to what is legally allowed?", 0],
+      ["Do you have extra vehicle/generator fuel stored?", 0],
       ["Do you have a way to charge your cell phone without electricity?", 0],
       ["Do you have spare batteries?", 0],
-      ["Do you have a battery powered or hand crank radio on hand?", 0]
+      ["Do you have a battery powered or hand crank radio?", 0]
     ],
     "long": [
       ["Do you have a way to transport your larger animals?", 0],
-      ["Do you store your key electronics in an EMP proof container?", 0],
+      ["Do you store your important electronics in an EMP proof container?", 0],
       ["Are your vehicles EMP protected?", 0],
       ["Do you have a vehicle capable of travel on rough roads and/or pulling a trailer?", 0],
       ["Do you have ham radios and equipment for short and long distance communication?", 0],
-      ["Do you have an alternate mode of transportation? (Horses, etc)", 0],
+      ["Do you have an alternate mode of transportation? (Bikes, Horses, etc)", 0],
       ["Do you have at least a General class ham radio license?", 0],
       ["Do you practice bugging out to test your plans?", 0],
-      ["Do you have replacement parts for your vehicle?", 0],
-      ["Do you have spare belts, hoses, filters, oil and fluids for your vehicles?", 0],
-      ["Do you have operating and repair manuals for all you equipment?", 0],
+      ["Do you have key replacement parts for your vehicles and equipment?", 0],
+      ["Do you have spare belts, hoses, filters, oil and fluids for your vehicles and equipment?", 0],
+      ["Do you have operating and repair manuals for all you vehicles and equipment?", 0],
       ["Do you have a short wave receiver and a way to power it?", 0]
     ]
   },
   "spiritual": {
     "short": [
       ["Do you study the scriputes to understand the prophicied future events?", 0],
-      ["Do you strive to follow you religous leaders?", 0],
+      ["Do you strive to follow your religous leaders?", 0],
       ["Do you strive to hear and follow the promptings of the spirit?", 0],
       ["Do you have a network of friends, family, neighbors who support your mental health?", 0],
       ["Is your spiritual life in order, are you at peace and calm?", 0],
       ["Do you have games, books, movies that can be used to pass the time in an emergency?", 0],
-      ["Do you feel healthy mentally?", 0],
+      ["Do you feel mentally healthy?", 0],
       ["Do you feel confident in your faith?", 0]
     ],
     "intermediate": [
       ["Do you share your preparedness with others to build a network of like minded people?", 0],
       ["Do you feel you have tools to mentally recover from a difficult experience?", 0],
-      ["Do you have all necessary religious texts to continue to build your faith?", 0]
+      ["Do you have necessary religious texts and to continue to build your faith?", 0]
     ],
     "long": [
       ["Do you feel that your mental health is stable in any circumstance?", 0],
@@ -130,47 +132,49 @@
   "health": {
     "short": [
       ["Do you have basic first aid supplies on hand and in your 72hr kit?", 0],
-      ["Do you have sufficent sanitation and hygiene for 3 days?", 0],
+      ["Do you have sufficent sanitation, feminine, and hygiene supplies for 3 days?", 0],
       ["Are your computers and electronics protected from cyber attacks?", 0],
       ["Are your computers and electronics protected against power surges?", 0],
       ["Do you have at least a weeks worth of medication in your 72hr kit?", 0],
       ["Does your 72hr kit contain special equipment (glasses, contact lenses, diabetic syringes, etc)?", 0],
-      ["Have you renewed items in your 72hr kit in the last year?", 0],
+      ["Have you renewed items in your 72hr kit in the last year?", 0],      
+      ["Do you know what to do in the event of an active shooter?", 0],
+      ["Do you have N-95 masks and sanitizer stored?", 0],
+      ["Do you keep a medical information card in your purse or wallet?", 0],
       ["Are you currently in good health?", 0]
     ],
     "intermediate": [
       ["Do you have basic first aid skills and knowledge?", 0],
       ["Do you have a way to collect and dispose of waste?", 0],
       ["Do you have extra medication set aside for an emergency, at least a months worth?", 0],
-      ["Are your water heater, cabinets, bookcases, pictures, etc secured to the wall?", 0],
       ["Do you have your medical records copied and in your 72hr kit?", 0],
       ["Do you have an ICE(In Case of Emergency) number programmed in your phone?", 0],
       ["Do you have clorax, or other dissenfectant stored?", 0],
       ["Do you have a way to protect your family and proper training to go with it?", 0],
-      ["Do you have a network of like minded friends and neighbors who would work together to secure your area?", 0],
+      ["Do you have a network of like minded friends and neighbors you have worked with to secure your area?", 0],
       ["Do you have a long term sanitation plan if the power and water is out indefinitely?", 0],
-      ["Do you have sufficent sanitation and hygiene products for 3 months?", 0],
+      ["Do you have sufficent sanitation, feminine and hygiene products for 3 months?", 0],
       ["Do you have health insurance?", 0],
-      ["Do you have an at home security system?", 0]
+      ["Do you have a home security system?", 0]
     ],
     "long": [
       ["Do you have equipment and supplies to deal with nuclear fallout?", 0],
       ["Do you have medicine and supplies to deal with a wide spread pandemic?", 0],
-      ["Do you have sufficent sanitation and hygiene products for 1 year or more?", 0],
-      ["Do you have dental supplies and knowledge to use them?", 0],
+      ["Do you have sufficent sanitation, feminine and hygiene products for 1 year or more?", 0],
+      ["Do you have dental tools and supplies and knowledge to use them?", 0],
       ["Do you know which plants can replace common medications?", 0],
       ["Do you have alternatives for all your key medications?", 0],
       ["Are you trained in wilderness first aid?", 0],
       ["Do you have advanced medical equipment and supplies?", 0],
       ["Have you taken advanced first aid/EMT/paramedic/Wilderness Medicine classes?", 0],
       ["Do you know remedies for the most common colds, and what plants can help the healing process?", 0],
-      ["Do you have guns and ammunition to supply them long-term?", 0],
-      ["Do you have dental tools and supplies and knowledge to use them?", 0]
+      ["Do you have guns and ammunition to supply them long-term?", 0]
     ]
   },
   "finance": {
     "short": [
       ["Do you have cash and coins in your 72 hour kit?", 0],
+      ["Do you have your key medical records in your 72 hour kit?", 0],
       ["Do you have adequete insurance? (home, vehicle, life, business)", 0],
       ["Do you need/have flood, fire and earthquake insurance?", 0],
       ["Are your important documents copied and stored off-site?", 0],
@@ -182,15 +186,14 @@
     ],
     "intermediate": [
       ["Do you have additional cash securely stored in case banks are closed and credit doesn't work?", 0],
-      ["Do you have a paper or electronic copy of important documents in your 72hr kit?", 0],
-      ["Do you have a least 6 months reserves saved in the bank or accessible investment account?", 0],
-      ["Could you survive off of your savings for 3 months?", 0],
+      ["Do you have a paper and/or electronic copies of important documents in your 72hr kit?", 0],
+      ["Do you have at least 6 months reserves saved in the bank or in accessible investment accounts?", 0],
       ["Have you stored items which you could use to barter?", 0],
       ["Are you free of debt besides a home mortgage?", 0]
     ],
     "long": [
       ["Do you have silver dollars and 1/10th ounce gold stored as backup to cash?", 0],
-      ["Do you have savings to last for a year or long if you were unable to earn an income?", 0],
+      ["Do you have savings to last for a year or longer if you were unable to earn an income?", 0],
       ["Are you free of debt?", 0]
     ]
   },
@@ -200,25 +203,26 @@
       ["Do you have a checklist of what to take in a 1-2 hour warning evacuation checklist?", 0],
       ["Have you practiced your emergency evacuation plan in the last 12 months?", 0],
       ["Have you practiced your earthquake, tornado, fire plans in the last 12 months?", 0],
-      ["Have you replaced your fire, smoke, CO2 alarm batteries in the last year and do you have them?", 0],
+      ["Do you have fire, smoke, CO2 detectors and have you replaced \batteries in the last year?", 0],
       ["Have you identified the emergencies that are likely to happen in your area?", 0],
       ["Are you continually learning new skills?", 0],
       ["Is your house earthquake proof (water heaters, bookcases, etc secured)?", 0],
       ["Have you removed heavy objects from over your bed that could fall?", 0],
       ["Do you work gloves and tools for minor rescue and clean up?", 0],
       ["Do you have basic tools for simple repairs?", 0],
-      ["Do you know how to do basic repairs to your clothese, home, and vehicle?", 0]
+      ["Do you know how to do basic repairs to your clothes, home, and vehicles?", 0]
     ],
     "intermediate": [
-      ["Do you have a get out town indefinitly checklist?", 0],
+      ["Do you have a checklist for if you have to leave home perminantly?", 0],
+      ["Do you have manuals for basic first aid and survival?", 0],
       ["Do you have complete backups of your computers stored on portable hard drives?", 0],
       ["Do you have a more comprehensive set of tools and equipment?", 0],
-      ["Do you know how to fix most things in your house and car?", 0]
+      ["Do you know how to fix most things in your home and equipment?", 0]
     ],
     "long": [
       ["Do you have a survival library of books and manuals?", 0],
       ["Do you have spare paper, toner and other supplies to be able to use your computers in a national grid down disaster?", 0],
-      ["Do have an electronic library of videos, youtube downloads, how to manuals, repair and operating ", 0],
+      ["Do have an electronic library of videos, youtube downloads, how to manuals, repair and operating manuals", 0],
       ["Does your survival library include books on a wide range of subjects for knowledge you do not have?", 0],
       ["Do you have a way to build and maintain a long term shelter?", 0],
       ["Do you have extensive tools and equipment to build/rebuild should civilization break down?", 0],
@@ -229,51 +233,47 @@
   },
   "food": {
     "short": [
-      ["Do you have at least 3 gallon of water per person stored?", 0],
+      ["Do you have at least 3 gallon of water per person per day stored?", 0],
       ["Do you have a 72hr kit that is readily accesible?", 0],
       ["Do you have at least 3 days worth of extra medications?", 0],
-      ["Do you have formula, diapers, bottles, etc for at least 3 days?", 0],
+      ["Do you have formula, diapers, bottles, etc for infants for at least 3 days?", 0],
       ["Does your 72hr kit include food and supplies for your pets for 3 days?", 0],
       ["Do you know where to shelter in case of an earthquake, hurricane or tornado?", 0],
-      ["Do you have a way to to cook or heat your 72hr kit food without electricity?", 0],
-      ["Do you have a water supply for drinking, cooking and sanitary that would last 3 days?", 0]
+      ["Do you have a way to to cook or heat your 72hr kit food without electricity?", 0]
     ],
     "intermediate": [
       ["Do you have at least 3 days of non-perishable easy to carry and prepare food?", 0],
       ["Do you have food/water and supplies for your animals in an evacuation?", 0],
-      ["Do you have a water supply that would last 3 months?", 0],
+      ["Do you have a water source or supply that would last 3 months?", 0],
       ["Do you have a way to filter and treat unclean water? (Boil, chlorination, distillation,filter)", 0],
       ["Is your canned and other food stored in a dry, cool, dark place?", 0],
       ["Have you written the purchase date on all your intermediate and long term food?", 0],
       ["Do you have exta hearing aid batteries?", 0],
       ["Do you keep essential medicines with you when you travel?", 0],
-      ["Do you keep a medical information card in your purse or wallet?", 0],
       ["Have you prepared for special dietary needs?", 0],
       ["Do you have formula, diapers, bottles, etc for at least 3 months?", 0],
       ["Do you have alternatives to your key medications?", 0],
-      ["Do you have extra food and medicine for your pets?", 0],
+      ["Do you have extra food and medicine for your pets for 3 months?", 0],
       ["Do you have a way transport your animals and pets?", 0],      
       ["Have you stored spare canning bottles, rings and lids?", 0],
       ["Do you have a pressure canner?", 0],
       ["Do you have a water bath canner?", 0],     
-      ["Do you have a non-electric wheat grinder?", 0],       
-      ["Have you stored at least 28 gallons per person of water? (1 gallons per day for 28 days)", 0],
-      ["If the power goes out, do you have way to can/bottle the food in your fridge and freezer?", 0]
+      ["Do you have an electric and non-electric wheat grinder?", 0],       
+      ["Have you stored at least 90 gallons per person of water? (or 1 gallons per day for 28 days minimum)", 0],
+      ["If the power goes out, do you have supplies and equipment to can/bottle the food in your fridge and freezer?", 0]
     ],
     "long": [
       ["Do you have manual food preperation equipment? (can opener, grinder, mixer)", 0],
-      ["Do you have your own source of water?", 0],
       ["Is your long term food stored in sealed cans, buckets, mylar bags with appropriate oxygen and moisture absorbers?", 0],
       ["Do you have access to water that does not come from your city water supply?", 0],
       ["Do you have an alternative cooking method with spare fuel? (grill, camp stove, solar, wood, kerosine)", 0],
-      ["Do you have a years supply of long-term, long storage life essential food?", 0],
-      ["Do you have equipment and supplies necessary for a year or more without power and natural gas?", 0],
+      ["Do you have a years supply of long-term, long storage essential food?", 0],
+      ["Do you have equipment and supplies necessary for living a year or more without power and natural gas?", 0],
       ["Do you have a way to feed and care for your infants and young children long term?", 0],
-      ["Do you have supplies to rebuild fences, animal structures, pens at a new location?", 0],
       ["Do you have a garden and the knowledge and skills to grow, harvest and store fruits and vegatables?", 0],
       ["Do you have a protein source (chickens, rabbits, goats) and the knowledge and skills to raise, harvest and preserve them?", 0],
       ["Do you have a way to collect, store and distribute water at a perminant or temporary camp?", 0],
-      ["Do you know how to preserve meets, vegetables and fruits?", 0],
+      ["Do you know how to preserve meats, vegetables and fruits?", 0],
       ["Do you have a way to feed your animals long term?", 0]
     ]
   }

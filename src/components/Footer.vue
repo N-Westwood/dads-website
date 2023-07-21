@@ -13,7 +13,7 @@
     >
       <router-link class="white--text" :to="{ name: 'References'}">References</router-link>
       <v-card-text class="white--text pt-8">
-        Salt Lake City Area | Neal Westwood | Alph 7_15_23
+        Salt Lake City Area | Neal Westwood | Alph 7_21_23
       </v-card-text>
     </v-card>
   </v-footer>

@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import labelData from '../assets/labelData.json'
+import data from '../assets/data.json'
 
 export default {
   name: 'App',
@@ -23,7 +23,7 @@ export default {
 
   },
   data: () => ({
-    categories: labelData.categories.filter(category => category.links)
+    categories: data.categories.filter(category => category.links?.length)
   }),
   methods: {
     

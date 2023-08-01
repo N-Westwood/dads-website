@@ -7,9 +7,9 @@
           </v-icon>
           <h2>{{type}}</h2>
           <ul>
-            <li><router-link :to="{ name: 'Survey', query: {id: surveyId, time: 'short'} }">Short-term</router-link></li>
-            <li><router-link :to="{ name: 'Survey', query: {id: surveyId, time: 'intermediate'} }">Intermediate-Term</router-link></li>
-            <li><router-link :to="{ name: 'Survey', query: {id: surveyId, time: 'long'} }">Long-Term</router-link></li>
+            <li v-for="period in periods" :key="period.id">
+              <router-link :to="{ name: 'Survey', query: {id: surveyId, time: period.id}}">{{period.label}}</router-link>
+            </li>
           </ul>
         </v-col>
       </v-row>
@@ -17,10 +17,14 @@
 </template>
 
 <script>
+import data from '../assets/data.json'
+
 export default {
   props: ['mdiName', 'type', 'surveyId'],
   data: ()=> {
-    return {}
+    return {
+      periods: data.periods
+    }
   }
 }
 </script>

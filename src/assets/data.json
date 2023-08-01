@@ -1,0 +1,1202 @@
+{
+  "categories": [
+    {
+      "id": "shelter",
+      "label": "Shelter/Clothing",
+      "icon": "mdi-home",
+      "links": [
+        "https://google.com"
+      ],
+      "questions": {
+        "short": [
+          {
+            "id": "1.1.1",
+            "question": "Have you prepared your home for specific hazards? (earthquake, hurricane, tornado, fire, etc)",
+            "description": ""
+          },
+          {
+            "id": "1.1.2",
+            "question": "Does your home have fire-resistant building and/or roof materials? (brick, stucco, stone)",
+            "description": ""
+          },
+          {
+            "id": "1.1.3",
+            "question": "Is your home securely fastened to your foundation?",
+            "description": ""
+          },
+          {
+            "id": "1.1.4",
+            "question": "Is your home protected from flooding?",
+            "description": ""
+          },
+          {
+            "id": "1.1.5",
+            "question": "Does your 72hr kit contain a full change of clothing?",
+            "description": ""
+          },
+          {
+            "id": "1.1.6",
+            "question": "Do you have a fire extinguisher readily accessable?",
+            "description": ""
+          },
+          {
+            "id": "1.1.7",
+            "question": "Do you rotate the clothing in your familes 72hr kits at least every year?",
+            "description": ""
+          },
+          {
+            "id": "1.1.8",
+            "question": "Have you reduced the burnable fuels around your home? (bushes, trees, weeds)",
+            "description": ""
+          },
+          {
+            "id": "1.1.9",
+            "question": "Are your active chimneys periodically cleaned?",
+            "description": ""
+          },
+          {
+            "id": "1.1.10",
+            "question": "Do you have a place prepared in case of nuclear fallout?",
+            "description": ""
+          },
+          {
+            "id": "1.1.11",
+            "question": "Are your water heaters anchored to the wall?",
+            "description": ""
+          },
+          {
+            "id": "1.1.12",
+            "question": "Do you have a pair of shoes and flashlight next to your bed?",
+            "description": ""
+          },
+          {
+            "id": "1.1.13",
+            "question": "Do you have clothing in case of bad weather?",
+            "description": ""
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "1.2.1",
+            "question": "Do you have somewhere to stay, and savings to pay for it, for 3 months?",
+            "description": ""
+          },
+          {
+            "id": "1.2.2",
+            "question": "Do you have warm weather clothing? (pants, shirts, shoes, socks, hat, gloves, coat)",
+            "description": ""
+          },
+          {
+            "id": "1.2.3",
+            "question": "Are your water heater, cabinets, bookcases, pictures, etc secured to the wall?",
+            "description": ""
+          },
+          {
+            "id": "1.2.4",
+            "question": "Do you have at least one good sleeping bag or several warm blankets per person?",
+            "description": ""
+          },
+          {
+            "id": "1.2.5",
+            "question": "Do you have spare bedding?",
+            "description": ""
+          },
+          {
+            "id": "1.2.6",
+            "question": "Do you have extra wool blankets for every family member?",
+            "description": ""
+          },
+          {
+            "id": "1.2.7",
+            "question": "Do you have spare clothing stored?",
+            "description": ""
+          },
+          {
+            "id": "1.2.8",
+            "question": "Do you have a whole house EMP protection?",
+            "description": ""
+          },
+          {
+            "id": "1.2.9",
+            "question": "Do you have plans to cool your house in extreeme heat and a power outage?",
+            "description": ""
+          },
+          {
+            "id": "1.2.10",
+            "question": "Do you have clothes for 3 months, including clothes for the different weather types where you live?",
+            "description": ""
+          }
+        ],
+        "long": [
+          {
+            "id": "1.3.1",
+            "question": "Do you have a way to wash and dry clothing without power and city water?",
+            "description": ""
+          },
+          {
+            "id": "1.3.2",
+            "question": "Do you have tents and equipment for long term camping?",
+            "description": ""
+          },
+          {
+            "id": "1.3.3",
+            "question": "Do you have an alternate safe-remote location to live?",
+            "description": ""
+          },
+          {
+            "id": "1.3.4",
+            "question": "Do you have a way to recreate fences, pens and shelters for your animals at a new location?",
+            "description": ""
+          },
+          {
+            "id": "1.3.5",
+            "question": "Do you have a preparedness group-community to connect with?",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "heat",
+      "label": "Heat/Light/Power/Fuel",
+      "icon": "mdi-gas-station",
+      "links": [],
+      "questions": {
+        "short": [
+          {
+            "id": "2.1.1",
+            "question": "Do you have flashlights with spare batteries in your 72hr kit?",
+            "description": ""
+          },
+          {
+            "id": "2.1.2",
+            "question": "Do your gas appliances have flexible connections?",
+            "description": ""
+          },
+          {
+            "id": "2.1.3",
+            "question": "Do you have a working flashlight or headlight next to your bed?",
+            "description": ""
+          },
+          {
+            "id": "2.1.4",
+            "question": "Do you have a way to generate power for a few days?",
+            "description": ""
+          },
+          {
+            "id": "2.1.5",
+            "question": "Do you have tools to shut off your utilities? (natural gas, propane, electric, water)",
+            "description": ""
+          },
+          {
+            "id": "2.1.6",
+            "question": "Do you know how and where to shut off your utilities?",
+            "description": ""
+          },
+          {
+            "id": "2.1.7",
+            "question": "Do you have alternate light sources that do not depend on batteries such as 100hr candles?",
+            "description": ""
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "2.2.1",
+            "question": "Do you have a way(s) to start a fire? (matches, lighter, flint and steel)",
+            "description": ""
+          },
+          {
+            "id": "2.2.2",
+            "question": "Do you have a way to generate power for weeks or months?",
+            "description": ""
+          },
+          {
+            "id": "2.2.3",
+            "question": "Do you have an alternate way to heat your home and fuel to go with it?",
+            "description": ""
+          },
+          {
+            "id": "2.2.4",
+            "question": "Do you have an alternate light source that is renewable such as a kerosine lantern and fuel?",
+            "description": ""
+          },
+          {
+            "id": "2.2.5",
+            "question": "Do you have an alternate way to cook?",
+            "description": ""
+          }
+        ],
+        "long": [
+          {
+            "id": "2.3.1",
+            "question": "Do you have a way to generate power indefinetly?",
+            "description": ""
+          },
+          {
+            "id": "2.3.2",
+            "question": "Could you heat your home indefinately if the power and natural gas were cut off?",
+            "description": ""
+          },
+          {
+            "id": "2.3.3",
+            "question": "Do you have a way to heat your tents?",
+            "description": ""
+          },
+          {
+            "id": "2.3.4",
+            "question": "Do you have a solar generator and panels to recharge it?",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "transportation",
+      "label": "Transportation/Comm/Evac",
+      "icon": "mdi-car",
+      "links": [],
+      "questions": {
+        "short": [
+          {
+            "id": "3.1.1",
+            "question": "Do you have an up-to-date 72 hour kit?",
+            "description": ""
+          },
+          {
+            "id": "3.1.2",
+            "question": "Do you have a 72 hour kit for your pets?",
+            "description": ""
+          },
+          {
+            "id": "3.1.3",
+            "question": "Is your 72 hr kit in a readily accessible location?",
+            "description": ""
+          },
+          {
+            "id": "3.1.4",
+            "question": "Do you have a spare set of car and house keys stored outside your home?",
+            "description": ""
+          },
+          {
+            "id": "3.1.5",
+            "question": "Do you have designated out of town contact?",
+            "description": ""
+          },
+          {
+            "id": "3.1.6",
+            "question": "Have you signed up for your city, county and/or state emergency alerts?",
+            "description": ""
+          },
+          {
+            "id": "3.1.7",
+            "question": "Do you have an emergency contact telephone list?",
+            "description": ""
+          },
+          {
+            "id": "3.1.8",
+            "question": "Do you have at least 2 fire escape routes from your house and has your family rehearsed them?",
+            "description": ""
+          },
+          {
+            "id": "3.1.9",
+            "question": "Do you have a specific plan for your school age children in an emergency?",
+            "description": ""
+          },
+          {
+            "id": "3.1.10",
+            "question": "Do you have network of neighbors, friends, family to aid you in an emergency?",
+            "description": ""
+          },
+          {
+            "id": "3.1.11",
+            "question": "Do you have an evacuation checklist for 5 min. 30 min. 2hr. 1 day warning?",
+            "description": ""
+          },
+          {
+            "id": "3.1.12",
+            "question": "Do you have a grab-n-go binder?",
+            "description": ""
+          },
+          {
+            "id": "3.1.13",
+            "question": "Do you have paper maps of your area, state and planned evacuation routes?",
+            "description": ""
+          },
+          {
+            "id": "3.1.14",
+            "question": "Do you have planned place to go in the event of an evacuation?",
+            "description": ""
+          },
+          {
+            "id": "3.1.15",
+            "question": "Do you have designated places to gather in an emergency?",
+            "description": ""
+          },
+          {
+            "id": "3.1.16",
+            "question": "Do you have a written and practiced family emergency plan?",
+            "description": ""
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "3.2.1",
+            "question": "Do you have more than one method of transportation?",
+            "description": ""
+          },
+          {
+            "id": "3.2.2",
+            "question": "Are your vehicle spare tires and tire change equipment in good order?",
+            "description": ""
+          },
+          {
+            "id": "3.2.3",
+            "question": "Are your vehicles in good working order?",
+            "description": ""
+          },
+          {
+            "id": "3.2.4",
+            "question": "Do you keep your gas tanks filled above 1/2 tank?",
+            "description": ""
+          },
+          {
+            "id": "3.2.5",
+            "question": "Do you have travel crates for your pets and animals?",
+            "description": ""
+          },
+          {
+            "id": "3.2.6",
+            "question": "Do you have a way to communicate with remote family members if the internet, phones, and power are out?",
+            "description": ""
+          },
+          {
+            "id": "3.2.7",
+            "question": "Do you have a vehicle emergency kit in every vehicle?",
+            "description": ""
+          },
+          {
+            "id": "3.2.8",
+            "question": "Do you have a Get-Home bag in every vehicle?",
+            "description": ""
+          },
+          {
+            "id": "3.2.9",
+            "question": "Do you have an alternate method of transportation that doesn't depend on fuel or electricity?",
+            "description": ""
+          },
+          {
+            "id": "3.2.10",
+            "question": "Do you have extra vehicle/generator fuel stored?",
+            "description": ""
+          },
+          {
+            "id": "3.2.11",
+            "question": "Do you have a way to charge your cell phone without electricity?",
+            "description": ""
+          },
+          {
+            "id": "3.2.12",
+            "question": "Do you have spare batteries?",
+            "description": ""
+          },
+          {
+            "id": "3.2.13",
+            "question": "Do you have a battery powered or hand crank radio?",
+            "description": ""
+          }
+        ],
+        "long": [
+          {
+            "id": "3.3.1",
+            "question": "Do you have a way to transport your larger animals?",
+            "description": ""
+          },
+          {
+            "id": "3.3.2",
+            "question": "Do you store your important electronics in an EMP proof container?",
+            "description": ""
+          },
+          {
+            "id": "3.3.3",
+            "question": "Are your vehicles EMP protected?",
+            "description": ""
+          },
+          {
+            "id": "3.3.4",
+            "question": "Do you have a vehicle capable of travel on rough roads and/or pulling a trailer?",
+            "description": ""
+          },
+          {
+            "id": "3.3.5",
+            "question": "Do you have ham radios and equipment for short and long distance communication?",
+            "description": ""
+          },
+          {
+            "id": "3.3.6",
+            "question": "Do you have an alternate mode of transportation? (Bikes, Horses, etc)",
+            "description": ""
+          },
+          {
+            "id": "3.3.7",
+            "question": "Do you have at least a General class ham radio license?",
+            "description": ""
+          },
+          {
+            "id": "3.3.8",
+            "question": "Do you practice bugging out to test your plans?",
+            "description": ""
+          },
+          {
+            "id": "3.3.9",
+            "question": "Do you have key replacement parts for your vehicles and equipment?",
+            "description": ""
+          },
+          {
+            "id": "3.3.10",
+            "question": "Do you have spare belts, hoses, filters, oil and fluids for your vehicles and equipment?",
+            "description": ""
+          },
+          {
+            "id": "3.3.11",
+            "question": "Do you have operating and repair manuals for all you vehicles and equipment?",
+            "description": ""
+          },
+          {
+            "id": "3.3.12",
+            "question": "Do you have a short wave receiver and a way to power it?",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiritual",
+      "label": "Spiritual/Mental",
+      "icon": "mdi-book-cross",
+      "links": [],
+      "questions": {
+        "short": [
+          {
+            "id": "4.1.1",
+            "question": "Do you study the scriputes to understand the prophicied future events?",
+            "description": ""
+          },
+          {
+            "id": "4.1.2",
+            "question": "Do you strive to follow your religous leaders?",
+            "description": ""
+          },
+          {
+            "id": "4.1.3",
+            "question": "Do you strive to hear and follow the promptings of the spirit?",
+            "description": ""
+          },
+          {
+            "id": "4.1.4",
+            "question": "Do you have a network of friends, family, neighbors who support your mental health?",
+            "description": ""
+          },
+          {
+            "id": "4.1.5",
+            "question": "Is your spiritual life in order, are you at peace and calm?",
+            "description": ""
+          },
+          {
+            "id": "4.1.6",
+            "question": "Do you have games, books, movies that can be used to pass the time in an emergency?",
+            "description": ""
+          },
+          {
+            "id": "4.1.7",
+            "question": "Do you feel mentally healthy?",
+            "description": ""
+          },
+          {
+            "id": "4.1.8",
+            "question": "Do you feel confident in your faith?",
+            "description": ""
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "4.2.1",
+            "question": "Do you share your preparedness with others to build a network of like minded people?",
+            "description": ""
+          },
+          {
+            "id": "4.2.2",
+            "question": "Do you feel you have tools to mentally recover from a difficult experience?",
+            "description": ""
+          },
+          {
+            "id": "4.2.3",
+            "question": "Do you have necessary religious texts and to continue to build your faith?",
+            "description": ""
+          }
+        ],
+        "long": [
+          {
+            "id": "4.3.1",
+            "question": "Do you feel that your mental health is stable in any circumstance?",
+            "description": ""
+          },
+          {
+            "id": "4.3.2",
+            "question": "Do you feel you can rely on your faith no matter what?",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "health",
+      "label": "Health/Safety/Security",
+      "icon": "mdi-shield-lock",
+      "links": [],
+      "questions": {
+        "short": [
+          {
+            "id": "5.1.1",
+            "question": "Do you have basic first aid supplies on hand and in your 72hr kit?",
+            "description": ""
+          },
+          {
+            "id": "5.1.2",
+            "question": "Do you have sufficent sanitation, feminine, and hygiene supplies for 3 days?",
+            "description": ""
+          },
+          {
+            "id": "5.1.3",
+            "question": "Are your computers and electronics protected from cyber attacks?",
+            "description": ""
+          },
+          {
+            "id": "5.1.4",
+            "question": "Are your computers and electronics protected against power surges?",
+            "description": ""
+          },
+          {
+            "id": "5.1.5",
+            "question": "Do you have at least a weeks worth of medication in your 72hr kit?",
+            "description": ""
+          },
+          {
+            "id": "5.1.6",
+            "question": "Does your 72hr kit contain special equipment (glasses, contact lenses, diabetic syringes, etc)?",
+            "description": ""
+          },
+          {
+            "id": "5.1.7",
+            "question": "Have you renewed items in your 72hr kit in the last year?",
+            "description": ""
+          },
+          {
+            "id": "5.1.8",
+            "question": "Do you know what to do in the event of an active shooter?",
+            "description": ""
+          },
+          {
+            "id": "5.1.9",
+            "question": "Do you have N-95 masks and sanitizer stored?",
+            "description": ""
+          },
+          {
+            "id": "5.1.10",
+            "question": "Do you keep a medical information card in your purse or wallet?",
+            "description": ""
+          },
+          {
+            "id": "5.1.11",
+            "question": "Are you currently in good health?",
+            "description": ""
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "5.2.1",
+            "question": "Do you have basic first aid skills and knowledge?",
+            "description": ""
+          },
+          {
+            "id": "5.2.2",
+            "question": "Do you have a way to collect and dispose of waste?",
+            "description": ""
+          },
+          {
+            "id": "5.2.3",
+            "question": "Do you have extra medication set aside for an emergency, at least a months worth?",
+            "description": ""
+          },
+          {
+            "id": "5.2.4",
+            "question": "Do you have your medical records copied and in your 72hr kit?",
+            "description": ""
+          },
+          {
+            "id": "5.2.5",
+            "question": "Do you have an ICE(In Case of Emergency) number programmed in your phone?",
+            "description": ""
+          },
+          {
+            "id": "5.2.6",
+            "question": "Do you have clorax, or other dissenfectant stored?",
+            "description": ""
+          },
+          {
+            "id": "5.2.7",
+            "question": "Do you have a way to protect your family and proper training to go with it?",
+            "description": ""
+          },
+          {
+            "id": "5.2.8",
+            "question": "Do you have a network of like minded friends and neighbors you have worked with to secure your area?",
+            "description": ""
+          },
+          {
+            "id": "5.2.9",
+            "question": "Do you have a long term sanitation plan if the power and water is out indefinitely?",
+            "description": ""
+          },
+          {
+            "id": "5.2.10",
+            "question": "Do you have sufficent sanitation, feminine and hygiene products for 3 months?",
+            "description": ""
+          },
+          {
+            "id": "5.2.11",
+            "question": "Do you have health insurance?",
+            "description": ""
+          },
+          {
+            "id": "5.2.12",
+            "question": "Do you have a home security system?",
+            "description": ""
+          }
+        ],
+        "long": [
+          {
+            "id": "5.3.1",
+            "question": "Do you have equipment and supplies to deal with nuclear fallout?",
+            "description": ""
+          },
+          {
+            "id": "5.3.2",
+            "question": "Do you have medicine and supplies to deal with a wide spread pandemic?",
+            "description": ""
+          },
+          {
+            "id": "5.3.3",
+            "question": "Do you have sufficent sanitation, feminine and hygiene products for 1 year or more?",
+            "description": ""
+          },
+          {
+            "id": "5.3.4",
+            "question": "Do you have dental tools and supplies and knowledge to use them?",
+            "description": ""
+          },
+          {
+            "id": "5.3.5",
+            "question": "Do you know which plants can replace common medications?",
+            "description": ""
+          },
+          {
+            "id": "5.3.6",
+            "question": "Do you have alternatives for all your key medications?",
+            "description": ""
+          },
+          {
+            "id": "5.3.7",
+            "question": "Are you trained in wilderness first aid?",
+            "description": ""
+          },
+          {
+            "id": "5.3.8",
+            "question": "Do you have advanced medical equipment and supplies?",
+            "description": ""
+          },
+          {
+            "id": "5.3.9",
+            "question": "Have you taken advanced first aid/EMT/paramedic/Wilderness Medicine classes?",
+            "description": ""
+          },
+          {
+            "id": "5.3.10",
+            "question": "Do you know remedies for the most common colds, and what plants can help the healing process?",
+            "description": ""
+          },
+          {
+            "id": "5.3.11",
+            "question": "Do you have guns and ammunition to supply them long-term?",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "finance",
+      "label": "Finance/Legal",
+      "icon": "mdi-cash",
+      "links": [],
+      "questions": {
+        "short": [
+          {
+            "id": "6.1.1",
+            "question": "Do you have cash and coins in your 72 hour kit?",
+            "description": ""
+          },
+          {
+            "id": "6.1.2",
+            "question": "Do you have your key medical records in your 72 hour kit?",
+            "description": ""
+          },
+          {
+            "id": "6.1.3",
+            "question": "Do you have adequete insurance? (home, vehicle, life, business)",
+            "description": ""
+          },
+          {
+            "id": "6.1.4",
+            "question": "Do you need/have flood, fire and earthquake insurance?",
+            "description": ""
+          },
+          {
+            "id": "6.1.5",
+            "question": "Are your important documents copied and stored off-site?",
+            "description": ""
+          },
+          {
+            "id": "6.1.6",
+            "question": "Do all your pets have ID tags?",
+            "description": ""
+          },
+          {
+            "id": "6.1.7",
+            "question": "Are you working to be debt free?",
+            "description": ""
+          },
+          {
+            "id": "6.1.8",
+            "question": "Are you saving 10% or more of your income each month?",
+            "description": ""
+          },
+          {
+            "id": "6.1.9",
+            "question": "Do you have an inventory of your personal property?",
+            "description": ""
+          },
+          {
+            "id": "6.1.10",
+            "question": "Are you free of debt besides a car payment and/or a home mortgage?",
+            "description": ""
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "6.2.1",
+            "question": "Do you have additional cash securely stored in case banks are closed and credit doesn't work?",
+            "description": ""
+          },
+          {
+            "id": "6.2.2",
+            "question": "Do you have a paper and/or electronic copies of important documents in your 72hr kit?",
+            "description": ""
+          },
+          {
+            "id": "6.2.3",
+            "question": "Do you have at least 6 months reserves saved in the bank or in accessible investment accounts?",
+            "description": ""
+          },
+          {
+            "id": "6.2.4",
+            "question": "Have you stored items which you could use to barter?",
+            "description": ""
+          },
+          {
+            "id": "6.2.5",
+            "question": "Are you free of debt besides a home mortgage?",
+            "description": ""
+          }
+        ],
+        "long": [
+          {
+            "id": "6.3.1",
+            "question": "Do you have silver dollars and 1/10th ounce gold stored as backup to cash?",
+            "description": ""
+          },
+          {
+            "id": "6.3.2",
+            "question": "Do you have savings to last for a year or longer if you were unable to earn an income?",
+            "description": ""
+          },
+          {
+            "id": "6.3.3",
+            "question": "Are you free of debt?",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "tools",
+      "label": "Knowledge/Tools",
+      "icon": "mdi-tools",
+      "links": [],
+      "questions": {
+        "short": [
+          {
+            "id": "7.1.1",
+            "question": "Do you have a checklist of what to take in a 5-15 min warning evacuation?",
+            "description": ""
+          },
+          {
+            "id": "7.1.2",
+            "question": "Do you have a checklist of what to take in a 1-2 hour warning evacuation checklist?",
+            "description": ""
+          },
+          {
+            "id": "7.1.3",
+            "question": "Have you practiced your emergency evacuation plan in the last 12 months?",
+            "description": ""
+          },
+          {
+            "id": "7.1.4",
+            "question": "Have you practiced your earthquake, tornado, fire plans in the last 12 months?",
+            "description": ""
+          },
+          {
+            "id": "7.1.5",
+            "question": "Do you have fire, smoke, CO2 detectors and have you replaced \batteries in the last year?",
+            "description": ""
+          },
+          {
+            "id": "7.1.6",
+            "question": "Have you identified the emergencies that are likely to happen in your area?",
+            "description": ""
+          },
+          {
+            "id": "7.1.7",
+            "question": "Are you continually learning new skills?",
+            "description": ""
+          },
+          {
+            "id": "7.1.8",
+            "question": "Is your house earthquake proof (water heaters, bookcases, etc secured)?",
+            "description": ""
+          },
+          {
+            "id": "7.1.9",
+            "question": "Have you removed heavy objects from over your bed that could fall?",
+            "description": ""
+          },
+          {
+            "id": "7.1.10",
+            "question": "Do you work gloves and tools for minor rescue and clean up?",
+            "description": ""
+          },
+          {
+            "id": "7.1.11",
+            "question": "Do you have basic tools for simple repairs?",
+            "description": ""
+          },
+          {
+            "id": "7.1.12",
+            "question": "Do you know how to do basic repairs to your clothes, home, and vehicles?",
+            "description": ""
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "7.2.1",
+            "question": "Do you have a checklist for if you have to leave home perminantly?",
+            "description": ""
+          },
+          {
+            "id": "7.2.2",
+            "question": "Do you have manuals for basic first aid and survival?",
+            "description": ""
+          },
+          {
+            "id": "7.2.3",
+            "question": "Do you have complete backups of your computers stored on portable hard drives?",
+            "description": ""
+          },
+          {
+            "id": "7.2.4",
+            "question": "Do you have a more comprehensive set of tools and equipment?",
+            "description": ""
+          },
+          {
+            "id": "7.2.5",
+            "question": "Do you know how to fix most things in your home and equipment?",
+            "description": ""
+          }
+        ],
+        "long": [
+          {
+            "id": "7.3.1",
+            "question": "Do you have a survival library of books and manuals?",
+            "description": ""
+          },
+          {
+            "id": "7.3.2",
+            "question": "Do you have spare paper, toner and other supplies to be able to use your computers in a national grid down disaster?",
+            "description": ""
+          },
+          {
+            "id": "7.3.3",
+            "question": "Do have an electronic library of videos, youtube downloads, how to manuals, repair and operating manuals",
+            "description": ""
+          },
+          {
+            "id": "7.3.4",
+            "question": "Does your survival library include books on a wide range of subjects for knowledge you do not have?",
+            "description": ""
+          },
+          {
+            "id": "7.3.5",
+            "question": "Do you have a way to build and maintain a long term shelter?",
+            "description": ""
+          },
+          {
+            "id": "7.3.6",
+            "question": "Do you have extensive tools and equipment to build/rebuild should civilization break down?",
+            "description": ""
+          },
+          {
+            "id": "7.3.7",
+            "question": "Do you know how to repair everything in your house?",
+            "description": ""
+          },
+          {
+            "id": "7.3.8",
+            "question": "Do you have tools to fell, cut, and shape trees into usable lumber?",
+            "description": ""
+          },
+          {
+            "id": "7.3.9",
+            "question": "Do you have tools to weld, machine, fabricate tools and parts?",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "food",
+      "label": "Food/Water/Special Needs",
+      "icon": "mdi-food",
+      "links": [],
+      "questions": {
+        "short": [
+          {
+            "id": "8.1.1",
+            "question": "Do you have at least 3 gallon of water per person per day stored?",
+            "description": ""
+          },
+          {
+            "id": "8.1.2",
+            "question": "Do you have a 72hr kit that is readily accesible?",
+            "description": ""
+          },
+          {
+            "id": "8.1.3",
+            "question": "Do you have at least 3 days worth of extra medications?",
+            "description": ""
+          },
+          {
+            "id": "8.1.4",
+            "question": "Do you have formula, diapers, bottles, etc for infants for at least 3 days?",
+            "description": ""
+          },
+          {
+            "id": "8.1.5",
+            "question": "Does your 72hr kit include food and supplies for your pets for 3 days?",
+            "description": ""
+          },
+          {
+            "id": "8.1.6",
+            "question": "Do you know where to shelter in case of an earthquake, hurricane or tornado?",
+            "description": ""
+          },
+          {
+            "id": "8.1.7",
+            "question": "Do you have a way to to cook or heat your 72hr kit food without electricity?",
+            "description": ""
+          }
+        ],
+        "intermediate": [
+          {
+            "id": "8.2.1",
+            "question": "Do you have at least 3 days of non-perishable easy to carry and prepare food?",
+            "description": ""
+          },
+          {
+            "id": "8.2.2",
+            "question": "Do you have food/water and supplies for your animals in an evacuation?",
+            "description": ""
+          },
+          {
+            "id": "8.2.3",
+            "question": "Do you have a water source or supply that would last 3 months?",
+            "description": ""
+          },
+          {
+            "id": "8.2.4",
+            "question": "Do you have a way to filter and treat unclean water? (Boil, chlorination, distillation,filter)",
+            "description": ""
+          },
+          {
+            "id": "8.2.5",
+            "question": "Is your canned and other food stored in a dry, cool, dark place?",
+            "description": ""
+          },
+          {
+            "id": "8.2.6",
+            "question": "Have you written the purchase date on all your intermediate and long term food?",
+            "description": ""
+          },
+          {
+            "id": "8.2.7",
+            "question": "Do you have exta hearing aid batteries?",
+            "description": ""
+          },
+          {
+            "id": "8.2.8",
+            "question": "Do you keep essential medicines with you when you travel?",
+            "description": ""
+          },
+          {
+            "id": "8.2.9",
+            "question": "Have you prepared for special dietary needs?",
+            "description": ""
+          },
+          {
+            "id": "8.2.10",
+            "question": "Do you have formula, diapers, bottles, etc for at least 3 months?",
+            "description": ""
+          },
+          {
+            "id": "8.2.11",
+            "question": "Do you have alternatives to your key medications?",
+            "description": ""
+          },
+          {
+            "id": "8.2.12",
+            "question": "Do you have extra food and medicine for your pets for 3 months?",
+            "description": ""
+          },
+          {
+            "id": "8.2.13",
+            "question": "Do you have a way transport your animals and pets?",
+            "description": ""
+          },
+          {
+            "id": "8.2.14",
+            "question": "Have you stored spare canning bottles, rings and lids?",
+            "description": ""
+          },
+          {
+            "id": "8.2.15",
+            "question": "Do you have a pressure canner?",
+            "description": ""
+          },
+          {
+            "id": "8.2.16",
+            "question": "Do you have a water bath canner?",
+            "description": ""
+          },
+          {
+            "id": "8.2.17",
+            "question": "Do you have an electric and non-electric wheat grinder?",
+            "description": ""
+          },
+          {
+            "id": "8.2.18",
+            "question": "Have you stored at least 90 gallons per person of water? (or 1 gallons per day for 28 days minimum)",
+            "description": ""
+          },
+          {
+            "id": "8.2.19",
+            "question": "If the power goes out, do you have supplies and equipment to can/bottle the food in your fridge and freezer?",
+            "description": ""
+          }
+        ],
+        "long": [
+          {
+            "id": "8.3.1",
+            "question": "Do you have manual food preperation equipment? (can opener, grinder, mixer)",
+            "description": ""
+          },
+          {
+            "id": "8.3.2",
+            "question": "Is your long term food stored in sealed cans, buckets, mylar bags with appropriate oxygen and moisture absorbers?",
+            "description": ""
+          },
+          {
+            "id": "8.3.3",
+            "question": "Do you have access to water that does not come from your city water supply?",
+            "description": ""
+          },
+          {
+            "id": "8.3.4",
+            "question": "Do you have an alternative cooking method with spare fuel? (grill, camp stove, solar, wood, kerosine)",
+            "description": ""
+          },
+          {
+            "id": "8.3.5",
+            "question": "Do you have a years supply of long-term, long storage essential food?",
+            "description": ""
+          },
+          {
+            "id": "8.3.6",
+            "question": "Do you have equipment and supplies necessary for living a year or more without power and natural gas?",
+            "description": ""
+          },
+          {
+            "id": "8.3.7",
+            "question": "Do you have a way to feed and care for your infants and young children long term?",
+            "description": ""
+          },
+          {
+            "id": "8.3.8",
+            "question": "Do you have a garden and the knowledge and skills to grow, harvest and store fruits and vegatables?",
+            "description": ""
+          },
+          {
+            "id": "8.3.9",
+            "question": "Do you have a protein source (chickens, rabbits, goats) and the knowledge and skills to raise, harvest and preserve them?",
+            "description": ""
+          },
+          {
+            "id": "8.3.10",
+            "question": "Do you have a way to collect, store and distribute water at a perminant or temporary camp?",
+            "description": ""
+          },
+          {
+            "id": "8.3.11",
+            "question": "Do you know how to preserve meats, vegetables and fruits?",
+            "description": ""
+          },
+          {
+            "id": "8.3.12",
+            "question": "Do you have a way to feed your animals long term?",
+            "description": ""
+          }
+        ]
+      }
+    }
+  ],
+  "periods": [
+    {
+      "id": "short",
+      "label": "Short-Term"
+    },
+    {
+      "id": "intermediate",
+      "label": "Intermediate-Term"
+    },
+    {
+      "id": "long",
+      "label": "Long-Term"
+    }
+  ]
+}

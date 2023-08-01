@@ -1,184 +1,133 @@
 <template>
-<v-main class="mt-16 ml-5">
-   
-  <!-- Text outside form, use v-row and v-col-->
-  <h2 class="mt-12">{{surveyText}}</h2> 
-  <v-form ref="form" class="mt-4" v-on:submit.prevent="saveResponses">
-    <!-- Text inside form, use <p>-->
-    <v-radio-group v-for="question in surveyQuestions" :key="question[0]" v-model="question[1]">
-      {{question[0]}}
-      <v-radio label="yes" :value='1'>
-      </v-radio>
-      <v-radio label="no" :value='0'>
-      </v-radio>
-    </v-radio-group>
-    <!--Insert a line here to seperate the tickle questions from the master question  -->
-    <v-radio-group v-model='prepared'>
- <!--     Do you feel you are prepared in a {{timeFrame}}-term time frame in this area? -->
-  <!--      <br/> -->
+  <v-main class="mt-16 ml-5">
+    <!-- Text outside form, use v-row and v-col-->
+    <h2 class="mt-12">{{ surveyText }}</h2>
+    <v-form ref="form" class="mt-4" v-on:submit.prevent="saveResponses">
+      <!-- Text inside form, use <p>-->
+      <v-radio-group
+        v-for="question in surveyQuestions"
+        :key="question.id"
+        v-model="answers[question.id]"
+      >
+        {{ question.question }}
+        <v-radio label="yes" :value="1"> </v-radio>
+        <v-radio label="no" :value="0"> </v-radio>
+      </v-radio-group>
+      <!--Insert a line here to seperate the tickle questions from the master question  -->
+      <v-radio-group v-model="answers.overall[surveyId][timeFrame]">
+        <!--     Do you feel you are prepared in a {{timeFrame}}-term time frame in this area? -->
+        <!--      <br/> -->
         --------------------------------------------------------------------------------------
-        <br/>
-        How do you rate your overall preparedness in this section? <!--category for the {{timeFrame}}-term? -->
-      <v-radio label="Reasonably Prepared" :value='1'>
-      </v-radio>
-      <v-radio label="Somewhat Prepared" :value='2'>
-      </v-radio>
-      <v-radio label="Not Prepared" :value='3'>
-      </v-radio>
-    </v-radio-group>
-  </v-form>
-</v-main>
+        <br />
+        How do you rate your overall preparedness in this section?
+        <!--category for the {{timeFrame}}-term? -->
+        <v-radio label="Reasonably Prepared" :value="1"> </v-radio>
+        <v-radio label="Somewhat Prepared" :value="2"> </v-radio>
+        <v-radio label="Not Prepared" :value="3"> </v-radio>
+      </v-radio-group>
+    </v-form>
+  </v-main>
 </template>
 
 <script>
-import defaultData from '../assets/defaultData.json';
-import defaultSurveys from '../assets/defaultSurveys.json';
-import labelData from '../assets/labelData.json';
+import data from '../assets/data.json'
+import { getAnswers, saveAnswers } from '../lib/answers.js'
 
-const categoryLabelsById = Object.fromEntries(
-  labelData.categories.map(category => [category.id, category.label])
+const categoriesById = Object.fromEntries(
+  data.categories.map((category) => [category.id, category])
 )
 const timeLabelsById = Object.fromEntries(
-  labelData.times.map(time => [time.id, time.label])
+  data.periods.map((time) => [time.id, time.label])
 )
 
 export default {
   name: 'App',
-  components: {
-
-  },
+  components: {},
   data: () => ({
     graphData: {},
-    surveyQuestions: [
-      ["Do you have somewhere to stay for 3 days?", 0],
-      ["Do you have clothing in case of bad weather?", 0]
-    ],
-    timeFrame: "short",
+    surveyQuestions: [],
+    timeFrame: 'short',
     prepared: 1,
-    surveyId: 'Shelter',
-    surveyList: {}
+    surveyId: 'shelter'
   }),
   methods: {
-    getGraphData(){
-      if (localStorage.getItem('PreparednessData'))
-        this.graphData = JSON.parse(localStorage.getItem('PreparednessData'))
-      else {
-        this.graphData = defaultData
-        localStorage.setItem('PreparednessData', JSON.stringify(defaultData))
-      }
-
-      let preparednessLevel = this.graphData.children.findIndex(level=>level.name == this.surveyId);
-      if(this.timeFrame == 'short')
-        this.prepared = this.graphData.children[preparednessLevel].prepared
-      else if(this.timeFrame == 'intermediate')
-        this.prepared = this.graphData.children[preparednessLevel].children[0].prepared
-      else if(this.timeFrame == 'long')
-        this.prepared = this.graphData.children[preparednessLevel].children[0].children[0].prepared
-    },
-    getSurveyData(){
-      if (localStorage.getItem('SurveyAnswers'))
-        this.surveyList = JSON.parse(localStorage.getItem('SurveyAnswers'))
-      else {
-        this.surveyList = defaultSurveys
-        localStorage.setItem('SurveyAnswers', JSON.stringify(defaultSurveys))
-      }
-
-      if (this.$route.query.id)
-        this.surveyId = this.$route.query.id
-      if (this.$route.query.time)
-        this.timeFrame = this.$route.query.time
+    getSurveyData() {
+      if (this.$route.query.id) this.surveyId = this.$route.query.id
+      if (this.$route.query.time) this.timeFrame = this.$route.query.time
       // console.log({id: this.$route.query.id, time: this.$route.query.time})
-      this.surveyQuestions = this.surveyList[this.surveyId][this.timeFrame]
+      this.surveyQuestions =
+        categoriesById[this.surveyId].questions[this.timeFrame]
+      this.answers = getAnswers()
     },
-    saveResponses(){
-      this.surveyList[this.surveyId][this.timeFrame] = this.surveyQuestions
-      localStorage.setItem('SurveyAnswers', JSON.stringify(this.surveyList))
-
+    saveResponses() {
+      saveAnswers(this.answers)
       this.$router.push('/')
     },
-    openNext(){
-      this.saveResponses();
-    
-      // Check if it's long
-      if(this.timeFrame == "long"){
-        //Do a lot more stuff
-        var currentIndex = this.graphData.children.findIndex(level=>level.name == this.surveyId);
-        currentIndex++;
-   //     this.surveyText = `${this.$route.query.id} ${this.$route.query.time} Assessment`;
-        if (currentIndex == this.graphData.children.length){
-          // currentIndex == 0
-          this.$router.push(`/`)
-        }
-        this.$router.push(`/survey?time=short&id=${this.graphData.children[currentIndex].name}`)
+    openNext() {
+      this.saveResponses()
 
-      }
-      else if (this.timeFrame == "intermediate"){
+      if (this.timeFrame == 'long') {
+        const currentCategoryIndex = data.categories.findIndex(
+          (c) => c.id === this.surveyId
+        )
+        const nextCategory = data.categories[currentCategoryIndex + 1]
+        if (!nextCategory) {
+          this.$router.push(`/`)
+        } else {
+          this.$router.push(`/survey?time=short&id=${nextCategory.id}`)
+        }
+      } else if (this.timeFrame == 'intermediate') {
         this.$router.push(`/survey?time=long&id=${this.surveyId}`)
-      }
-      else if (this.timeFrame == "short"){
+      } else if (this.timeFrame == 'short') {
         this.$router.push(`/survey?time=intermediate&id=${this.surveyId}`)
       }
     },
-    openPrev(){
-      this.saveResponses();
-      
-      // Check if it's short
-      if(this.timeFrame == "short"){
-        //Do a lot more stuff
-        var currentIndex = this.graphData.children.findIndex(level=>level.name == this.surveyId);
-        currentIndex--;
- //       if (currentIndex == this.graphData.children.length){
-        if (currentIndex == 0){
-         // currentIndex == 0
+    openPrev() {
+      this.saveResponses()
+      if (this.timeFrame == 'short') {
+        const currentCategoryIndex = data.categories.findIndex(
+          (c) => c.id === this.surveyId
+        )
+        const prevCategory = data.categories[currentCategoryIndex - 1]
+        if (!prevCategory) {
           this.$router.push(`/`)
+        } else {
+          this.$router.push(`/survey?time=long&id=${prevCategory.id}`)
         }
-        this.$router.push(`/survey?time=long&id=${this.graphData.children[currentIndex].name}`)
-
-      }
-      else if (this.timeFrame == "intermediate"){
+      } else if (this.timeFrame == 'intermediate') {
         this.$router.push(`/survey?time=short&id=${this.surveyId}`)
-      }
-      else if (this.timeFrame == "long"){
+      } else if (this.timeFrame == 'long') {
         this.$router.push(`/survey?time=intermediate&id=${this.surveyId}`)
       }
     }
   },
-  watch:{
-    prepared(newValue){
-      let preparednessLevel = this.graphData.children.findIndex(level=>level.name == this.surveyId);
-      // console.log({preparednessLevel, term: this.timeFrame})
-      if(this.timeFrame == 'short')
-        this.graphData.children[preparednessLevel].prepared = newValue
-      else if(this.timeFrame == 'intermediate')
-        this.graphData.children[preparednessLevel].children[0].prepared = newValue
-      else if(this.timeFrame == 'long')
-        this.graphData.children[preparednessLevel].children[0].children[0].prepared = newValue
-      localStorage.setItem('PreparednessData', JSON.stringify(this.graphData))
-    },
-      '$route.query': {
-        handler(){
-          this.getSurveyData()
-          this.getGraphData()
-          this.surveyText = `${categoryLabelsById[this.$route.query.id]} ${timeLabelsById[this.$route.query.time]} Assessment`
-        }
+  watch: {
+    '$route.query': {
+      handler() {
+        this.getSurveyData()
+        this.surveyText = `${categoriesById[this.$route.query.id].label} ${
+          timeLabelsById[this.$route.query.time]
+        } Assessment`
       }
+    }
   },
- created(){
+  created() {
     this.getSurveyData()
-    this.getGraphData()
-    this.surveyText = `${categoryLabelsById[this.$route.query.id]} ${timeLabelsById[this.$route.query.time]} Assessment`
+    this.surveyText = `${categoriesById[this.$route.query.id].label} ${
+      timeLabelsById[this.$route.query.time]
+    } Assessment`
   },
-  mounted(){
+  mounted() {
     this.$root.$on('NextSurvey', this.openNext)
     this.$root.$on('PreviousSurvey', this.openPrev)
     this.$root.$on('SubmitSurvey', this.saveResponses)
   }
-};
+}
 </script>
 
 <style scoped>
-#ButtonRow{
-  position:fixed;
+#ButtonRow {
+  position: fixed;
 }
 .v-btn {
   opacity: 1;

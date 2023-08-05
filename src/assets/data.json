@@ -78,7 +78,7 @@
         "intermediate": [
           {
             "id": "1.2.1",
-            "question": "Do you have somewhere to stay, and savings to pay for it, for 3 months?",
+            "question": "Do you have somewhere to stay, and savings to pay for it, for up to 3 months?",
             "description": ""
           },
           {
@@ -88,7 +88,7 @@
           },
           {
             "id": "1.2.3",
-            "question": "Are your water heater, cabinets, bookcases, pictures, etc secured to the wall?",
+            "question": "Are your water heaters, cabinets, bookcases, pictures, etc secured to the wall?",
             "description": ""
           },
           {
@@ -103,27 +103,27 @@
           },
           {
             "id": "1.2.6",
-            "question": "Do you have extra wool blankets for every family member?",
+            "question": "Is your house well insulated?",
             "description": ""
           },
           {
             "id": "1.2.7",
-            "question": "Do you have spare clothing stored?",
+            "question": "Are your windows and doors sealed against air infiltration?",
             "description": ""
           },
           {
             "id": "1.2.8",
-            "question": "Do you have a whole house EMP protection?",
+            "question": "Do you have whole house EMP protection?",
             "description": ""
           },
           {
             "id": "1.2.9",
-            "question": "Do you have plans to cool your house in extreeme heat and a power outage?",
+            "question": "Do you have plans on how to cool/heat your house in extreeme weather and a power outage?",
             "description": ""
           },
           {
             "id": "1.2.10",
-            "question": "Do you have clothes for 3 months, including clothes for the different weather types where you live?",
+            "question": "Do you have spare clothes for up to 3 months, including clothes for the different weather types for where you live?",
             "description": ""
           }
         ],
@@ -150,7 +150,7 @@
           },
           {
             "id": "1.3.5",
-            "question": "Do you have a preparedness group-community to connect with?",
+            "question": "Do you have a preparedness group-community you have connected with?",
             "description": ""
           }
         ]
@@ -160,7 +160,7 @@
       "id": "heat",
       "label": "Heat/Light/Power/Fuel",
       "icon": "mdi-gas-station",
-      "links": [],
+      "links": ["test.com"],
       "questions": {
         "short": [
           {
@@ -279,7 +279,7 @@
           },
           {
             "id": "3.1.5",
-            "question": "Do you have designated out of town contact?",
+            "question": "Do you have a designated out of town contact?",
             "description": ""
           },
           {
@@ -309,7 +309,7 @@
           },
           {
             "id": "3.1.11",
-            "question": "Do you have an evacuation checklist for 5 min. 30 min. 2hr. 1 day warning?",
+            "question": "Do you have an evacuation checklist for 5 min, 30 min, 2 hr, and 1 day warning?",
             "description": ""
           },
           {
@@ -356,7 +356,7 @@
           },
           {
             "id": "3.2.4",
-            "question": "Do you keep your gas tanks filled above 1/2 tank?",
+            "question": "Do you keep your gas tanks filled above 1/2?",
             "description": ""
           },
           {
@@ -381,7 +381,7 @@
           },
           {
             "id": "3.2.9",
-            "question": "Do you have an alternate method of transportation that doesn't depend on fuel or electricity?",
+            "question": "Do you have an alternate method of transportation that doesn't depend on fuel?",
             "description": ""
           },
           {
@@ -478,7 +478,7 @@
         "short": [
           {
             "id": "4.1.1",
-            "question": "Do you study the scriputes to understand the prophicied future events?",
+            "question": "Do you study the scriputes to understand the prophesied future events?",
             "description": ""
           },
           {
@@ -530,7 +530,7 @@
           },
           {
             "id": "4.2.3",
-            "question": "Do you have necessary religious texts and to continue to build your faith?",
+            "question": "Do you have necessary religious texts stored and continue to build your faith?",
             "description": ""
           }
         ],
@@ -572,7 +572,7 @@
           },
           {
             "id": "5.1.4",
-            "question": "Are your computers and electronics protected against power surges?",
+            "question": "Are your computers and electronics protected against power surges and emp?",
             "description": ""
           },
           {
@@ -582,12 +582,12 @@
           },
           {
             "id": "5.1.6",
-            "question": "Does your 72hr kit contain special equipment (glasses, contact lenses, diabetic syringes, etc)?",
+            "question": "Does your 72hr kit contain special equipment/extra (glasses, contact lenses, diabetic syringes, etc)?",
             "description": ""
           },
           {
             "id": "5.1.7",
-            "question": "Have you renewed items in your 72hr kit in the last year?",
+            "question": "Have you renewed the items in your 72hr kit in the last year?",
             "description": ""
           },
           {
@@ -602,7 +602,7 @@
           },
           {
             "id": "5.1.10",
-            "question": "Do you keep a medical information card in your purse or wallet?",
+            "question": "Do you keep a medical information/id card in your purse or wallet?",
             "description": ""
           },
           {
@@ -639,7 +639,7 @@
           },
           {
             "id": "5.2.6",
-            "question": "Do you have clorax, or other dissenfectant stored?",
+            "question": "Do you have clorax, or other disinfectant stored?",
             "description": ""
           },
           {
@@ -654,7 +654,7 @@
           },
           {
             "id": "5.2.9",
-            "question": "Do you have a long term sanitation plan if the power and water is out indefinitely?",
+            "question": "Do you have a long-term sanitation plan if the power and water is out indefinitely?",
             "description": ""
           },
           {
@@ -670,6 +670,11 @@
           {
             "id": "5.2.12",
             "question": "Do you have a home security system?",
+            "description": ""
+          },
+          {
+            "id": "5.2.13",
+            "question": "Do you know how to swim?",
             "description": ""
           }
         ],
@@ -788,12 +793,17 @@
             "id": "6.1.10",
             "question": "Are you free of debt besides a car payment and/or a home mortgage?",
             "description": ""
+          },
+          {
+            "id": "6.1.11",
+            "question": "Do you have identification cards/tags in your wallet and 72hr kit?",
+            "description": ""
           }
         ],
         "intermediate": [
           {
             "id": "6.2.1",
-            "question": "Do you have additional cash securely stored in case banks are closed and credit doesn't work?",
+            "question": "Do you have additional cash securely stored in case banks are closed and credit cards don't work?",
             "description": ""
           },
           {
@@ -813,14 +823,14 @@
           },
           {
             "id": "6.2.5",
-            "question": "Are you free of debt besides a home mortgage?",
+            "question": "Have you planned for the death or disability of you or your spouse?",
             "description": ""
           }
         ],
         "long": [
           {
             "id": "6.3.1",
-            "question": "Do you have silver dollars and 1/10th ounce gold stored as backup to cash?",
+            "question": "Do you have silver dollars, junk silver and/or 1/10th ounce gold stored as backup to cash?",
             "description": ""
           },
           {
@@ -850,7 +860,7 @@
           },
           {
             "id": "7.1.2",
-            "question": "Do you have a checklist of what to take in a 1-2 hour warning evacuation checklist?",
+            "question": "Do you have a checklist of what to take in a 1-2 hour warning evacuation?",
             "description": ""
           },
           {
@@ -860,12 +870,12 @@
           },
           {
             "id": "7.1.4",
-            "question": "Have you practiced your earthquake, tornado, fire plans in the last 12 months?",
+            "question": "Have you practiced your earthquake, tornado, and fire plans in the last 12 months?",
             "description": ""
           },
           {
             "id": "7.1.5",
-            "question": "Do you have fire, smoke, CO2 detectors and have you replaced \batteries in the last year?",
+            "question": "Do you have fire, smoke, CO2 detectors and have you replaced the batteries in the last year?",
             "description": ""
           },
           {
@@ -890,7 +900,7 @@
           },
           {
             "id": "7.1.10",
-            "question": "Do you work gloves and tools for minor rescue and clean up?",
+            "question": "Do you have work gloves and tools for minor rescue and clean up?",
             "description": ""
           },
           {
@@ -927,7 +937,7 @@
           },
           {
             "id": "7.2.5",
-            "question": "Do you know how to fix most things in your home and equipment?",
+            "question": "Do you know how to fix most critical things in your home?",
             "description": ""
           }
         ],
@@ -964,7 +974,7 @@
           },
           {
             "id": "7.3.7",
-            "question": "Do you know how to repair everything in your house?",
+            "question": "Do you know how to repair most everything in your house?",
             "description": ""
           },
           {
@@ -989,7 +999,7 @@
         "short": [
           {
             "id": "8.1.1",
-            "question": "Do you have at least 3 gallon of water per person per day stored?",
+            "question": "Do you have at least 3 gallons of water per person per day stored?",
             "description": ""
           },
           {
@@ -1041,7 +1051,7 @@
           },
           {
             "id": "8.2.4",
-            "question": "Do you have a way to filter and treat unclean water? (Boil, chlorination, distillation,filter)",
+            "question": "Do you have a way to filter and treat unclean water?",
             "description": ""
           },
           {
@@ -1111,7 +1121,7 @@
           },
           {
             "id": "8.2.18",
-            "question": "Have you stored at least 90 gallons per person of water? (or 1 gallons per day for 28 days minimum)",
+            "question": "Have you stored at least 90 gallons per person of water? (or 1 gallons per day for 3 months days minimum)",
             "description": ""
           },
           {

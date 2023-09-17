@@ -9,7 +9,12 @@
         :key="question.id"
         v-model="answers[question.id]"
       >
-        {{ question.question }}
+        <Tooltip>
+          <template>{{ question.question }}</template>
+          <template #tooltip v-if="question.description">{{
+            question.description
+          }}</template>
+        </Tooltip>
         <v-radio label="yes" :value="1"> </v-radio>
         <v-radio label="no" :value="0"> </v-radio>
       </v-radio-group>
@@ -30,6 +35,7 @@
 </template>
 
 <script>
+import Tooltip from '../components/Tooltip.vue'
 import data from '../assets/data.json'
 import { getAnswers, saveAnswers } from '../lib/answers.js'
 
@@ -42,7 +48,9 @@ const timeLabelsById = Object.fromEntries(
 
 export default {
   name: 'App',
-  components: {},
+  components: {
+    Tooltip
+  },
   data: () => ({
     graphData: {},
     surveyQuestions: [],

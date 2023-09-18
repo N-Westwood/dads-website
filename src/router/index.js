@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Survey from '../views/Survey.vue'
 import Reference from '../views/Reference.vue'
+import Print from '../views/Print.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/references',
     name: 'References',
     component: Reference
+  },
+  {
+    path: '/print',
+    name: 'Print',
+    component: Print
   }
 ]
 

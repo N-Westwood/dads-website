@@ -112,4 +112,9 @@ export default {
   height: auto !important;
   padding: 0 !important;
 }
+@media print {
+  .v-toolbar {
+    display: none !important;
+  }
+}
 </style>

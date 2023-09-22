@@ -224,6 +224,11 @@
             "id": "2.2.5",
             "question": "Do you have an alternate way to cook?",
             "description": ""
+          },
+          {
+            "id": "2.2.6",
+            "question": "Do you have a hand cranke or solar-powered flashlight?",
+            "description": ""
           }
         ],
         "long": [
@@ -396,7 +401,7 @@
           },
           {
             "id": "3.2.12",
-            "question": "Do you have spare batteries?",
+            "question": "Do you have spare batteries for your devices?",
             "description": ""
           },
           {
@@ -465,7 +470,12 @@
             "id": "3.3.12",
             "question": "Do you have a short-wave receiver and a way to power it?",
             "description": ""
-          }
+          },
+          {
+            "id": "3.3.13",
+            "question": "Do you know how to ride a bicycle?",
+            "description": ""
+          }          
         ]
       }
     },
@@ -609,8 +619,12 @@
             "id": "5.1.11",
             "question": "Are you currently in good health?",
             "description": ""
-          }
-        ],
+          },
+          {
+            "id": "5.1.12",
+            "question": "Do you carry an \"In Case of Emergency\" card?",
+            "description": ""
+          }        ],
         "intermediate": [
           {
             "id": "5.2.1",
@@ -674,6 +688,11 @@
           },
           {
             "id": "5.2.13",
+            "question": "Do you know how to swim?",
+            "description": ""
+          },
+          {
+            "id": "5.2.14",
             "question": "Do you know how to swim?",
             "description": ""
           }

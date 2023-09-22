@@ -11,9 +11,13 @@
       >
         <Tooltip>
           <template>{{ question.question }}</template>
-          <template #tooltip v-if="question.description">{{
-            question.description
-          }}</template>
+          <template
+            #tooltip
+            v-if="question.description"
+            v-html="question.description"
+          >
+            <div v-html="question.description" />
+          </template>
         </Tooltip>
         <v-radio label="yes" :value="1"> </v-radio>
         <v-radio label="no" :value="0"> </v-radio>

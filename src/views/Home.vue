@@ -3,7 +3,7 @@
     <!-- Insert values above graph-->
     <p style="text-align: center">
       <br />Am I Prepared?<br />
-      <br />Assess your preperadness in 8 categories below for: <br />1) short
+      <br />Assess your preparedness in 8 categories below for: <br />1) short
       term preparedness (1 - 3 days) <br />2) Intermediate term preparedness(up
       to 3 months) <br />3) long term Preparedness (3 months to 3 years+ )<br />
     </p>
@@ -21,7 +21,7 @@
       <br />
       Questions in each category will prompt you to think about different
       aspects of preparedness. <br />
-      Then you will self assess as Reasonably Prepared, Somewhat Prepared, or
+      Then you will self-assess as Reasonably Prepared, Somewhat Prepared, or
       Not Prepared. <br />
       The Graph will update each area showing Orange, Yellow, or Green based on
       your answers. <br />

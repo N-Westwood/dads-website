@@ -11,7 +11,7 @@
         "short": [
           {
             "id": "1.1.1",
-            "question": "Have you prepared your home for specific hazards? (earthquake, hurricane, tornado, fire, etc)",
+            "question": "Have you prepared your home for specific hazards? (earthquake, hurricane, tornado, fire, etc.)",
             "description": ""
           },
           {
@@ -31,17 +31,17 @@
           },
           {
             "id": "1.1.5",
-            "question": "Does your 72hr kit contain a full change of clothing?",
+            "question": "Does your 72-hour kit contain a full change of clothing?",
             "description": ""
           },
           {
             "id": "1.1.6",
-            "question": "Do you have a fire extinguisher readily accessable?",
+            "question": "Do you have a fire extinguisher readily accessible?",
             "description": ""
           },
           {
             "id": "1.1.7",
-            "question": "Do you rotate the clothing in your familes 72hr kits at least every year?",
+            "question": "Do you rotate the clothing in your families 72hr kits at least every year?",
             "description": ""
           },
           {
@@ -88,7 +88,7 @@
           },
           {
             "id": "1.2.3",
-            "question": "Are your water heaters, cabinets, bookcases, pictures, etc secured to the wall?",
+            "question": "Are your water heaters, cabinets, bookcases, pictures, etc. secured to the wall?",
             "description": ""
           },
           {
@@ -118,7 +118,7 @@
           },
           {
             "id": "1.2.9",
-            "question": "Do you have plans on how to cool/heat your house in extreeme weather and a power outage?",
+            "question": "Do you have plans on how to cool/heat your house in extreme weather and a power outage?",
             "description": ""
           },
           {
@@ -135,7 +135,7 @@
           },
           {
             "id": "1.3.2",
-            "question": "Do you have tents and equipment for long term camping?",
+            "question": "Do you have tents and equipment for long-term camping?",
             "description": ""
           },
           {
@@ -165,7 +165,7 @@
         "short": [
           {
             "id": "2.1.1",
-            "question": "Do you have flashlights with spare batteries in your 72hr kit?",
+            "question": "Do you have flashlights with spare batteries in your 72-hour kit?",
             "description": ""
           },
           {
@@ -217,7 +217,7 @@
           },
           {
             "id": "2.2.4",
-            "question": "Do you have an alternate light source that is renewable such as a kerosine lantern and fuel?",
+            "question": "Do you have an alternate light source that is renewable such as a kerosene lantern and fuel?",
             "description": ""
           },
           {
@@ -229,12 +229,12 @@
         "long": [
           {
             "id": "2.3.1",
-            "question": "Do you have a way to generate power indefinetly?",
+            "question": "Do you have a way to generate power indefinitely?",
             "description": ""
           },
           {
             "id": "2.3.2",
-            "question": "Could you heat your home indefinately if the power and natural gas were cut off?",
+            "question": "Could you heat your home indefinitely if the power and natural gas were cut off?",
             "description": ""
           },
           {
@@ -259,17 +259,17 @@
         "short": [
           {
             "id": "3.1.1",
-            "question": "Do you have an up-to-date 72 hour kit?",
+            "question": "Do you have an up-to-date 72-hour kit?",
             "description": ""
           },
           {
             "id": "3.1.2",
-            "question": "Do you have a 72 hour kit for your pets?",
+            "question": "Do you have a 72-hour kit for your pets?",
             "description": ""
           },
           {
             "id": "3.1.3",
-            "question": "Is your 72 hr kit in a readily accessible location?",
+            "question": "Is your 72-hour kit in a readily accessible location?",
             "description": ""
           },
           {
@@ -428,12 +428,12 @@
           },
           {
             "id": "3.3.5",
-            "question": "Do you have ham radios and equipment for short and long distance communication?",
+            "question": "Do you have ham radios and equipment for short and long-distance communication?",
             "description": ""
           },
           {
             "id": "3.3.6",
-            "question": "Do you have an alternate mode of transportation? (Bikes, Horses, etc)",
+            "question": "Do you have an alternate mode of transportation? (Bikes, Horses, etc.)",
             "description": ""
           },
           {
@@ -463,7 +463,7 @@
           },
           {
             "id": "3.3.12",
-            "question": "Do you have a short wave receiver and a way to power it?",
+            "question": "Do you have a short-wave receiver and a way to power it?",
             "description": ""
           }
         ]
@@ -478,12 +478,12 @@
         "short": [
           {
             "id": "4.1.1",
-            "question": "Do you study the scriputes to understand the prophesied future events?",
+            "question": "Do you study the scriptures to understand the prophesied future events?",
             "description": ""
           },
           {
             "id": "4.1.2",
-            "question": "Do you strive to follow your religous leaders?",
+            "question": "Do you strive to follow your religious leaders?",
             "description": ""
           },
           {
@@ -520,7 +520,7 @@
         "intermediate": [
           {
             "id": "4.2.1",
-            "question": "Do you share your preparedness with others to build a network of like minded people?",
+            "question": "Do you share your preparedness with others to build a network of like-minded people?",
             "description": ""
           },
           {
@@ -557,17 +557,17 @@
         "short": [
           {
             "id": "5.1.1",
-            "question": "Do you have basic first aid supplies on hand and in your 72hr kit?",
+            "question": "Do you have basic first aid supplies on hand and in your 72-hour kit?",
             "description": ""
           },
           {
             "id": "5.1.2",
-            "question": "Do you have sufficent sanitation, feminine, and hygiene supplies for 3 days?",
+            "question": "Do you have sufficient sanitation, feminine, and hygiene supplies for 3 days?",
             "description": ""
           },
           {
             "id": "5.1.3",
-            "question": "Are your computers and electronics protected from cyber attacks?",
+            "question": "Are your computers and electronics protected from cyber-attacks?",
             "description": ""
           },
           {
@@ -577,12 +577,12 @@
           },
           {
             "id": "5.1.5",
-            "question": "Do you have at least a weeks worth of medication in your 72hr kit?",
+            "question": "Do you have at least a weeks worth of medication in your 72-hour kit?",
             "description": ""
           },
           {
             "id": "5.1.6",
-            "question": "Does your 72hr kit contain special equipment/extra (glasses, contact lenses, diabetic syringes, etc)?",
+            "question": "Does your 72hr kit contain special equipment/extra (glasses, contact lenses, diabetic syringes, etc.)?",
             "description": ""
           },
           {
@@ -629,7 +629,7 @@
           },
           {
             "id": "5.2.4",
-            "question": "Do you have your medical records copied and in your 72hr kit?",
+            "question": "Do you have your medical records copied and in your 72-hour kit?",
             "description": ""
           },
           {
@@ -639,7 +639,7 @@
           },
           {
             "id": "5.2.6",
-            "question": "Do you have clorax, or other disinfectant stored?",
+            "question": "Do you have Clorax, or other disinfectant stored?",
             "description": ""
           },
           {
@@ -649,7 +649,7 @@
           },
           {
             "id": "5.2.8",
-            "question": "Do you have a network of like minded friends and neighbors you have worked with to secure your area?",
+            "question": "Do you have a network of like-minded friends and neighbors you have worked with to secure your area?",
             "description": ""
           },
           {
@@ -659,7 +659,7 @@
           },
           {
             "id": "5.2.10",
-            "question": "Do you have sufficent sanitation, feminine and hygiene products for 3 months?",
+            "question": "Do you have sufficient sanitation, feminine and hygiene products for 3 months?",
             "description": ""
           },
           {
@@ -691,7 +691,7 @@
           },
           {
             "id": "5.3.3",
-            "question": "Do you have sufficent sanitation, feminine and hygiene products for 1 year or more?",
+            "question": "Do you have sufficient sanitation, feminine and hygiene products for 1 year or more?",
             "description": ""
           },
           {
@@ -746,17 +746,17 @@
         "short": [
           {
             "id": "6.1.1",
-            "question": "Do you have cash and coins in your 72 hour kit?",
+            "question": "Do you have cash and coins in your 72-hour kit?",
             "description": ""
           },
           {
             "id": "6.1.2",
-            "question": "Do you have your key medical records in your 72 hour kit?",
+            "question": "Do you have your key medical records in your 72-hour kit?",
             "description": ""
           },
           {
             "id": "6.1.3",
-            "question": "Do you have adequete insurance? (home, vehicle, life, business)",
+            "question": "Do you have adequate insurance? (home, vehicle, life, business)",
             "description": ""
           },
           {
@@ -796,7 +796,7 @@
           },
           {
             "id": "6.1.11",
-            "question": "Do you have identification cards/tags in your wallet and 72hr kit?",
+            "question": "Do you have identification cards/tags in your wallet and 72-hour kit?",
             "description": ""
           }
         ],
@@ -808,7 +808,7 @@
           },
           {
             "id": "6.2.2",
-            "question": "Do you have a paper and/or electronic copies of important documents in your 72hr kit?",
+            "question": "Do you have a paper and/or electronic copies of important documents in your 72-hour kit?",
             "description": ""
           },
           {
@@ -890,7 +890,7 @@
           },
           {
             "id": "7.1.8",
-            "question": "Is your house earthquake proof (water heaters, bookcases, etc secured)?",
+            "question": "Is your house earthquake proof (water heaters, bookcases, etc. secured)?",
             "description": ""
           },
           {
@@ -917,7 +917,7 @@
         "intermediate": [
           {
             "id": "7.2.1",
-            "question": "Do you have a checklist for if you have to leave home perminantly?",
+            "question": "Do you have a checklist for if you have to leave home permanently?",
             "description": ""
           },
           {
@@ -964,7 +964,7 @@
           },
           {
             "id": "7.3.5",
-            "question": "Do you have a way to build and maintain a long term shelter?",
+            "question": "Do you have a way to build and maintain a long-term shelter?",
             "description": ""
           },
           {
@@ -1004,22 +1004,22 @@
           },
           {
             "id": "8.1.2",
-            "question": "Do you have a 72hr kit that is readily accesible?",
+            "question": "Do you have a 72-hour kit that is readily Accessible?",
             "description": ""
           },
           {
             "id": "8.1.3",
-            "question": "Do you have at least 3 days worth of extra medications?",
+            "question": "Do you have at least 3 days' worth of extra medications?",
             "description": ""
           },
           {
             "id": "8.1.4",
-            "question": "Do you have formula, diapers, bottles, etc for infants for at least 3 days?",
+            "question": "Do you have formula, diapers, bottles, etc. for infants for at least 3 days?",
             "description": ""
           },
           {
             "id": "8.1.5",
-            "question": "Does your 72hr kit include food and supplies for your pets for 3 days?",
+            "question": "Does your 72-hour kit include food and supplies for your pets for 3 days?",
             "description": ""
           },
           {
@@ -1029,7 +1029,7 @@
           },
           {
             "id": "8.1.7",
-            "question": "Do you have a way to to cook or heat your 72hr kit food without electricity?",
+            "question": "Do you have a way to to cook or heat your 72-hour kit food without electricity?",
             "description": ""
           }
         ],
@@ -1061,12 +1061,12 @@
           },
           {
             "id": "8.2.6",
-            "question": "Have you written the purchase date on all your intermediate and long term food?",
+            "question": "Have you written the purchase date on all your intermediate and long-term food?",
             "description": ""
           },
           {
             "id": "8.2.7",
-            "question": "Do you have exta hearing aid batteries?",
+            "question": "Do you have extra hearing aid batteries?",
             "description": ""
           },
           {
@@ -1081,7 +1081,7 @@
           },
           {
             "id": "8.2.10",
-            "question": "Do you have formula, diapers, bottles, etc for at least 3 months?",
+            "question": "Do you have formula, diapers, bottles, etc. for at least 3 months?",
             "description": ""
           },
           {
@@ -1133,12 +1133,12 @@
         "long": [
           {
             "id": "8.3.1",
-            "question": "Do you have manual food preperation equipment? (can opener, grinder, mixer)",
+            "question": "Do you have manual food preparation equipment? (can opener, grinder, mixer)",
             "description": ""
           },
           {
             "id": "8.3.2",
-            "question": "Is your long term food stored in sealed cans, buckets, mylar bags with appropriate oxygen and moisture absorbers?",
+            "question": "Is your long-term food stored in sealed cans, buckets, mylar bags with appropriate oxygen and moisture absorbers?",
             "description": ""
           },
           {
@@ -1148,12 +1148,12 @@
           },
           {
             "id": "8.3.4",
-            "question": "Do you have an alternative cooking method with spare fuel? (grill, camp stove, solar, wood, kerosine)",
+            "question": "Do you have an alternative cooking method with spare fuel? (grill, camp stove, solar, wood, kerosene)",
             "description": ""
           },
           {
             "id": "8.3.5",
-            "question": "Do you have a years supply of long-term, long storage essential food?",
+            "question": "Do you have a year's supply of long-term, long-storage essential food?",
             "description": ""
           },
           {
@@ -1163,12 +1163,12 @@
           },
           {
             "id": "8.3.7",
-            "question": "Do you have a way to feed and care for your infants and young children long term?",
+            "question": "Do you have a way to feed and care for your infants and young children long-term?",
             "description": ""
           },
           {
             "id": "8.3.8",
-            "question": "Do you have a garden and the knowledge and skills to grow, harvest and store fruits and vegatables?",
+            "question": "Do you have a garden and the knowledge and skills to grow, harvest and store fruits and vegetables?",
             "description": ""
           },
           {
@@ -1178,7 +1178,7 @@
           },
           {
             "id": "8.3.10",
-            "question": "Do you have a way to collect, store and distribute water at a perminant or temporary camp?",
+            "question": "Do you have a way to collect, store and distribute water at a permanent or temporary camp?",
             "description": ""
           },
           {
@@ -1188,7 +1188,7 @@
           },
           {
             "id": "8.3.12",
-            "question": "Do you have a way to feed your animals long term?",
+            "question": "Do you have a way to feed your animals long-term?",
             "description": ""
           }
         ]

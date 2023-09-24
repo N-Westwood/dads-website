@@ -695,6 +695,11 @@
             "id": "5.2.14",
             "question": "Do you know how to swim?",
             "description": ""
+          },
+          {
+            "id": "5.2.15",
+            "question": "If over 65, do you get a doctor's physical examination every 6 months?",
+            "description": ""
           }
         ],
         "long": [

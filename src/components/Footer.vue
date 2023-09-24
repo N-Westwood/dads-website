@@ -8,6 +8,9 @@
       width="100%"
       height="5em"
     >
+      <router-link class="white--text inline-block px-2" :to="{ name: 'Home' }"
+        >Home</router-link
+      >
       <router-link
         class="white--text inline-block px-2"
         :to="{ name: 'References' }"
@@ -17,7 +20,7 @@
         >Print Summary</router-link
       >
       <v-card-text class="white--text pt-8">
-        Copyright Neal Westwood | All Rights Reserved | Alph 9_21_23
+        Copyright Neal Westwood | All Rights Reserved | Alph 9_23_23
       </v-card-text>
     </v-card>
   </v-footer>

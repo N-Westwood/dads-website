@@ -4,10 +4,6 @@
       "id": "shelter",
       "label": "Shelter/Clothing",
       "icon": "mdi-home",
-      "desc": ["google"],
-      "links": [
-        "https://google.com"
-      ],
       "questions": {
         "short": [
           {
@@ -161,8 +157,6 @@
       "id": "heat",
       "label": "Heat/Light/Power/Fuel",
       "icon": "mdi-gas-station",
-      "desc": ["google"],
-      "links": ["https://www.disasterpreparer.com"],
       "questions": {
         "short": [
           {
@@ -261,8 +255,6 @@
       "id": "transportation",
       "label": "Transportation/Comm/Evac",
       "icon": "mdi-car",
-      "desc": ["google"],
-      "links": ["https://urbanaquaponics.com", "https://google.com","https://beready.utah.gov"],
       "questions": {
         "short": [
           {
@@ -486,8 +478,6 @@
       "id": "spiritual",
       "label": "Spiritual/Mental",
       "icon": "mdi-book-cross",
-      "desc": [],
-      "links": [],
       "questions": {
         "short": [
           {
@@ -566,8 +556,6 @@
       "id": "health",
       "label": "Health/Safety/Security",
       "icon": "mdi-shield-lock",
-      "desc": [],
-      "links": [],
       "questions": {
         "short": [
           {
@@ -770,8 +758,6 @@
       "id": "finance",
       "label": "Finance/Legal",
       "icon": "mdi-cash",
-      "desc": [],
-      "links": [],
       "questions": {
         "short": [
           {
@@ -880,8 +866,6 @@
       "id": "tools",
       "label": "Knowledge/Tools",
       "icon": "mdi-tools",
-      "desc": [],
-      "links": [],
       "questions": {
         "short": [
           {
@@ -1025,8 +1009,6 @@
       "id": "food",
       "label": "Food/Water/Special Needs",
       "icon": "mdi-food",
-      "desc": [],
-      "links": [],
       "questions": {
         "short": [
           {

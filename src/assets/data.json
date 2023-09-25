@@ -4,10 +4,8 @@
       "id": "shelter",
       "label": "Shelter/Clothing",
       "icon": "mdi-home",
-      "desc": ["google"],
-      "links": [
-        "https://google.com"
-      ],
+      "desc": ["Utah Readyness Site"],
+      "links": ["https://beready.utah.gov"],
       "questions": {
         "short": [
           {
@@ -261,7 +259,7 @@
       "id": "transportation",
       "label": "Transportation/Comm/Evac",
       "icon": "mdi-car",
-      "desc": ["google"],
+      "desc": ["Test site", "test site 2","test site 3"],
       "links": ["https://urbanaquaponics.com", "https://google.com","https://beready.utah.gov"],
       "questions": {
         "short": [

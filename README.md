@@ -20,6 +20,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # To Do List
 ## Title wrap on small devices - Keith Looking at.
-## questions link to pop up for more information - Keith
+## questions link to pop up with urls and text for more information - Keith
 ## develop resource section -Neal
-## PDF reporting - a way to iterate selected deficiencies and print with reference.
+## resource section have info text + url

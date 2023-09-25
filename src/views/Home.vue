@@ -31,6 +31,12 @@
         >here</router-link
       >
       to start at the beginning. <br />
+      Then you can use the 
+      <router-link 
+        :to="{ name: 'Print' }"
+        >Print Summary</router-link
+      >
+      link below to view and print your answers <br />
     </p>
     <v-row class="mx-4">
       <v-col v-for="label in arcLabels" :key="label[0]" sm="6" lg="3">

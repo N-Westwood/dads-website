@@ -5,9 +5,12 @@
             <v-col v-for="category in categories" :key="category.id" sm='6' lg="3">
                 
                 <h2 id="short-shelter">{{ category.label }} References</h2>
-                <p v-for="link in category.links" :key="link">
+                <ul>
+                <li v-for="(link,desc) in category.links" :key="link">
+                     {{desc}} <br>
                     <a :href=link>{{ link }}</a>
-                </p>
+                </li>
+                </ul>
             </v-col>
         </v-row>
     </div>

@@ -9,14 +9,14 @@
         :key="question.id"
         v-model="answers[question.id]"
       >
-        <Tooltip>
-          <template>{{ question.question }}</template>
-          <template
-            #tooltip
-            v-if="question.description"
-            v-html="question.description"
-          >
-            <div v-html="question.description" />
+        <span class="question-label">{{ question.question }}</span>
+        <Tooltip v-if="question.description" position="right">
+          <template>
+            <span title="Click for more info" class="question-icon">?</span>
+            <span class="question-click-more">Click for more info</span>
+          </template>
+          <template #tooltip>
+            <div class="tooltip-description" v-html="question.description" />
           </template>
         </Tooltip>
         <v-radio label="yes" :value="1"> </v-radio>
@@ -143,5 +143,34 @@ export default {
 }
 .v-btn {
   opacity: 1;
+}
+
+.question-label {
+  display: inline;
+}
+
+.question-icon {
+  background-color: #1976d2;
+  color: white;
+  border-radius: 50%;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  margin: 4px 4px 8px 4px;
+}
+
+.tooltip-description {
+  max-width: 350px;
+}
+
+.question-click-more {
+  color: #777;
+  font-size: 14px;
+  position: absolute;
+  top: 3px;
 }
 </style>

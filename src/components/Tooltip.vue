@@ -27,9 +27,9 @@ export default {
   position: absolute;
   z-index: 10;
   display: none;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   background-color: rgb(51 51 51 / 0.9);
-  padding: 0.5rem 1.25rem;
+  padding: 0.15rem 0.5rem;
   color: white;
 }
 .tooltip::after {
@@ -42,13 +42,12 @@ export default {
   cursor: pointer;
   position: relative;
 }
-.tooltip-trigger:focus > .tooltip,
-.tooltip-trigger:hover > .tooltip {
+.tooltip-trigger:focus > .tooltip {
   display: inline-block;
 }
 
 .tooltip.bottom {
-  top: calc(100% + 10px);
+  top: 100%;
   left: 50%;
   --tw-translate-x: -50%;
   transform: translate(-50%, 0);

@@ -42,7 +42,8 @@ export default {
   cursor: pointer;
   position: relative;
 }
-.tooltip-trigger:focus > .tooltip {
+.tooltip-trigger:focus > .tooltip,
+.tooltip-trigger:focus-within > .tooltip {
   display: inline-block;
 }
 

@@ -9,7 +9,7 @@
           {
             "id": "1.1.1",
             "question": "Have you prepared your home for specific hazards? (earthquake, hurricane, tornado, fire, etc.)",
-            "description": ""
+            "description": "Here is an example with a <a href=\"https://google.com\" target=\"_blank\" rel=\"noreferrer noopener\">link</a>"
           },
           {
             "id": "1.1.2",

@@ -4,14 +4,12 @@
       "id": "shelter",
       "label": "Shelter/Clothing",
       "icon": "mdi-home",
-      "desc": ["Utah Readyness Site"],
-      "links": ["https://beready.utah.gov"],
       "questions": {
         "short": [
           {
             "id": "1.1.1",
             "question": "Have you prepared your home for specific hazards? (earthquake, hurricane, tornado, fire, etc.)",
-            "description": ""
+            "description": "Great resources at <a href=\"https://beready.utah.gov\" target=\"_blank\" rel=\"noreferrer noopener\">Be Ready Utah</a>"
           },
           {
             "id": "1.1.2",
@@ -46,7 +44,7 @@
           {
             "id": "1.1.8",
             "question": "Have you reduced the burnable fuels around your home? (bushes, trees, weeds)",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1PUa2N2FWDNPH66fOC5FEMjiGTjPtzgEO/view\" target=\"_blank\" rel=\"noreferrer noopener\">Wildland Fire Action Guide"
           },
           {
             "id": "1.1.9",
@@ -118,7 +116,7 @@
           {
             "id": "1.2.9",
             "question": "Do you have plans on how to cool/heat your house in extreme weather and a power outage?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1J2QemYwMkPvfcYSPqdQaPOOqIxrDqmZC/view\" target=\"_blank\" rel=\"noreferrer noopener\">Sheltering"
           },
           {
             "id": "1.2.10",
@@ -151,6 +149,11 @@
             "id": "1.3.5",
             "question": "Do you have a preparedness group-community you have connected with?",
             "description": ""
+          },
+          {
+            "id": "1.3.6",
+            "question": "Do you have clothing to fit your children as they grow?",
+            "description": ""
           }
         ]
       }
@@ -159,8 +162,6 @@
       "id": "heat",
       "label": "Heat/Light/Power/Fuel",
       "icon": "mdi-gas-station",
-      "desc": ["google"],
-      "links": ["https://www.disasterpreparer.com"],
       "questions": {
         "short": [
           {
@@ -227,7 +228,7 @@
           },
           {
             "id": "2.2.6",
-            "question": "Do you have a hand cranke or solar-powered flashlight?",
+            "question": "Do you have a hand cranked or solar-powered flashlight?",
             "description": ""
           }
         ],
@@ -251,6 +252,16 @@
             "id": "2.3.4",
             "question": "Do you have a solar generator and panels to recharge it?",
             "description": ""
+          },
+          {
+            "id": "2.3.5",
+            "question": "Do you have a way to distill alcohol for cooking and fuel?",
+            "description": ""
+          },
+          {
+            "id": "2.3.6",
+            "question": "Is your home EMP Protected?",
+            "description": ""
           }
         ]
       }
@@ -259,23 +270,21 @@
       "id": "transportation",
       "label": "Transportation/Comm/Evac",
       "icon": "mdi-car",
-      "desc": ["Test site", "test site 2","test site 3"],
-      "links": ["https://urbanaquaponics.com", "https://google.com","https://beready.utah.gov"],
       "questions": {
         "short": [
           {
             "id": "3.1.1",
             "question": "Do you have an up-to-date 72-hour kit?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1SOlvLKjMm0D0sWpqjVxX6Tv5ghft3pUl/view\" target=\"_blank\" rel=\"noreferrer noopener\">Disaster Supply Kit"
           },
           {
             "id": "3.1.2",
             "question": "Do you have a 72-hour kit for your pets?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1SOlvLKjMm0D0sWpqjVxX6Tv5ghft3pUl/view\" target=\"_blank\" rel=\"noreferrer noopener\">Disaster Supply Kit"
           },
           {
             "id": "3.1.3",
-            "question": "Is your 72-hour kit in a readily accessible location?",
+            "question": "Is your 72-hour kit readily accessible?",
             "description": ""
           },
           {
@@ -296,7 +305,7 @@
           {
             "id": "3.1.7",
             "question": "Do you have an emergency contact telephone list?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1LsqEGrd9UU2Go9obHnDV1nqDKUN2_a73/view\" target=\"_blank\" rel=\"noreferrer noopener\">Emergency Contact Information"
           },
           {
             "id": "3.1.8",
@@ -310,7 +319,7 @@
           },
           {
             "id": "3.1.10",
-            "question": "Do you have network of neighbors, friends, family to aid you in an emergency?",
+            "question": "Do you have a network of neighbors, friends, family to aid you in an emergency?",
             "description": ""
           },
           {
@@ -320,7 +329,7 @@
           },
           {
             "id": "3.1.12",
-            "question": "Do you have a grab-n-go binder?",
+            "question": "Do you have a grab-n-go binder? (checklists, key documents, ID's, spare cash)",
             "description": ""
           },
           {
@@ -330,7 +339,7 @@
           },
           {
             "id": "3.1.14",
-            "question": "Do you have planned place to go in the event of an evacuation?",
+            "question": "Do you have a planned place to go in the event of an evacuation?",
             "description": ""
           },
           {
@@ -392,7 +401,7 @@
           },
           {
             "id": "3.2.10",
-            "question": "Do you have extra vehicle/generator fuel stored?",
+            "question": "Do you have extra vehicle/generator fuel stored that is rotated reguraly?",
             "description": ""
           },
           {
@@ -407,14 +416,14 @@
           },
           {
             "id": "3.2.13",
-            "question": "Do you have a battery powered or hand crank radio?",
+            "question": "Do you have a battery, solar or hand cranked radio?",
             "description": ""
           }
         ],
         "long": [
           {
             "id": "3.3.1",
-            "question": "Do you have a way to transport your larger animals?",
+            "question": "Do you have a way to transport your animals?",
             "description": ""
           },
           {
@@ -445,7 +454,7 @@
           {
             "id": "3.3.7",
             "question": "Do you have at least a General class ham radio license?",
-            "description": ""
+            "description": "ARRL Guides to getting your Amature radio licenses <a href=\"https://www.arrl.org/getting-licensed\" target=\"_blank\" rel=\"noreferrer noopener\">Getting Licensed</a>"
           },
           {
             "id": "3.3.8",
@@ -470,13 +479,13 @@
           {
             "id": "3.3.12",
             "question": "Do you have a short-wave receiver and a way to power it?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1vDy38Pi3Tx-3MpVMG4xX5uENh-KWNjrU/view\" target=\"_blank\" rel=\"noreferrer noopener\">Emergency Communication"
           },
           {
             "id": "3.3.13",
             "question": "Do you know how to ride a bicycle?",
             "description": ""
-          }          
+          }
         ]
       }
     },
@@ -484,8 +493,6 @@
       "id": "spiritual",
       "label": "Spiritual/Mental",
       "icon": "mdi-book-cross",
-      "desc": [],
-      "links": [],
       "questions": {
         "short": [
           {
@@ -521,7 +528,7 @@
           {
             "id": "4.1.7",
             "question": "Do you feel mentally healthy?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/14qn1Ky2DuvH3uUKM8kBMX3gJkpFkv3_-/view\" target=\"_blank\" rel=\"noreferrer noopener\">Disaster Psychology"
           },
           {
             "id": "4.1.8",
@@ -564,14 +571,12 @@
       "id": "health",
       "label": "Health/Safety/Security",
       "icon": "mdi-shield-lock",
-      "desc": [],
-      "links": [],
       "questions": {
         "short": [
           {
             "id": "5.1.1",
             "question": "Do you have basic first aid supplies on hand and in your 72-hour kit?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1CGn4tlyhREff65oi6ODo9WLosUqEw1mI/view\" target=\"_blank\" rel=\"noreferrer noopener\">Basic First Aid"
           },
           {
             "id": "5.1.2",
@@ -595,7 +600,7 @@
           },
           {
             "id": "5.1.6",
-            "question": "Does your 72hr kit contain special equipment/extra (glasses, contact lenses, diabetic syringes, etc.)?",
+            "question": "Does your 72hr kit contain needed special equipment/extra (glasses, contact lenses, diabetic syringes, etc.)?",
             "description": ""
           },
           {
@@ -632,7 +637,7 @@
           {
             "id": "5.2.1",
             "question": "Do you have basic first aid skills and knowledge?",
-            "description": ""
+            "description": "First Aid Training from the <a href=\"https://www.redcross.org/take-a-class/first-aid/first-aid-training\" target=\"_blank\" rel=\"noreferrer noopener\">American Red Cross</a>"
           },
           {
             "id": "5.2.2",
@@ -672,7 +677,7 @@
           {
             "id": "5.2.9",
             "question": "Do you have a long-term sanitation plan if the power and water is out indefinitely?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1SPhhajv7clmjdxtlMGR3k43DoyxGxPoL/view\" target=\"_blank\" rel=\"noreferrer noopener\">Hygiene and Sanitation"
           },
           {
             "id": "5.2.10",
@@ -696,7 +701,7 @@
           },
           {
             "id": "5.2.14",
-            "question": "Do you know how to swim?",
+            "question": "Have you trained in self-defense?",
             "description": ""
           },
           {
@@ -753,7 +758,7 @@
           },
           {
             "id": "5.3.10",
-            "question": "Do you know remedies for the most common colds, and what plants can help the healing process?",
+            "question": "Do you know herbal remedies for the most common colds, and what plants can help the healing process?",
             "description": ""
           },
           {
@@ -768,8 +773,6 @@
       "id": "finance",
       "label": "Finance/Legal",
       "icon": "mdi-cash",
-      "desc": [],
-      "links": [],
       "questions": {
         "short": [
           {
@@ -795,7 +798,7 @@
           {
             "id": "6.1.5",
             "question": "Are your important documents copied and stored off-site?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1ro9MQ0z5Xf-4WzI28jjxuabWKSIdpFnB/view\" target=\"_blank\" rel=\"noreferrer noopener\">Important Documents"
           },
           {
             "id": "6.1.6",
@@ -836,8 +839,8 @@
           },
           {
             "id": "6.2.2",
-            "question": "Do you have a paper and/or electronic copies of important documents in your 72-hour kit?",
-            "description": ""
+            "question": "Do you have paper and/or electronic copies of important documents in your 72-hour kit?",
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1ro9MQ0z5Xf-4WzI28jjxuabWKSIdpFnB/view\" target=\"_blank\" rel=\"noreferrer noopener\">Important Documents"
           },
           {
             "id": "6.2.3",
@@ -858,7 +861,7 @@
         "long": [
           {
             "id": "6.3.1",
-            "question": "Do you have silver dollars, junk silver and/or 1/10th ounce gold stored as backup to cash?",
+            "question": "Do you have silver dollars, junk silver and 1/10th ounce gold stored as backup to cash?",
             "description": ""
           },
           {
@@ -878,8 +881,6 @@
       "id": "tools",
       "label": "Knowledge/Tools",
       "icon": "mdi-tools",
-      "desc": [],
-      "links": [],
       "questions": {
         "short": [
           {
@@ -920,7 +921,7 @@
           {
             "id": "7.1.8",
             "question": "Is your house earthquake proof (water heaters, bookcases, etc. secured)?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1cmWPQL4iXM1vcVEMs7eXR1RuHzJjOdur/view\" target=\"_blank\" rel=\"noreferrer noopener\">Putting Down Roots in Earthquake Country"
           },
           {
             "id": "7.1.9",
@@ -946,7 +947,7 @@
         "intermediate": [
           {
             "id": "7.2.1",
-            "question": "Do you have a checklist for if you have to leave home permanently?",
+            "question": "Do you have a grab-and-go checklist for perminant evacuation?",
             "description": ""
           },
           {
@@ -978,7 +979,7 @@
           },
           {
             "id": "7.3.2",
-            "question": "Do you have spare paper, toner and other supplies to be able to use your computers in a national grid down disaster?",
+            "question": "Do you have spare paper, toner and other supplies to be able to use your computers and printers in a societal breakdown?",
             "description": ""
           },
           {
@@ -988,7 +989,7 @@
           },
           {
             "id": "7.3.4",
-            "question": "Does your survival library include books on a wide range of subjects for knowledge you do not have?",
+            "question": "Does your survival library include books on a wide range of how to, survival subjects?",
             "description": ""
           },
           {
@@ -1023,8 +1024,6 @@
       "id": "food",
       "label": "Food/Water/Special Needs",
       "icon": "mdi-food",
-      "desc": [],
-      "links": [],
       "questions": {
         "short": [
           {
@@ -1034,7 +1033,7 @@
           },
           {
             "id": "8.1.2",
-            "question": "Do you have a 72-hour kit that is readily Accessible?",
+            "question": "Is the food in your 72-hour kit updated reguraly?",
             "description": ""
           },
           {
@@ -1096,7 +1095,7 @@
           },
           {
             "id": "8.2.7",
-            "question": "Do you have extra hearing aid batteries?",
+            "question": "Do you have extra hearing aid and other medical device batteries?",
             "description": ""
           },
           {
@@ -1126,7 +1125,7 @@
           },
           {
             "id": "8.2.13",
-            "question": "Do you have a way transport your animals and pets?",
+            "question": "Do you know how to scavange for food for your animals and pets?",
             "description": ""
           },
           {
@@ -1137,12 +1136,12 @@
           {
             "id": "8.2.15",
             "question": "Do you have a pressure canner?",
-            "description": ""
+            "description": "USDA Complete Guide to Home Canning 2015 Revison <a href=\"https://nchfp.uga.edu/publications/publications_usda.html#gsc.tab=0\" target=\"_blank\" rel=\"noreferrer noopener\">Canning Guide"
           },
           {
             "id": "8.2.16",
             "question": "Do you have a water bath canner?",
-            "description": ""
+            "description": "USDA Complete Guide to Home Canning 2015 Revison <a href=\"https://nchfp.uga.edu/publications/publications_usda.html#gsc.tab=0\" target=\"_blank\" rel=\"noreferrer noopener\">Canning Guide"
           },
           {
             "id": "8.2.17",
@@ -1152,7 +1151,7 @@
           {
             "id": "8.2.18",
             "question": "Have you stored at least 90 gallons per person of water? (or 1 gallons per day for 3 months days minimum)",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1C4J_X8nROHkKn9Qnv5ddiiSat2BN4qqX/view\" target=\"_blank\" rel=\"noreferrer noopener\">Water Storage"
           },
           {
             "id": "8.2.19",
@@ -1168,7 +1167,7 @@
           },
           {
             "id": "8.3.2",
-            "question": "Is your long-term food stored in sealed cans, buckets, mylar bags with appropriate oxygen and moisture absorbers?",
+            "question": "Is your long-term food stored in sealed cans, sealed buckets with mylar bags, and/or Mylar bags with appropriate oxygen and moisture absorbers?",
             "description": ""
           },
           {
@@ -1184,7 +1183,7 @@
           {
             "id": "8.3.5",
             "question": "Do you have a year's supply of long-term, long-storage essential food?",
-            "description": ""
+            "description": "Food Storage Calculator <a href=\"https://providentliving.com/preparedness/food-storage/foodcalc/\" target=\"_blank\" rel=\"noreferrer noopener\">Provident Living</a>"
           },
           {
             "id": "8.3.6",
@@ -1213,7 +1212,7 @@
           },
           {
             "id": "8.3.11",
-            "question": "Do you know how to preserve meats, vegetables and fruits?",
+            "question": "Do you know how to preserve meats, vegetables and fruits without electricity?",
             "description": ""
           },
           {

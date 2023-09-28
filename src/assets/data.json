@@ -14,32 +14,32 @@
           {
             "id": "1.1.2",
             "question": "Does your home have fire-resistant building and/or roof materials? (brick, stucco, stone)",
-            "description": ""
+            "description": "Is your home <a href=\"https://www.frontlinewildfire.com/fire-resistant-building-materials\" target=\"_blank\" rel=\"noreferrer noopener\">Fire Resistant</a>"
           },
           {
             "id": "1.1.3",
             "question": "Is your home securely fastened to your foundation?",
-            "description": ""
+            "description": "Is your home bolted to its <a href=\"https://massinitiative.org/how-do-i-know-if-my-house-is-bolted-to-the-foundation\" target=\"_blank\" rel=\"noreferrer noopener\">Foundation</a>"
           },
           {
             "id": "1.1.4",
             "question": "Is your home protected from flooding?",
-            "description": ""
+            "description": "FEMA Protecting Your Home From <a href=\"https://www.fema.gov/sites/default/files/documents/fema_protect-your-home-from-flooding-brochure_2020.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">Flooding</a>"
           },
           {
             "id": "1.1.5",
             "question": "Does your 72-hour kit contain a full change of clothing?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1SOlvLKjMm0D0sWpqjVxX6Tv5ghft3pUl/view\" target=\"_blank\" rel=\"noreferrer noopener\">Disaster Supply Kit"
           },
           {
             "id": "1.1.6",
             "question": "Do you have a fire extinguisher readily accessible?",
-            "description": ""
+            "description": "Fema <a href=\"https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/fire-extinguishers\" target=\"_blank\" rel=\"noreferrer noopener\">Choosing and Using Fire Extinguishers"
           },
           {
             "id": "1.1.7",
             "question": "Do you rotate the clothing in your families 72hr kits at least every year?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1SOlvLKjMm0D0sWpqjVxX6Tv5ghft3pUl/view\" target=\"_blank\" rel=\"noreferrer noopener\">Disaster Supply Kit"
           },
           {
             "id": "1.1.8",
@@ -49,69 +49,69 @@
           {
             "id": "1.1.9",
             "question": "Are your active chimneys periodically cleaned?",
-            "description": ""
+            "description": "Importance of Cleaning Your <a href=\"https://www.statefarm.com/simple-insights/residence/why-chimney-cleaning-is-important\" target=\"_blank\" rel=\"noreferrer noopener\">Chimney"
           },
           {
             "id": "1.1.10",
             "question": "Do you have a place prepared in case of nuclear fallout?",
-            "description": ""
+            "description": "Cresson H. Kearny <a href=\"https://www.oism.org/nwss\" target=\"_blank\" rel=\"noreferrer noopener\">Nuclear War Survival Skills"
           },
           {
             "id": "1.1.11",
             "question": "Are your water heaters anchored to the wall?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1cmWPQL4iXM1vcVEMs7eXR1RuHzJjOdur/view\" target=\"_blank\" rel=\"noreferrer noopener\">Putting Down Roots in Earthquake Country"
           },
           {
             "id": "1.1.12",
             "question": "Do you have a pair of shoes and flashlight next to your bed?",
-            "description": ""
+            "description": "Red Cross <a href=\"https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/earthquake.html\" target=\"_blank\" rel=\"noreferrer noopener\">Earthquake Preparedness"
           },
           {
             "id": "1.1.13",
             "question": "Do you have clothing in case of bad weather?",
-            "description": ""
+            "description": "How to Dress In <a href=\"https://www.rei.com/learn/expert-advice/how-to-dress-in-cold-weather.html\" target=\"_blank\" rel=\"noreferrer noopener\">Cold Weatbher"
           }
         ],
         "intermediate": [
           {
             "id": "1.2.1",
             "question": "Do you have somewhere to stay, and savings to pay for it, for up to 3 months?",
-            "description": ""
+            "description": "Ready.gov <a href=\"https://www.ready.gov/evacuation\" target=\"_blank\" rel=\"noreferrer noopener\">Evacution"
           },
           {
             "id": "1.2.2",
-            "question": "Do you have warm weather clothing? (pants, shirts, shoes, socks, hat, gloves, coat)",
-            "description": ""
+            "question": "Do you have cold weather clothing? (pants, shirts, shoes, socks, hat, gloves, coat)",
+            "description": "How to Dress In <a href=\"https://www.rei.com/learn/expert-advice/how-to-dress-in-cold-weather.html\" target=\"_blank\" rel=\"noreferrer noopener\">Cold Weather"
           },
           {
             "id": "1.2.3",
             "question": "Are your water heaters, cabinets, bookcases, pictures, etc. secured to the wall?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1cmWPQL4iXM1vcVEMs7eXR1RuHzJjOdur/view\" target=\"_blank\" rel=\"noreferrer noopener\">Putting Down Roots in Earthquake Country"
           },
           {
             "id": "1.2.4",
             "question": "Do you have at least one good sleeping bag or several warm blankets per person?",
-            "description": ""
+            "description": "How to Choose a Cold Weather<a href=\"https://www.rei.com/learn/expert-advice/sleeping-bag.html\" target=\"_blank\" rel=\"noreferrer noopener\">Sleeping Bag"
           },
           {
             "id": "1.2.5",
             "question": "Do you have spare bedding?",
-            "description": ""
+            "description": "Benifits of <a href=\"https://sleepation.com/why-wool-blankets-are-the-best-for-backpacking-and-camping\" target=\"_blank\" rel=\"noreferrer noopener\">Wool Blankets"
           },
           {
             "id": "1.2.6",
             "question": "Is your house well insulated?",
-            "description": ""
+            "description": "Where to <a href=\"https://www.energy.gov/energysaver/where-insulate-home\" target=\"_blank\" rel=\"noreferrer noopener\">Insulate Your Home"
           },
           {
             "id": "1.2.7",
             "question": "Are your windows and doors sealed against air infiltration?",
-            "description": ""
+            "description": "Where to <a href=\"https://www.energy.gov/energysaver/where-insulate-home\" target=\"_blank\" rel=\"noreferrer noopener\">Insulate Your Home"
           },
           {
             "id": "1.2.8",
             "question": "Do you have whole house EMP protection?",
-            "description": ""
+            "description": "Whole House EMP <a href=\"https://www.youtube.com/watch?v=bPSTFe1dBAg\" target=\"_blank\" rel=\"noreferrer noopener\">Video"
           },
           {
             "id": "1.2.9",
@@ -128,17 +128,17 @@
           {
             "id": "1.3.1",
             "question": "Do you have a way to wash and dry clothing without power and city water?",
-            "description": ""
+            "description": "Provident Prepper <a href=\"https://theprovidentprepper.org/crisis-laundry-management\" target=\"_blank\" rel=\"noreferrer noopener\">Crisis Laundry Management"
           },
           {
             "id": "1.3.2",
             "question": "Do you have tents and equipment for long-term camping?",
-            "description": ""
+            "description": "Perminante Camping <a href=\"https://freedomresidence.com/living-in-a-tent-year-round-your-ultimate-guide/\" target=\"_blank\" rel=\"noreferrer noopener\">Tents"
           },
           {
             "id": "1.3.3",
             "question": "Do you have an alternate safe-remote location to live?",
-            "description": ""
+            "description": "Joel Skousen <a href=\"https://joelskousen.com/strategic-relocation\" target=\"_blank\" rel=\"noreferrer noopener\">Strategic Relocation"
           },
           {
             "id": "1.3.4",
@@ -148,7 +148,7 @@
           {
             "id": "1.3.5",
             "question": "Do you have a preparedness group-community you have connected with?",
-            "description": ""
+            "description": "Creating a <a href=\"https://valleyfoodstorage.com/blogs/inside-vfs/prepper-survival-communities-in-the-usa\" target=\"_blank\" rel=\"noreferrer noopener\">Survival Community"
           },
           {
             "id": "1.3.6",
@@ -167,17 +167,17 @@
           {
             "id": "2.1.1",
             "question": "Do you have flashlights with spare batteries in your 72-hour kit?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1SOlvLKjMm0D0sWpqjVxX6Tv5ghft3pUl/view\" target=\"_blank\" rel=\"noreferrer noopener\">Disaster Supply Kit"
           },
           {
             "id": "2.1.2",
             "question": "Do your gas appliances have flexible connections?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1cmWPQL4iXM1vcVEMs7eXR1RuHzJjOdur/view\" target=\"_blank\" rel=\"noreferrer noopener\">Putting Down Roots in Earthquake Country"
           },
           {
             "id": "2.1.3",
             "question": "Do you have a working flashlight or headlight next to your bed?",
-            "description": ""
+            "description": "Red Cross <a href=\"https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/earthquake.html\" target=\"_blank\" rel=\"noreferrer noopener\">Earthquake Preparedness"
           },
           {
             "id": "2.1.4",
@@ -187,17 +187,17 @@
           {
             "id": "2.1.5",
             "question": "Do you have tools to shut off your utilities? (natural gas, propane, electric, water)",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1cmWPQL4iXM1vcVEMs7eXR1RuHzJjOdur/view\" target=\"_blank\" rel=\"noreferrer noopener\">Putting Down Roots in Earthquake Country"
           },
           {
             "id": "2.1.6",
             "question": "Do you know how and where to shut off your utilities?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1cmWPQL4iXM1vcVEMs7eXR1RuHzJjOdur/view\" target=\"_blank\" rel=\"noreferrer noopener\">Putting Down Roots in Earthquake Country"
           },
           {
             "id": "2.1.7",
             "question": "Do you have alternate light sources that do not depend on batteries such as 100hr candles?",
-            "description": ""
+            "description": "Alternate <a href=\"https://urbansurvivalsite.com/ways-to-light-your-home-when-the-power-goes-out\" target=\"_blank\" rel=\"noreferrer noopener\">Lighting Sources"
           }
         ],
         "intermediate": [
@@ -209,22 +209,22 @@
           {
             "id": "2.2.2",
             "question": "Do you have a way to generate power for weeks or months?",
-            "description": ""
+            "description": "Alternate <a href=\"https://www.youtube.com/watch?v=gsv-dqMJviI\" target=\"_blank\" rel=\"noreferrer noopener\">Power Sources Video"
           },
           {
             "id": "2.2.3",
             "question": "Do you have an alternate way to heat your home and fuel to go with it?",
-            "description": ""
+            "description": "Alternate <a href=\"https://theprovidentprepper.org/best-alternative-heat-sources-to-use-during-a-power-outage\" target=\"_blank\" rel=\"noreferrer noopener\">Heat Sources"
           },
           {
             "id": "2.2.4",
             "question": "Do you have an alternate light source that is renewable such as a kerosene lantern and fuel?",
-            "description": ""
+            "description": "Alternate <a href=\"https://urbansurvivalsite.com/ways-to-light-your-home-when-the-power-goes-out\" target=\"_blank\" rel=\"noreferrer noopener\">Lighting Sources"
           },
           {
             "id": "2.2.5",
             "question": "Do you have an alternate way to cook?",
-            "description": ""
+            "description": "Alternate <a href=\"https://theprovidentprepper.org/recommended-products/emergency-cooking-recommended-products\" target=\"_blank\" rel=\"noreferrer noopener\">Cooking Sources"
           },
           {
             "id": "2.2.6",
@@ -236,32 +236,32 @@
           {
             "id": "2.3.1",
             "question": "Do you have a way to generate power indefinitely?",
-            "description": ""
+            "description": "Alternate <a href=\"https://www.youtube.com/watch?v=gsv-dqMJviI\" target=\"_blank\" rel=\"noreferrer noopener\">Power Sources Video"
           },
           {
             "id": "2.3.2",
             "question": "Could you heat your home indefinitely if the power and natural gas were cut off?",
-            "description": ""
+            "description": "Two Good <a href=\"https://freedomresidence.com/the-two-best-wood-stoves-for-cooking-and-heating\" target=\"_blank\" rel=\"noreferrer noopener\">Cooking and Heating Stoves"
           },
           {
             "id": "2.3.3",
             "question": "Do you have a way to heat your tents?",
-            "description": ""
+            "description": "Wood Burning <a href=\"https://theatlasheart.com/best-tent-stove\" target=\"_blank\" rel=\"noreferrer noopener\">Tent Stoves"
           },
           {
             "id": "2.3.4",
             "question": "Do you have a solar generator and panels to recharge it?",
-            "description": ""
+            "description": "Alternate <a href=\"https://www.youtube.com/watch?v=gsv-dqMJviI\" target=\"_blank\" rel=\"noreferrer noopener\">Power Sources Video"
           },
           {
             "id": "2.3.5",
             "question": "Do you have a way to distill alcohol for cooking and fuel?",
-            "description": ""
+            "description": "Distilling Alcohol for <a href=\"https://www.extension.purdue.edu/extmedia/AE/AE-117.html\" target=\"_blank\" rel=\"noreferrer noopener\">Heating and Cooking"
           },
           {
             "id": "2.3.6",
             "question": "Is your home EMP Protected?",
-            "description": ""
+            "description": "Whole House EMP <a href=\"https://www.youtube.com/watch?v=bPSTFe1dBAg\" target=\"_blank\" rel=\"noreferrer noopener\">Video"
           }
         ]
       }
@@ -295,12 +295,12 @@
           {
             "id": "3.1.5",
             "question": "Do you have a designated out of town contact?",
-            "description": ""
+            "description": "Family Emergency Contact <a href=\"https://www.ready.gov/sites/default/files/2020-03/family-emergency-communication-planning-document.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">Plan"
           },
           {
             "id": "3.1.6",
             "question": "Have you signed up for your city, county and/or state emergency alerts?",
-            "description": ""
+            "description": "How Find the Emergency Alert System in<a href=\"https://www.ready.gov/sites/default/files/2020-03/ready_know-your-alerts-and-warnings.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">Your Area"
           },
           {
             "id": "3.1.7",
@@ -310,7 +310,7 @@
           {
             "id": "3.1.8",
             "question": "Do you have at least 2 fire escape routes from your house and has your family rehearsed them?",
-            "description": ""
+            "description": "Home Fire Escape Plan <a href=\"https://www.ready.gov/home-fire-escape-plan\" target=\"_blank\" rel=\"noreferrer noopener\">Ready.gov"
           },
           {
             "id": "3.1.9",
@@ -320,17 +320,17 @@
           {
             "id": "3.1.10",
             "question": "Do you have a network of neighbors, friends, family to aid you in an emergency?",
-            "description": ""
+            "description": "Creating a <a href=\"https://valleyfoodstorage.com/blogs/inside-vfs/prepper-survival-communities-in-the-usa\" target=\"_blank\" rel=\"noreferrer noopener\">Survival Community"
           },
           {
             "id": "3.1.11",
             "question": "Do you have an evacuation checklist for 5 min, 30 min, 2 hr, and 1 day warning?",
-            "description": ""
+            "description": "Grab-n-Go Evacuation <a href=\"https://www.spokanecounty.org/DocumentCenter/View/21486/Emergency-Evacuation-Grab--Go-Checklist\" target=\"_blank\" rel=\"noreferrer noopener\">Checklist"
           },
           {
             "id": "3.1.12",
             "question": "Do you have a grab-n-go binder? (checklists, key documents, ID's, spare cash)",
-            "description": ""
+            "description": "Grab-n-Go Evacuation <a href=\"https://thesurvivalmom.com/a-prepping-essential-the-grab-n-go-binder\" target=\"_blank\" rel=\"noreferrer noopener\">Binder"
           },
           {
             "id": "3.1.13",
@@ -340,17 +340,17 @@
           {
             "id": "3.1.14",
             "question": "Do you have a planned place to go in the event of an evacuation?",
-            "description": ""
+            "description": "Family <a href=\"https://www.ready.gov/plan\" target=\"_blank\" rel=\"noreferrer noopener\">Emergency Plan"
           },
           {
             "id": "3.1.15",
             "question": "Do you have designated places to gather in an emergency?",
-            "description": ""
+            "description": "Family <a href=\"https://www.ready.gov/plan\" target=\"_blank\" rel=\"noreferrer noopener\">Emergency Plan"
           },
           {
             "id": "3.1.16",
             "question": "Do you have a written and practiced family emergency plan?",
-            "description": ""
+            "description": "Family <a href=\"https://www.ready.gov/plan\" target=\"_blank\" rel=\"noreferrer noopener\">Emergency Plan"
           }
         ],
         "intermediate": [
@@ -382,7 +382,7 @@
           {
             "id": "3.2.6",
             "question": "Do you have a way to communicate with remote family members if the internet, phones, and power are out?",
-            "description": ""
+            "description": "How to Communicate when the Cell Phones <a href=\"https://theprovidentprepper.org/a-preppers-guide-to-communicating-in-an-emergency\" target=\"_blank\" rel=\"noreferrer noopener\">Go Down"
           },
           {
             "id": "3.2.7",
@@ -429,12 +429,12 @@
           {
             "id": "3.3.2",
             "question": "Do you store your important electronics in an EMP proof container?",
-            "description": ""
+            "description": "How to create an <a href=\"https://disasterpreparer.com/informative-videos\" target=\"_blank\" rel=\"noreferrer noopener\">EMP Container"
           },
           {
             "id": "3.3.3",
             "question": "Are your vehicles EMP protected?",
-            "description": ""
+            "description": "How protect your Vehicles <a href=\"https://www.youtube.com/watch?v=oA1RoUgC73g\" target=\"_blank\" rel=\"noreferrer noopener\">Video"
           },
           {
             "id": "3.3.4",
@@ -444,7 +444,7 @@
           {
             "id": "3.3.5",
             "question": "Do you have ham radios and equipment for short and long-distance communication?",
-            "description": ""
+            "description": "How to Communicate when the Cell Phones <a href=\"https://theprovidentprepper.org/a-preppers-guide-to-communicating-in-an-emergency\" target=\"_blank\" rel=\"noreferrer noopener\">Go Down"
           },
           {
             "id": "3.3.6",
@@ -540,7 +540,7 @@
           {
             "id": "4.2.1",
             "question": "Do you share your preparedness with others to build a network of like-minded people?",
-            "description": ""
+            "description": "Creating a <a href=\"https://valleyfoodstorage.com/blogs/inside-vfs/prepper-survival-communities-in-the-usa\" target=\"_blank\" rel=\"noreferrer noopener\">Survival Community"
           },
           {
             "id": "4.2.2",
@@ -591,27 +591,27 @@
           {
             "id": "5.1.4",
             "question": "Are your computers and electronics protected against power surges and emp?",
-            "description": ""
+            "description": "How protect your electronics <a href=\"https://disasterpreparer.com/informative-videos\" target=\"_blank\" rel=\"noreferrer noopener\">Video"
           },
           {
             "id": "5.1.5",
             "question": "Do you have at least a weeks worth of medication in your 72-hour kit?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1SOlvLKjMm0D0sWpqjVxX6Tv5ghft3pUl/view\" target=\"_blank\" rel=\"noreferrer noopener\">Disaster Supply Kit"
           },
           {
             "id": "5.1.6",
             "question": "Does your 72hr kit contain needed special equipment/extra (glasses, contact lenses, diabetic syringes, etc.)?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1SOlvLKjMm0D0sWpqjVxX6Tv5ghft3pUl/view\" target=\"_blank\" rel=\"noreferrer noopener\">Disaster Supply Kit"
           },
           {
             "id": "5.1.7",
             "question": "Have you renewed the items in your 72hr kit in the last year?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1SOlvLKjMm0D0sWpqjVxX6Tv5ghft3pUl/view\" target=\"_blank\" rel=\"noreferrer noopener\">Disaster Supply Kit"
           },
           {
             "id": "5.1.8",
             "question": "Do you know what to do in the event of an active shooter?",
-            "description": ""
+            "description": "Be Ready For an <a href=\"https://www.ready.gov/sites/default/files/2020-03/active-shooter_information-sheet.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">Active Shooter"
           },
           {
             "id": "5.1.9",
@@ -621,7 +621,7 @@
           {
             "id": "5.1.10",
             "question": "Do you keep a medical information/id card in your purse or wallet?",
-            "description": ""
+            "description": "Red Cross <a href=\"https://www.redcross.org/content/dam/redcross/get-help/pdfs/American-Red-Cross-Emergency-Contact-Card.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">Identification Card"
           },
           {
             "id": "5.1.11",
@@ -631,7 +631,7 @@
           {
             "id": "5.1.12",
             "question": "Do you carry an \"In Case of Emergency\" card?",
-            "description": ""
+            "description": "Red Cross <a href=\"https://www.redcross.org/content/dam/redcross/get-help/pdfs/American-Red-Cross-Emergency-Contact-Card.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">Identification Card"
           }        ],
         "intermediate": [
           {
@@ -642,12 +642,12 @@
           {
             "id": "5.2.2",
             "question": "Do you have a way to collect and dispose of waste?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1SPhhajv7clmjdxtlMGR3k43DoyxGxPoL/view\" target=\"_blank\" rel=\"noreferrer noopener\">Hygiene and Sanitation"
           },
           {
             "id": "5.2.3",
             "question": "Do you have extra medication set aside for an emergency, at least a months worth?",
-            "description": ""
+            "description": "Extra Prescription Medicines from <a href=\"https://jasemedical.com\" target=\"_blank\" rel=\"noreferrer noopener\">JASE Medical"
           },
           {
             "id": "5.2.4",
@@ -672,7 +672,7 @@
           {
             "id": "5.2.8",
             "question": "Do you have a network of like-minded friends and neighbors you have worked with to secure your area?",
-            "description": ""
+            "description": "Creating a <a href=\"https://valleyfoodstorage.com/blogs/inside-vfs/prepper-survival-communities-in-the-usa\" target=\"_blank\" rel=\"noreferrer noopener\">Survival Community"
           },
           {
             "id": "5.2.9",
@@ -714,12 +714,12 @@
           {
             "id": "5.3.1",
             "question": "Do you have equipment and supplies to deal with nuclear fallout?",
-            "description": ""
+            "description": "Cresson H. Kearny <a href=\"https://www.oism.org/nwss\" target=\"_blank\" rel=\"noreferrer noopener\">Nuclear War Survival Skills"
           },
           {
             "id": "5.3.2",
             "question": "Do you have medicine and supplies to deal with a wide spread pandemic?",
-            "description": ""
+            "description": "Extra Prescription Medicines from <a href=\"https://jasemedical.com\" target=\"_blank\" rel=\"noreferrer noopener\">JASE Medical"
           },
           {
             "id": "5.3.3",
@@ -729,7 +729,7 @@
           {
             "id": "5.3.4",
             "question": "Do you have dental tools and supplies and knowledge to use them?",
-            "description": ""
+            "description": "Where there is no <a href=\"https://hesperian.org/wp-content/uploads/pdf/en_dent_2020/en_dent_2020_fm.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">Dentist"
           },
           {
             "id": "5.3.5",
@@ -749,7 +749,7 @@
           {
             "id": "5.3.8",
             "question": "Do you have advanced medical equipment and supplies?",
-            "description": ""
+            "description": "Where there is no <a href=\"http://frankshospitalworkshop.com/organisation/biomed_documents/Where%20there%20is%20no%20Doctor%20-%20David%20Werner.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">Doctor"
           },
           {
             "id": "5.3.9",
@@ -778,13 +778,13 @@
           {
             "id": "6.1.1",
             "question": "Do you have cash and coins in your 72-hour kit?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1SOlvLKjMm0D0sWpqjVxX6Tv5ghft3pUl/view\" target=\"_blank\" rel=\"noreferrer noopener\">Disaster Supply Kit"
           },
           {
             "id": "6.1.2",
             "question": "Do you have your key medical records in your 72-hour kit?",
-            "description": ""
-          },
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1SOlvLKjMm0D0sWpqjVxX6Tv5ghft3pUl/view\" target=\"_blank\" rel=\"noreferrer noopener\">Disaster Supply Kit"
+           },
           {
             "id": "6.1.3",
             "question": "Do you have adequate insurance? (home, vehicle, life, business)",
@@ -808,7 +808,7 @@
           {
             "id": "6.1.7",
             "question": "Are you working to be debt free?",
-            "description": ""
+            "description": "Dave Ramsey's Suggests to get <a href=\"https://www.ramseysolutions.com/debt/debt-free-on-fixed-income\" target=\"_blank\" rel=\"noreferrer noopener\">Debt Free"
           },
           {
             "id": "6.1.8",
@@ -823,12 +823,12 @@
           {
             "id": "6.1.10",
             "question": "Are you free of debt besides a car payment and/or a home mortgage?",
-            "description": ""
+            "description": "Dave Ramsey's Suggests to get <a href=\"https://www.ramseysolutions.com/debt/debt-free-on-fixed-income\" target=\"_blank\" rel=\"noreferrer noopener\">Debt Free"
           },
           {
             "id": "6.1.11",
             "question": "Do you have identification cards/tags in your wallet and 72-hour kit?",
-            "description": ""
+            "description": "Red Cross <a href=\"https://www.redcross.org/content/dam/redcross/get-help/pdfs/American-Red-Cross-Emergency-Contact-Card.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">Identification Card"
           }
         ],
         "intermediate": [
@@ -845,12 +845,12 @@
           {
             "id": "6.2.3",
             "question": "Do you have at least 6 months reserves saved in the bank or in accessible investment accounts?",
-            "description": ""
+            "description": "Dave Ramsey's Suggested <a href=\"https://www.ramseysolutions.com/saving/quick-guide-to-your-emergency-fund\" target=\"_blank\" rel=\"noreferrer noopener\">Emergency Fund"
           },
           {
             "id": "6.2.4",
             "question": "Have you stored items which you could use to barter?",
-            "description": ""
+            "description": "Suggested <a href=\"https://modernsurvivalblog.com/preps/valuable-items-for-barter-after-shtf\" target=\"_blank\" rel=\"noreferrer noopener\">Barter Items"
           },
           {
             "id": "6.2.5",
@@ -861,18 +861,18 @@
         "long": [
           {
             "id": "6.3.1",
-            "question": "Do you have silver dollars, junk silver and 1/10th ounce gold stored as backup to cash?",
-            "description": ""
+            "question": "Do you have silver dollars, junk silver and/or 1/10th ounce gold stored as backup to cash?",
+            "description": "Gold and Silver <a href=\"https://survivalcache.com/a-real-emergency-survival-fund/\" target=\"_blank\" rel=\"noreferrer noopener\">Emergency Fund"
           },
           {
             "id": "6.3.2",
             "question": "Do you have savings to last for a year or longer if you were unable to earn an income?",
-            "description": ""
+            "description": "Dave Ramsey's Suggested <a href=\"https://www.ramseysolutions.com/saving/quick-guide-to-your-emergency-fund\" target=\"_blank\" rel=\"noreferrer noopener\">Emergency Fund"
           },
           {
             "id": "6.3.3",
             "question": "Are you free of debt?",
-            "description": ""
+            "description": "Dave Ramsey's Suggests to get <a href=\"https://www.ramseysolutions.com/debt/debt-free-on-fixed-income\" target=\"_blank\" rel=\"noreferrer noopener\">Debt Free"
           }
         ]
       }
@@ -886,17 +886,17 @@
           {
             "id": "7.1.1",
             "question": "Do you have a checklist of what to take in a 5-15 min warning evacuation?",
-            "description": ""
+            "description": "Grab-n-Go Evacuation <a href=\"https://www.spokanecounty.org/DocumentCenter/View/21486/Emergency-Evacuation-Grab--Go-Checklist\" target=\"_blank\" rel=\"noreferrer noopener\">Checklist"
           },
           {
             "id": "7.1.2",
             "question": "Do you have a checklist of what to take in a 1-2 hour warning evacuation?",
-            "description": ""
+            "description": "Grab-n-Go Evacuation <a href=\"https://www.spokanecounty.org/DocumentCenter/View/21486/Emergency-Evacuation-Grab--Go-Checklist\" target=\"_blank\" rel=\"noreferrer noopener\">Checklist"
           },
           {
             "id": "7.1.3",
             "question": "Have you practiced your emergency evacuation plan in the last 12 months?",
-            "description": ""
+            "description": "Family <a href=\"https://www.ready.gov/plan\" target=\"_blank\" rel=\"noreferrer noopener\">Emergency Plan"
           },
           {
             "id": "7.1.4",
@@ -911,7 +911,7 @@
           {
             "id": "7.1.6",
             "question": "Have you identified the emergencies that are likely to happen in your area?",
-            "description": ""
+            "description": "Red Cross Map of Common Disasters in Your <a href=\"https://www.redcross.org/get-help/how-to-prepare-for-emergencies/common-natural-disasters-across-us.html#all\" target=\"_blank\" rel=\"noreferrer noopener\">Area"
           },
           {
             "id": "7.1.7",
@@ -926,7 +926,7 @@
           {
             "id": "7.1.9",
             "question": "Have you removed heavy objects from over your bed that could fall?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1cmWPQL4iXM1vcVEMs7eXR1RuHzJjOdur/view\" target=\"_blank\" rel=\"noreferrer noopener\">Putting Down Roots in Earthquake Country"
           },
           {
             "id": "7.1.10",
@@ -948,7 +948,7 @@
           {
             "id": "7.2.1",
             "question": "Do you have a grab-and-go checklist for perminant evacuation?",
-            "description": ""
+            "description": "Grab-n-Go Evacuation <a href=\"https://www.spokanecounty.org/DocumentCenter/View/21486/Emergency-Evacuation-Grab--Go-Checklist\" target=\"_blank\" rel=\"noreferrer noopener\">Checklist"
           },
           {
             "id": "7.2.2",
@@ -975,7 +975,7 @@
           {
             "id": "7.3.1",
             "question": "Do you have a survival library of books and manuals?",
-            "description": ""
+            "description": "Some Suggested <a href=\"https://thesurvivalmom.com/resources/23-survival-books-for-your-collection/\" target=\"_blank\" rel=\"noreferrer noopener\">Survival Books"
           },
           {
             "id": "7.3.2",
@@ -990,7 +990,7 @@
           {
             "id": "7.3.4",
             "question": "Does your survival library include books on a wide range of how to, survival subjects?",
-            "description": ""
+            "description": "Some Suggested <a href=\"https://thesurvivalmom.com/resources/23-survival-books-for-your-collection/\" target=\"_blank\" rel=\"noreferrer noopener\">Survival Books"
           },
           {
             "id": "7.3.5",
@@ -1010,7 +1010,7 @@
           {
             "id": "7.3.8",
             "question": "Do you have tools to fell, cut, and shape trees into usable lumber?",
-            "description": ""
+            "description": "How to cut Logs into <a href=\"https://sawshub.com/how-to-cut-logs-into-lumber-with-chainsaw\" target=\"_blank\" rel=\"noreferrer noopener\">Lumber"
           },
           {
             "id": "7.3.9",
@@ -1029,17 +1029,17 @@
           {
             "id": "8.1.1",
             "question": "Do you have at least 3 gallons of water per person per day stored?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1C4J_X8nROHkKn9Qnv5ddiiSat2BN4qqX/view\" target=\"_blank\" rel=\"noreferrer noopener\">Water Storage"
           },
           {
             "id": "8.1.2",
             "question": "Is the food in your 72-hour kit updated reguraly?",
-            "description": ""
-          },
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1SOlvLKjMm0D0sWpqjVxX6Tv5ghft3pUl/view\" target=\"_blank\" rel=\"noreferrer noopener\">Disaster Supply Kit"
+           },
           {
             "id": "8.1.3",
             "question": "Do you have at least 3 days' worth of extra medications?",
-            "description": ""
+            "description": "Extra Prescription Medicines from <a href=\"https://jasemedical.com\" target=\"_blank\" rel=\"noreferrer noopener\">JASE Medical"
           },
           {
             "id": "8.1.4",
@@ -1049,8 +1049,8 @@
           {
             "id": "8.1.5",
             "question": "Does your 72-hour kit include food and supplies for your pets for 3 days?",
-            "description": ""
-          },
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1SOlvLKjMm0D0sWpqjVxX6Tv5ghft3pUl/view\" target=\"_blank\" rel=\"noreferrer noopener\">Disaster Supply Kit"
+           },
           {
             "id": "8.1.6",
             "question": "Do you know where to shelter in case of an earthquake, hurricane or tornado?",
@@ -1059,19 +1059,19 @@
           {
             "id": "8.1.7",
             "question": "Do you have a way to to cook or heat your 72-hour kit food without electricity?",
-            "description": ""
-          }
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1SOlvLKjMm0D0sWpqjVxX6Tv5ghft3pUl/view\" target=\"_blank\" rel=\"noreferrer noopener\">Disaster Supply Kit"
+           }
         ],
         "intermediate": [
           {
             "id": "8.2.1",
             "question": "Do you have at least 3 days of non-perishable easy to carry and prepare food?",
-            "description": ""
-          },
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1SOlvLKjMm0D0sWpqjVxX6Tv5ghft3pUl/view\" target=\"_blank\" rel=\"noreferrer noopener\">Disaster Supply Kit"
+           },
           {
             "id": "8.2.2",
             "question": "Do you have food/water and supplies for your animals in an evacuation?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1SOlvLKjMm0D0sWpqjVxX6Tv5ghft3pUl/view\" target=\"_blank\" rel=\"noreferrer noopener\">Disaster Supply Kit"
           },
           {
             "id": "8.2.3",
@@ -1081,7 +1081,7 @@
           {
             "id": "8.2.4",
             "question": "Do you have a way to filter and treat unclean water?",
-            "description": ""
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1C4J_X8nROHkKn9Qnv5ddiiSat2BN4qqX/view\" target=\"_blank\" rel=\"noreferrer noopener\">Water Storage"
           },
           {
             "id": "8.2.5",
@@ -1101,7 +1101,7 @@
           {
             "id": "8.2.8",
             "question": "Do you keep essential medicines with you when you travel?",
-            "description": ""
+            "description": "Extra Prescription Medicines from <a href=\"https://jasemedical.com\" target=\"_blank\" rel=\"noreferrer noopener\">JASE Medical"
           },
           {
             "id": "8.2.9",
@@ -1146,7 +1146,7 @@
           {
             "id": "8.2.17",
             "question": "Do you have an electric and non-electric wheat grinder?",
-            "description": ""
+            "description": "Comparison of <a href=\"https://preparednessmama.com/best-wheat-grinder\" target=\"_blank\" rel=\"noreferrer noopener\">Manual Wheat Grinders"
           },
           {
             "id": "8.2.18",
@@ -1213,7 +1213,7 @@
           {
             "id": "8.3.11",
             "question": "Do you know how to preserve meats, vegetables and fruits without electricity?",
-            "description": ""
+            "description": "USDA Complete Guide to Home Canning 2015 Revison <a href=\"https://nchfp.uga.edu/publications/publications_usda.html#gsc.tab=0\" target=\"_blank\" rel=\"noreferrer noopener\">Canning Guide"
           },
           {
             "id": "8.3.12",

@@ -27,6 +27,11 @@
               <br />
               <a href="https://theprovidentprepper.org/6-lifesaving-tips-to-keep-warm-during-a-winter-power-outage/" target="_blank" rel="noreferrer noopener">https://theprovidentprepper.org</a>
             </li>
+            <li>
+              All Things EMP
+              <br />
+              <a href="https://disasterpreparer.com/informative-videos/" target="_blank" rel="noreferrer noopener">https://disasterpreparer.com</a>
+            </li>
           </ul>
         </v-col>
 
@@ -39,7 +44,7 @@
               <a href="https://www.arrl.org/" target="_blank" rel="noreferrer noopener">https://www.arrl.org/</a>
             </li>
             <li>
-              Bug out Vehicle Considerations
+              Bug Out Vehicle Considerations
               <br />
               <a href="https://www.tactical.com/a-beginners-guide-to-bug-out-vehicles/" target="_blank" rel="noreferrer noopener">https://www.tactical.com</a>
             </li>
@@ -148,6 +153,8 @@
               Ready.gov
               <br />
               <a href="https://www.ready.gov/" target="_blank" rel="noreferrer noopener">https://www.ready.gov/</a>
+              <br />
+              <a href="https://www.ready.gov/be-informed" target="_blank" rel="noreferrer noopener">https://www.ready.gov/be-informed</a>
             </li>
             <li>
               Red Cross
@@ -168,6 +175,13 @@
               World Health Organization
               <br />
               <a href="https://www.who.int/" target="_blank" rel="noreferrer noopener">https://www.who.int/</a>
+            </li>
+            <li>
+              FEMA
+              <br />
+              <a href="https://www.fema.gov" target="_blank" rel="noreferrer noopener">https://www.fema.gov</a>
+              <br />
+              <a href="https://www.fema.gov/pdf/library/pfd.pdf" target="_blank" rel="noreferrer noopener">https://www.fema.gov/pdf</a>
             </li>
           </ul>
         </v-col>

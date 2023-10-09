@@ -20,7 +20,7 @@
         >Print Summary</router-link
       >
       <v-card-text class="white--text pt-8">
-        Copyright Neal Westwood | All Rights Reserved | Alph 9_24_23
+        Copyright Neal Westwood | All Rights Reserved | Beta 10_9_23
       </v-card-text>
     </v-card>
   </v-footer>

@@ -70,6 +70,11 @@
             "id": "1.1.13",
             "question": "Do you have clothing in case of bad weather?",
             "description": "How to Dress In <a href=\"https://www.rei.com/learn/expert-advice/how-to-dress-in-cold-weather.html\" target=\"_blank\" rel=\"noreferrer noopener\">Cold Weatbher"
+          },
+          {
+            "id": "1.1.14",
+            "question": "Do your water heaters and appliances have flexible gas and water connections?",
+            "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1cmWPQL4iXM1vcVEMs7eXR1RuHzJjOdur/view\" target=\"_blank\" rel=\"noreferrer noopener\">Putting Down Roots in Earthquake Country"
           }
         ],
         "intermediate": [
@@ -418,6 +423,16 @@
             "id": "3.2.13",
             "question": "Do you have a battery, solar or hand cranked radio?",
             "description": ""
+          },
+          {
+            "id": "3.2.14",
+            "question": "Do you have emergency supplies in strategic locations?",
+            "description": ""
+          },
+          {
+            "id": "3.2.15",
+            "question": "Do you have emergency supplies at your daytime location/work?",
+            "description": ""
           }
         ],
         "long": [
@@ -562,6 +577,11 @@
           {
             "id": "4.3.2",
             "question": "Do you feel you can rely on your faith no matter what?",
+            "description": ""
+          },
+          {
+            "id": "4.3.3",
+            "question": "Do you feel you consider yourself resilient?",
             "description": ""
           }
         ]
@@ -753,7 +773,7 @@
           },
           {
             "id": "5.3.9",
-            "question": "Have you taken advanced first aid/EMT/paramedic/Wilderness Medicine classes?",
+            "question": "Have you taken advanced first aid/CPR/AED/CERT/EMT/paramedic/Wilderness Medicine classes?",
             "description": ""
           },
           {
@@ -855,6 +875,11 @@
           {
             "id": "6.2.5",
             "question": "Have you planned for the death or disability of you or your spouse?",
+            "description": ""
+          },
+          {
+            "id": "6.2.6",
+            "question": "Does your workplace have a business continuity plan?",
             "description": ""
           }
         ],
@@ -1065,7 +1090,7 @@
         "intermediate": [
           {
             "id": "8.2.1",
-            "question": "Do you have at least 3 days of non-perishable easy to carry and prepare food?",
+            "question": "Do you have at least 3 weeks of non-perishable easy to carry and prepare food?",
             "description": "Be Ready Utah <a href=\"https://drive.google.com/file/d/1SOlvLKjMm0D0sWpqjVxX6Tv5ghft3pUl/view\" target=\"_blank\" rel=\"noreferrer noopener\">Disaster Supply Kit"
            },
           {
@@ -1157,6 +1182,11 @@
             "id": "8.2.19",
             "question": "If the power goes out, do you have supplies and equipment to can/bottle the food in your fridge and freezer?",
             "description": ""
+          },
+          {
+            "id": "8.2.20",
+            "question": "Do you have more than one alternative cooking method?",
+            "description": ""
           }
         ],
         "long": [
@@ -1177,7 +1207,7 @@
           },
           {
             "id": "8.3.4",
-            "question": "Do you have an alternative cooking method with spare fuel? (grill, camp stove, solar, wood, kerosene)",
+            "question": "Do you have a long-term alternative cooking method with spare fuel? (grill, camp stove, solar, wood, kerosene)",
             "description": ""
           },
           {

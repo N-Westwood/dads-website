@@ -21,6 +21,7 @@
       <br />
       Questions in each category will prompt you to think about different
       aspects of preparedness. <br />
+      Not every question will apply to every person or be appropriate to every situation. <br />
       Then you will self-assess as Reasonably Prepared, Somewhat Prepared, or
       Not Prepared. <br />
       The Graph will update each area showing Orange, Yellow, or Green based on

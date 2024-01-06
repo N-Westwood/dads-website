@@ -849,6 +849,11 @@
             "id": "6.1.11",
             "question": "Do you have identification cards/tags in your wallet and 72-hour kit?",
             "description": "Red Cross <a href=\"https://www.redcross.org/content/dam/redcross/get-help/pdfs/American-Red-Cross-Emergency-Contact-Card.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">Identification Card"
+          },
+          {
+            "id": "6.1.12",
+            "question": "Do you benificiaries named on your financial accounts?",
+            "description": ""
           }
         ],
         "intermediate": [
@@ -881,6 +886,21 @@
             "id": "6.2.6",
             "question": "Does your workplace have a business continuity plan?",
             "description": ""
+          },
+          {
+            "id": "6.2.7",
+            "question": "Do you have a medical durable power of attorney?",
+            "description": ""
+          },
+          {
+            "id": "6.2.8",
+            "question": "Do you have a written list of account user names and passwords, stored securely?",
+            "description": ""
+          },
+          {
+            "id": "6.2.9",
+            "question": "Do you have key information on your family members stored securely (SS#, birth Cert, passport)?",
+            "description": ""
           }
         ],
         "long": [
@@ -898,6 +918,16 @@
             "id": "6.3.3",
             "question": "Are you free of debt?",
             "description": "Dave Ramsey's Suggests to get <a href=\"https://www.ramseysolutions.com/debt/debt-free-on-fixed-income\" target=\"_blank\" rel=\"noreferrer noopener\">Debt Free"
+          },
+          {
+            "id": "6.3.4",
+            "question": "Do you have a living will and advanced healthcare directives?",
+            "description": "" 
+          },
+          {
+              "id": "6.3.5",
+              "question": "Have you written a will and-or set up a Trust for your significant assets?",
+              "description": ""
           }
         ]
       }
